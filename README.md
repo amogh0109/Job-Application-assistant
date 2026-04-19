@@ -17,11 +17,11 @@ Take a quick look at your powerful new dashboard layout:
 
 ### Main Queue View
 Easily scan aggregated roles with the simplified queue layout, powered natively by Streamlit.
-![Main Dashboard View](file:///C:/Users/Amogh%20Wyawahare/.gemini/antigravity/brain/0bf47277-47a1-49d3-9dfb-0bfa9b1764b1/dashboard_main_1776636548421.png)
+![Main Dashboard View](docs/dashboard_main.png)
 
 ### Expanded Job Details
 Read deep metadata before deciding to apply using the split-pane viewer.
-![Job Details View](file:///C:/Users/Amogh%20Wyawahare/.gemini/antigravity/brain/0bf47277-47a1-49d3-9dfb-0bfa9b1764b1/dashboard_detail_1776636564921.png)
+![Job Details View](docs/dashboard_detail.png)
 
 ---
 
