@@ -1,0 +1,665 @@
+schema_version: 1
+generated_at: "2025-09-04"
+defaults:
+  facets:
+    # Seed keywords applied if a tenant facet 'q' is empty
+    q: ["AI", "Machine Learning"]
+  pagination:
+    page_size: 25
+    max_pages: 30
+  scrape:
+    detail_location_fallback: true
+    detail_concurrency: 4
+    user_agent: "Mozilla/5.0"
+    locale: "en-US"
+tenants:
+  - name: "NVIDIA"
+    host: "nvidia"
+    dc: "wd5"
+    site: "NVIDIAExternalCareerSite"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "nvidia"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty so defaults apply.
+  - name: "Intel"
+    host: "intel"
+    dc: "wd1"
+    site: "External"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "intel"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty so defaults apply.
+  - name: "Qualcomm"
+    host: "qualcomm"
+    dc: "wd12"
+    site: "External"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "qualcomm"
+    notes: |
+      URL validated from a job detail URL under this site.
+  - name: "Broadcom"
+    host: "broadcom"
+    dc: "wd1"
+    site: "External_Career"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "broadcom"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Micron Technology"
+    host: "micron"
+    dc: "wd1"
+    site: "External"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "micron_technology"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "NXP Semiconductors"
+    host: "nxp"
+    dc: "wd3"
+    site: "careers"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "nxp_semiconductors"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Applied Materials"
+    host: "amat"
+    dc: "wd1"
+    site: "External"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "applied_materials"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Analog Devices"
+    host: "analogdevices"
+    dc: "wd1"
+    site: "External"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "analog_devices"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Marvell Technology"
+    host: "marvell"
+    dc: "wd1"
+    site: "MarvellCareers"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "marvell_technology"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "KLA"
+    host: "kla"
+    dc: "wd1"
+    site: "Search"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "kla"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Logitech"
+    host: "logitech"
+    dc: "wd5"
+    site: "Logitech"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "logitech"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Samsung Electronics (US)"
+    host: "sec"
+    dc: "wd3"
+    site: "Samsung_Careers"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "samsung_electronics"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Sony (Global)"
+    host: "sonyglobal"
+    dc: "wd1"
+    site: "SonyGlobalCareers"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "sony"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "HP Inc."
+    host: "hp"
+    dc: "wd5"
+    site: "ExternalCareerSite"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "hp_inc"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Hewlett Packard Enterprise"
+    host: "hpe"
+    dc: "wd5"
+    site: "Jobsathpe"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "hewlett_packard_enterprise"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Motorola Solutions"
+    host: "motorolasolutions"
+    dc: "wd5"
+    site: "Careers"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "motorola_solutions"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "F5"
+    host: "ffive"
+    dc: "wd5"
+    site: "f5jobs"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "f5"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Ciena"
+    host: "ciena"
+    dc: "wd5"
+    site: "Careers"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "ciena"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Gen Digital (NortonLifeLock/Avast)"
+    host: "gen"
+    dc: "wd1"
+    site: "External"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "gen_digital"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "RingCentral"
+    host: "ringcentral"
+    dc: "wd1"
+    site: "External"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "ringcentral"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Cloudera"
+    host: "cloudera"
+    dc: "wd5"
+    site: "External_Career"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "cloudera"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "GLOBALFOUNDRIES"
+    host: "globalfoundries"
+    dc: "wd1"
+    site: "External"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "globalfoundries"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Altera (Intel PSG)"
+    host: "altera"
+    dc: "wd1"
+    site: "Altera"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "altera"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Lumentum"
+    host: "lumentum"
+    dc: "wd5"
+    site: "LITE"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "lumentum"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Comcast"
+    host: "comcast"
+    dc: "wd5"
+    site: "Comcast_Careers"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "comcast"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Verizon"
+    host: "verizon"
+    dc: "wd12"
+    site: "verizon-careers"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "verizon"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "T-Mobile"
+    host: "tmobile"
+    dc: "wd1"
+    site: "External"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "t_mobile"
+    notes: |
+      URL validated from a job detail URL under this site.
+  - name: "Jabil"
+    host: "jabil"
+    dc: "wd5"
+    site: "Jabil_Careers"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "jabil"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Agilent Technologies"
+    host: "agilent"
+    dc: "wd5"
+    site: "Agilent_Careers"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "agilent_technologies"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Workday"
+    host: "workday"
+    dc: "wd5"
+    site: "Workday"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "workday"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Adobe"
+    host: "adobe"
+    dc: "wd5"
+    site: "external_experienced"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "adobe"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Autodesk"
+    host: "autodesk"
+    dc: "wd1"
+    site: "Ext"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "autodesk"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "PayPal"
+    host: "paypal"
+    dc: "wd1"
+    site: "ExternalCareers"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "paypal"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Mastercard"
+    host: "mastercard"
+    dc: "wd1"
+    site: "CorporateCareers"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "mastercard"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "RTX (Raytheon Technologies)"
+    host: "globalhr"
+    dc: "wd5"
+    site: "REC_RTX_Ext_Gateway"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "rtx"
+    notes: |
+      URL validated (shared tenant host). Facet GUIDs intentionally left empty.
+  - name: "Microchip Technology"
+    host: "microchiphr"
+    dc: "wd5"
+    site: "External"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "microchip_technology"
+    notes: |
+      URL validated from job detail and site root.
+  - name: "Illumina"
+    host: "illumina"
+    dc: "wd1"
+    site: "illumina-careers"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "illumina"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "GE Aerospace"
+    host: "geaerospace"
+    dc: "wd5"
+    site: "GE_ExternalSite"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "ge_aerospace"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Northrop Grumman"
+    host: "ngc"
+    dc: "wd1"
+    site: "Northrop_Grumman_External_Site"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "northrop_grumman"
+    notes: |
+      URL validated from job detail under this site.
+  - name: "AT&T"
+    host: "att"
+    dc: "wd1"
+    site: "ATTGeneral"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "att"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Harris Computer"
+    host: "harriscomputer"
+    dc: "wd3"
+    site: "1"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "harris_computer"
+    notes: |
+      URL validated (site path is '1'). Facet GUIDs intentionally left empty.
+  - name: "TD SYNNEX"
+    host: "synnex"
+    dc: "wd5"
+    site: "tdsynnexcareers"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "td_synnex"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "CDW"
+    host: "cdw"
+    dc: "wd5"
+    site: "Careers"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "cdw"
+    notes: |
+      URL validated from job detail URLs under this site.
+  - name: "Arrow Electronics"
+    host: "arrow"
+    dc: "wd1"
+    site: "AC"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "arrow_electronics"
+    notes: |
+      URL validated from job detail URLs under this site.
+  - name: "IQVIA"
+    host: "iqvia"
+    dc: "wd1"
+    site: "IQVIA"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "iqvia"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Alcon"
+    host: "alcon"
+    dc: "wd5"
+    site: "careers_alcon"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "alcon"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Baker Hughes"
+    host: "bakerhughes"
+    dc: "wd5"
+    site: "BakerHughes"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "baker_hughes"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "Otis"
+    host: "otis"
+    dc: "wd5"
+    site: "REC_Ext_Gateway"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "otis"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "General Motors"
+    host: "generalmotors"
+    dc: "wd5"
+    site: "Careers_GM"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "general_motors"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.
+  - name: "HARMAN International"
+    host: "harman"
+    dc: "wd3"
+    site: "HARMAN"
+    facets:
+      q: []
+      jobFamilyGroup: []
+      locationHierarchy1: []
+      timeType: []
+    export:
+      basename: "harman_international"
+    notes: |
+      URL validated. Facet GUIDs intentionally left empty.

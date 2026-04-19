@@ -1,0 +1,30 @@
+
+    async def _get_page_content_with_frames(self, page) -> str:
+        """
+        Aggregate content from the main page and any same-origin (or accessible) iframes.
+        This provides Gemini with a visible flattened view of the page.
+        """
+        try:
+            main_html = await page.content()
+        except Exception:
+            main_html = ""
+
+        iframe_htmls = []
+        try:
+            for i, frame in enumerate(page.frames):
+                if frame == page.main_frame:
+                    continue
+                try:
+                    # simplistic check: ignore tiny tracking frames
+                    content = await frame.content()
+                    if content and len(content) > 200:
+                        iframe_htmls.append(f"<!-- IFRAME_{i} START -->\n<div data-frame-index='{i}'>\n{content}\n</div>\n<!-- IFRAME_{i} END -->")
+                except Exception:
+                    continue
+        except Exception:
+            pass
+        
+        if iframe_htmls:
+            # We append iframes to the bottom so the LLM sees them as part of the document
+            return main_html + "\n\n" + "\n".join(iframe_htmls)
+        return main_html

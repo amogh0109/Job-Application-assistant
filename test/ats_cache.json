@@ -1,0 +1,4610 @@
+{
+  "https://www.qxobuildingproducts.com/careers": {
+    "company": "QXO Building Products",
+    "careers_url": "https://www.qxobuildingproducts.com/careers",
+    "final_url": "https://www.qxobuildingproducts.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.celanese.com/about/careers": {
+    "company": "Celanese",
+    "careers_url": "https://www.celanese.com/about/careers",
+    "final_url": "https://www.celanese.com/about/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.qurateretail.com/careers": {
+    "company": "Qurate Retail (QVC Group)",
+    "careers_url": "https://www.qurateretail.com/careers",
+    "final_url": "https://investors.qvcgrp.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.williams.com/careers": {
+    "company": "Williams (Williams Companies)",
+    "careers_url": "https://www.williams.com/careers",
+    "final_url": "https://www.williams.com/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.erieinsurance.com/careers": {
+    "company": "Erie Insurance Group",
+    "careers_url": "https://www.erieinsurance.com/careers",
+    "final_url": "https://www.erieinsurance.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.ovintiv.com/careers": {
+    "company": "Ovintiv",
+    "careers_url": "https://www.ovintiv.com/careers",
+    "final_url": "https://www.ovintiv.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.carvana.com/careers": {
+    "company": "Carvana",
+    "careers_url": "https://www.carvana.com/careers",
+    "final_url": "https://www.carvana.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.hess.com/careers": {
+    "company": "Hess",
+    "careers_url": "https://www.hess.com/careers",
+    "final_url": "https://www.chevron.com/who-we-are/contact/jobs",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.dana.com/careers": {
+    "company": "Dana Incorporated",
+    "careers_url": "https://www.dana.com/careers",
+    "final_url": "https://jobs.dana.com/",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://jobs.dana.com/",
+    "notes": ""
+  },
+  "https://equitable.com/careers": {
+    "company": "Equitable Holdings",
+    "careers_url": "https://equitable.com/careers",
+    "final_url": "https://equitable.com/careers-at-equitable",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.darden.com/careers": {
+    "company": "Darden Restaurants",
+    "careers_url": "https://www.darden.com/careers",
+    "final_url": "https://www.darden.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.alaskaair.com": {
+    "company": "Alaska Air Group",
+    "careers_url": "https://careers.alaskaair.com",
+    "final_url": "https://careers.alaskaair.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.autoliv.com/careers": {
+    "company": "Autoliv",
+    "careers_url": "https://www.autoliv.com/careers",
+    "final_url": "https://www.autoliv.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.sands.com/careers": {
+    "company": "Las Vegas Sands",
+    "careers_url": "https://www.sands.com/careers",
+    "final_url": "https://www.sands.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.owens-minor.com/careers": {
+    "company": "Owens & Minor",
+    "careers_url": "https://www.owens-minor.com/careers",
+    "final_url": "https://www.owens-minor.com/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://ielp.com/careers": {
+    "company": "Icahn Enterprises",
+    "careers_url": "https://ielp.com/careers",
+    "final_url": "https://ielp.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.hilton.com": {
+    "company": "Hilton Worldwide Holdings",
+    "careers_url": "https://jobs.hilton.com",
+    "final_url": "https://jobs.hilton.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://jobs.hilton.com/us/en",
+    "notes": ""
+  },
+  "https://careers.ebayinc.com": {
+    "company": "Ebay",
+    "careers_url": "https://careers.ebayinc.com",
+    "final_url": "https://jobs.ebayinc.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://jobs.ebayinc.com/us/en",
+    "notes": ""
+  },
+  "https://www.lpl.com/careers.html": {
+    "company": "LPL Financial Holdings",
+    "careers_url": "https://www.lpl.com/careers.html",
+    "final_url": "https://www.lpl.com/careers.html",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.ajg.com": {
+    "company": "Arthur J. Gallagher",
+    "careers_url": "https://jobs.ajg.com",
+    "final_url": "https://jobs.ajg.com/ajg-home",
+    "ats": "iCIMS",
+    "verified": true,
+    "evidence": "https://jobs.ajg.com/ajg-home",
+    "notes": ""
+  },
+  "https://careers.motorolasolutions.com": {
+    "company": "Motorola Solutions",
+    "careers_url": "https://careers.motorolasolutions.com",
+    "final_url": "https://careers.motorolasolutions.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.tollcareercenter.com": {
+    "company": "Toll Brothers",
+    "careers_url": "https://www.tollcareercenter.com",
+    "final_url": "https://www.tollcareercenter.com",
+    "ats": "iCIMS",
+    "verified": true,
+    "evidence": "https://www.tollcareercenter.com",
+    "notes": ""
+  },
+  "https://careers.airbnb.com": {
+    "company": "Airbnb",
+    "careers_url": "https://careers.airbnb.com",
+    "final_url": "https://careers.airbnb.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.theice.com/careers": {
+    "company": "Intercontinental Exchange",
+    "careers_url": "https://www.theice.com/careers",
+    "final_url": "https://www.ice.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.cinfin.com/careers": {
+    "company": "Cincinnati Financial",
+    "careers_url": "https://www.cinfin.com/careers",
+    "final_url": "https://www.cinfin.com/cincinnati-insurance-careers",
+    "ats": "Oracle Recruiting (ORC/Taleo)",
+    "verified": true,
+    "evidence": "https://www.cinfin.com/cincinnati-insurance-careers",
+    "notes": ""
+  },
+  "https://jobs.chipotle.com": {
+    "company": "Chipotle Mexican Grill",
+    "careers_url": "https://jobs.chipotle.com",
+    "final_url": "https://jobs.chipotle.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://newscorp.com/careers": {
+    "company": "News Corp.",
+    "careers_url": "https://newscorp.com/careers",
+    "final_url": "https://newscorp.com/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.biogen.com": {
+    "company": "Biogen",
+    "careers_url": "https://careers.biogen.com",
+    "final_url": "https://careers.biogen.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.spartannash.com": {
+    "company": "SpartanNash",
+    "careers_url": "https://careers.spartannash.com",
+    "final_url": "https://careers.spartannash.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.vrtx.com": {
+    "company": "Vertex Pharmaceuticals",
+    "careers_url": "https://careers.vrtx.com",
+    "final_url": "https://www.vrtx.com/working-here",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.gxo.com": {
+    "company": "GXO Logistics",
+    "careers_url": "https://jobs.gxo.com",
+    "final_url": "https://jobs.gxo.com",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://jobs.gxo.com",
+    "notes": ""
+  },
+  "https://burlingtonstores.jobs": {
+    "company": "Burlington Stores",
+    "careers_url": "https://burlingtonstores.jobs",
+    "final_url": "https://burlingtonstores.jobs",
+    "ats": "iCIMS",
+    "verified": true,
+    "evidence": "https://burlingtonstores.jobs",
+    "notes": ""
+  },
+  "https://www.thrivent.com/careers": {
+    "company": "Thrivent Financial for Lutherans",
+    "careers_url": "https://www.thrivent.com/careers",
+    "final_url": "https://careers.thrivent.com/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.wabteccorp.com": {
+    "company": "Westinghouse Air Brake Technologies (Wabtec)",
+    "careers_url": "https://careers.wabteccorp.com",
+    "final_url": "https://careers.wabteccorp.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.nvrcareers.com": {
+    "company": "NVR",
+    "careers_url": "https://www.nvrcareers.com",
+    "final_url": "https://www.nvrcareers.com",
+    "ats": "Oracle Recruiting (ORC/Taleo)",
+    "verified": true,
+    "evidence": "https://www.nvrcareers.com",
+    "notes": ""
+  },
+  "https://careers.globalpaymentsinc.com": {
+    "company": "Global Payments",
+    "careers_url": "https://careers.globalpaymentsinc.com",
+    "final_url": "https://careers.globalpaymentsinc.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.owenscorning.com": {
+    "company": "Owens Corning",
+    "careers_url": "https://jobs.owenscorning.com",
+    "final_url": "https://careers.owenscorning.com/",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://careers.owenscorning.com/",
+    "notes": ""
+  },
+  "https://oshkoshcorp.com/careers": {
+    "company": "Oshkosh",
+    "careers_url": "https://oshkoshcorp.com/careers",
+    "final_url": "https://www.oshkoshcorp.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.jetblue.com": {
+    "company": "JetBlue Airways",
+    "careers_url": "https://careers.jetblue.com",
+    "final_url": "https://careers.jetblue.com",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://careers.jetblue.com",
+    "notes": ""
+  },
+  "https://careers.lululemon.com": {
+    "company": "Lululemon athletica",
+    "careers_url": "https://careers.lululemon.com",
+    "final_url": "https://careers.lululemon.com/en_US/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.graphicpkg.com": {
+    "company": "Graphic Packaging Holding",
+    "careers_url": "https://careers.graphicpkg.com",
+    "final_url": "https://careers.graphicpkg.com",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://careers.graphicpkg.com",
+    "notes": ""
+  },
+  "https://www.hertz.com/careers": {
+    "company": "Hertz Global Holdings",
+    "careers_url": "https://www.hertz.com/careers",
+    "final_url": "https://www.hertz.com/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.expeditors.com": {
+    "company": "Expeditors International of Washington",
+    "careers_url": "https://careers.expeditors.com",
+    "final_url": "https://careers.expeditors.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.seaboardcorp.com/careers": {
+    "company": "Seaboard",
+    "careers_url": "https://www.seaboardcorp.com/careers",
+    "final_url": "https://www.seaboardcorp.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.fmglobalcareers.com": {
+    "company": "FM Global",
+    "careers_url": "https://jobs.fmglobalcareers.com",
+    "final_url": "https://www.careersatfm.com/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.questdiagnostics.com": {
+    "company": "Quest Diagnostics",
+    "careers_url": "https://careers.questdiagnostics.com",
+    "final_url": "https://careers.questdiagnostics.com",
+    "ats": "Oracle Recruiting (ORC/Taleo)",
+    "verified": true,
+    "evidence": "https://careers.questdiagnostics.com",
+    "notes": ""
+  },
+  "https://www.amark.com/careers": {
+    "company": "A-Mark Precious Metals",
+    "careers_url": "https://www.amark.com/careers",
+    "final_url": "https://www.amark.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.alticeusa.com/careers": {
+    "company": "Altice USA",
+    "careers_url": "https://www.alticeusa.com/careers",
+    "final_url": "https://www.alticeusa.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.eastman.com/en-us/company/careers": {
+    "company": "Eastman Chemical",
+    "careers_url": "https://www.eastman.com/en-us/company/careers",
+    "final_url": "https://www.eastman.com/en-us/company/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.pvh.com/careers": {
+    "company": "PVH (Phillips-Van Heusen)",
+    "careers_url": "https://www.pvh.com/careers",
+    "final_url": "https://www.pvh.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.regions.com/about-regions/careers": {
+    "company": "Regions Financial",
+    "careers_url": "https://www.regions.com/about-regions/careers",
+    "final_url": "https://www.regions.com/about-regions/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.rockwellautomation.com": {
+    "company": "Rockwell Automation",
+    "careers_url": "https://careers.rockwellautomation.com",
+    "final_url": "https://careers.rockwellautomation.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.polaris.com/en-us/careers": {
+    "company": "Polaris",
+    "careers_url": "https://www.polaris.com/en-us/careers",
+    "final_url": "https://www.polaris.com/en-us/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.beacon.com/en/careers.html": {
+    "company": "Beacon Roofing Supply",
+    "careers_url": "https://www.beacon.com/en/careers.html",
+    "final_url": "https://www.beacon.com/en/careers.html",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.insight.com": {
+    "company": "Insight Enterprises",
+    "careers_url": "https://careers.insight.com",
+    "final_url": "https://login.microsoftonline.com/6c637512-c417-4e78-9d62-b61258e4b619/saml2?SAMLRequest=fVJNc9owFLzzKzy%2B%2B0OyMbYG6NCQtsxQ8ATaQy8ZWX6AZmzJ1ZPT9t/XckqTHIIuGj3t7nu70hx523Rs1duLeoCfPaCdeN7vtlHIxquF3xvFNEeJTPEWkFnBDquvW0bDmHVGWy10478h3eZwRDBWauVIm/XC3%2B/ut/vPm92jyPMsqSCDQpCK5jSugCdxlRRJnE55PgNSQF7Q1BG/g8FBY%2BEPku7seaXRT7IGsxs6Lvx7eb7Yk27qsQtiDxuFlis7MGI6DUgcEHKkMUsSRosfDrUezEvF7Sh7sbZDFkWNPksVtlIYjfpktWqkglDoNspElsymhAYiJbMghVkeFHVGgyojdJpDOuxF5OKgTrz8l9RHqWqpzrcjqp5ByL4cj2VQ7g9HJ7G6BnenFfYtmAOYJyng28P2ZV6p0DkP4eo/5DJC1I98eOIPXODiihg8%2BMsxubmbko0hmeUtoXn0GvnC7ZgLfbMudSPFn7Hu1idtWm7ft0pCMlZkHZxGKOsVdiDkSULt/5dZNY3%2BdWeA2%2BFdrenB96LlZPI8zNu/u/wL&RelayState=http://careers.insight.com/home",
+    "ats": "Eightfold",
+    "verified": true,
+    "evidence": "https://login.microsoftonline.com/6c637512-c417-4e78-9d62-b61258e4b619/saml2?SAMLRequest=fVJNc9owFLzzKzy%2B%2B0OyMbYG6NCQtsxQ8ATaQy8ZWX6AZmzJ1ZPT9t/XckqTHIIuGj3t7nu70hx523Rs1duLeoCfPaCdeN7vtlHIxquF3xvFNEeJTPEWkFnBDquvW0bDmHVGWy10478h3eZwRDBWauVIm/XC3%2B/ut/vPm92jyPMsqSCDQpCK5jSugCdxlRRJnE55PgNSQF7Q1BG/g8FBY%2BEPku7seaXRT7IGsxs6Lvx7eb7Yk27qsQtiDxuFlis7MGI6DUgcEHKkMUsSRosfDrUezEvF7Sh7sbZDFkWNPksVtlIYjfpktWqkglDoNspElsymhAYiJbMghVkeFHVGgyojdJpDOuxF5OKgTrz8l9RHqWqpzrcjqp5ByL4cj2VQ7g9HJ7G6BnenFfYtmAOYJyng28P2ZV6p0DkP4eo/5DJC1I98eOIPXODiihg8%2BMsxubmbko0hmeUtoXn0GvnC7ZgLfbMudSPFn7Hu1idtWm7ft0pCMlZkHZxGKOsVdiDkSULt/5dZNY3%2BdWeA2%2BFdrenB96LlZPI8zNu/u/wL&RelayState=http://careers.insight.com/home",
+    "notes": ""
+  },
+  "https://www.sanmina.com/careers": {
+    "company": "Sanmina",
+    "careers_url": "https://www.sanmina.com/careers",
+    "final_url": "https://careers.sanmina.com/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.wecenergygroup.com/careers": {
+    "company": "WEC Energy Group",
+    "careers_url": "https://www.wecenergygroup.com/careers",
+    "final_url": "https://www.wecenergygroup.com/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.brightspringhealth.com/careers": {
+    "company": "BrightSpring Health Services",
+    "careers_url": "https://www.brightspringhealth.com/careers",
+    "final_url": "https://www.brightspringhealth.com/careers/",
+    "ats": "iCIMS",
+    "verified": true,
+    "evidence": "https://www.brightspringhealth.com/careers/",
+    "notes": ""
+  },
+  "https://ir.yumchina.com/careers": {
+    "company": "Yum China Holdings",
+    "careers_url": "https://ir.yumchina.com/careers",
+    "final_url": "https://ir.yumchina.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.cmc.com": {
+    "company": "Commercial Metals",
+    "careers_url": "https://careers.cmc.com",
+    "final_url": "https://careers.cmc.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.cintas.com": {
+    "company": "Cintas",
+    "careers_url": "https://careers.cintas.com",
+    "final_url": "https://careers.cintas.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.clr.com/careers": {
+    "company": "Continental Resources",
+    "careers_url": "https://www.clr.com/careers",
+    "final_url": "https://www.clr.com/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.huntington.com/Careers": {
+    "company": "Huntington Bancshares",
+    "careers_url": "https://www.huntington.com/Careers",
+    "final_url": "https://www.huntington.com/Careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://interpublicgroup.com/careers": {
+    "company": "Interpublic Group",
+    "careers_url": "https://interpublicgroup.com/careers",
+    "final_url": "https://interpublicgroup.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.doordash.com": {
+    "company": "DoorDash",
+    "careers_url": "https://careers.doordash.com",
+    "final_url": "https://careersatdoordash.com/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.centerpointenergy.com/en-us/corporate/careers": {
+    "company": "CenterPoint Energy",
+    "careers_url": "https://www.centerpointenergy.com/en-us/corporate/careers",
+    "final_url": "https://www.centerpointenergy.com/en-us/corporate/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.chk.com/careers": {
+    "company": "Chesapeake Energy",
+    "careers_url": "https://www.chk.com/careers",
+    "final_url": "https://www.expandenergy.com/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.nov.com/Careers": {
+    "company": "NOV (National Oilwell Varco)",
+    "careers_url": "https://www.nov.com/Careers",
+    "final_url": "https://www.nov.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.microchip.com": {
+    "company": "Microchip Technology",
+    "careers_url": "https://careers.microchip.com",
+    "final_url": "https://www.microchip.com/en-us/about/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.averydennison.com/en/home/about-us/careers.html": {
+    "company": "Avery Dennison",
+    "careers_url": "https://www.averydennison.com/en/home/about-us/careers.html",
+    "final_url": "https://www.averydennison.com/en/home/careers/overview.html",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.dovercorporation.com": {
+    "company": "Dover",
+    "careers_url": "https://careers.dovercorporation.com",
+    "final_url": "https://careers.dovercorporation.com",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://careers.dovercorporation.com",
+    "notes": ""
+  },
+  "https://www.pplweb.com/careers": {
+    "company": "PPL",
+    "careers_url": "https://www.pplweb.com/careers",
+    "final_url": "https://www.pplweb.com/careers/why-ppl/",
+    "ats": "iCIMS",
+    "verified": true,
+    "evidence": "https://www.pplweb.com/careers/why-ppl/",
+    "notes": ""
+  },
+  "https://www.onsemi.com/company/careers": {
+    "company": "ON Semiconductor",
+    "careers_url": "https://www.onsemi.com/company/careers",
+    "final_url": "https://www.onsemi.com/company/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.arkocorp.com/careers": {
+    "company": "ARKO (Arko Corp)",
+    "careers_url": "https://www.arkocorp.com/careers",
+    "final_url": "https://www.arkocorp.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "http://www.nglenergypartners.com/careers": {
+    "company": "NGL Energy Partners",
+    "careers_url": "http://www.nglenergypartners.com/careers",
+    "final_url": "https://www.nglenergypartners.com/careers-2/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.apacorp.com/careers": {
+    "company": "APA (APA Corporation)",
+    "careers_url": "https://www.apacorp.com/careers",
+    "final_url": "https://apacorp.com/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://parpacific.com/careers": {
+    "company": "Par Pacific Holdings",
+    "careers_url": "https://parpacific.com/careers",
+    "final_url": "https://www.parpacific.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.mynycb.com/About-Us/Careers": {
+    "company": "New York Community Bancorp",
+    "careers_url": "https://www.mynycb.com/About-Us/Careers",
+    "final_url": "https://www.flagstar.com/About-Us/Careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.equinix.com": {
+    "company": "Equinix",
+    "careers_url": "https://careers.equinix.com",
+    "final_url": "https://careers.equinix.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.footlocker.com": {
+    "company": "Foot Locker",
+    "careers_url": "https://careers.footlocker.com",
+    "final_url": "https://careers.footlocker.com",
+    "ats": "iCIMS",
+    "verified": true,
+    "evidence": "https://careers.footlocker.com",
+    "notes": ""
+  },
+  "https://www.ingredion.com/corporate/en-US/careers.html": {
+    "company": "Ingredion",
+    "careers_url": "https://www.ingredion.com/corporate/en-US/careers.html",
+    "final_url": "https://www.ingredion.com/corporate/en-US/careers.html",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.newellbrands.com": {
+    "company": "Newell Brands",
+    "careers_url": "https://careers.newellbrands.com",
+    "final_url": "https://careers.newellbrands.com",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://careers.newellbrands.com",
+    "notes": ""
+  },
+  "https://www.abm.com/careers": {
+    "company": "ABM Industries",
+    "careers_url": "https://www.abm.com/careers",
+    "final_url": "https://www.abm.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.securian.com/careers.html": {
+    "company": "Securian Financial Group",
+    "careers_url": "https://www.securian.com/careers.html",
+    "final_url": "https://www.securian.com/about-us/careers?cid=rd_vurl_erjo_securian-careers_careers_&strala_id=1002299",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.prologis.com/careers": {
+    "company": "Prologis",
+    "careers_url": "https://www.prologis.com/careers",
+    "final_url": "https://www.prologis.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.skechers.com/en-us/careers": {
+    "company": "Skechers U.S.A.",
+    "careers_url": "https://www.skechers.com/en-us/careers",
+    "final_url": "https://careers.skechers.com/us/en?campaign=digital-receipt&",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.skechers.com/us/en?campaign=digital-receipt&",
+    "notes": ""
+  },
+  "https://careers.rushenterprises.com": {
+    "company": "Rush Enterprises",
+    "careers_url": "https://careers.rushenterprises.com",
+    "final_url": "https://careers.rushenterprises.com",
+    "ats": "iCIMS",
+    "verified": true,
+    "evidence": "https://careers.rushenterprises.com",
+    "notes": ""
+  },
+  "https://careers.theodpcorp.com": {
+    "company": "ODP (The ODP Corporation)",
+    "careers_url": "https://careers.theodpcorp.com",
+    "final_url": "https://careers.theodpcorp.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.franklinresources.com/careers": {
+    "company": "Franklin Resources",
+    "careers_url": "https://www.franklinresources.com/careers",
+    "final_url": "https://www.franklinresources.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://masco.com/careers": {
+    "company": "Masco",
+    "careers_url": "https://masco.com/careers",
+    "final_url": "https://jobs.masco.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://jobs.masco.com/us/en",
+    "notes": ""
+  },
+  "https://www.packagingcorp.com/careers": {
+    "company": "Packaging Corp. of America",
+    "careers_url": "https://www.packagingcorp.com/careers",
+    "final_url": "https://www.packagingcorp.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.interactivebrokers.com": {
+    "company": "Interactive Brokers Group",
+    "careers_url": "https://careers.interactivebrokers.com",
+    "final_url": "https://careers.interactivebrokers.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.vulcanmaterials.com/careers": {
+    "company": "Vulcan Materials",
+    "careers_url": "https://www.vulcanmaterials.com/careers",
+    "final_url": "https://www.vulcanmaterials.com/careers",
+    "ats": "Oracle Recruiting (ORC/Taleo)",
+    "verified": true,
+    "evidence": "https://www.vulcanmaterials.com/careers",
+    "notes": ""
+  },
+  "https://jobs.xpo.com": {
+    "company": "XPO (XPO Logistics)",
+    "careers_url": "https://jobs.xpo.com",
+    "final_url": "https://jobs.xpo.com",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://jobs.xpo.com",
+    "notes": ""
+  },
+  "https://www.williams-sonomainc.com/careers": {
+    "company": "Williams-Sonoma",
+    "careers_url": "https://www.williams-sonomainc.com/careers",
+    "final_url": "https://recruiting.adp.com/srccar/public/unsupported.html",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.weyerhaeuser.com/careers": {
+    "company": "Weyerhaeuser",
+    "careers_url": "https://www.weyerhaeuser.com/careers",
+    "final_url": "https://www.weyerhaeuser.com/careers",
+    "ats": "Oracle Recruiting (ORC/Taleo)",
+    "verified": true,
+    "evidence": "https://www.weyerhaeuser.com/careers",
+    "notes": ""
+  },
+  "https://careers.cmsenergy.com": {
+    "company": "CMS Energy",
+    "careers_url": "https://careers.cmsenergy.com",
+    "final_url": "https://careers.cmsenergy.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.saic.com": {
+    "company": "Science Applications International (SAIC)",
+    "careers_url": "https://jobs.saic.com",
+    "final_url": "https://jobs.saic.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.jefferies.com/Careers": {
+    "company": "Jefferies Financial Group",
+    "careers_url": "https://www.jefferies.com/Careers",
+    "final_url": "https://www.jefferies.com/Careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.genworth.com/careers": {
+    "company": "Genworth Financial",
+    "careers_url": "https://www.genworth.com/careers",
+    "final_url": "https://careers.genworth.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.genworth.com/us/en",
+    "notes": ""
+  },
+  "https://careers.bathandbodyworks.com": {
+    "company": "Bath & Body Works",
+    "careers_url": "https://careers.bathandbodyworks.com",
+    "final_url": "https://careers.bathandbodyworks.com/en/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.ea.com/careers": {
+    "company": "Electronic Arts",
+    "careers_url": "https://www.ea.com/careers",
+    "final_url": "https://www.ea.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.thecloroxcompany.com/careers": {
+    "company": "Clorox",
+    "careers_url": "https://www.thecloroxcompany.com/careers",
+    "final_url": "https://www.thecloroxcompany.com/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.zimmerbiomet.com/en/about-us/careers.html": {
+    "company": "Zimmer Biomet Holdings",
+    "careers_url": "https://www.zimmerbiomet.com/en/about-us/careers.html",
+    "final_url": "https://careers.zimmerbiomet.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.zimmerbiomet.com/us/en",
+    "notes": ""
+  },
+  "https://www.xylem.com/en-us/careers": {
+    "company": "Xylem",
+    "careers_url": "https://www.xylem.com/en-us/careers",
+    "final_url": "https://www.xylem.com/en-us/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.servicenow.com/careers": {
+    "company": "ServiceNow",
+    "careers_url": "https://www.servicenow.com/careers",
+    "final_url": "https://www.servicenow.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.voya.com/page/careers": {
+    "company": "Voya Financial",
+    "careers_url": "https://www.voya.com/page/careers",
+    "final_url": "https://www.voya.com/page/find-career-voya",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.watsco.com/careers": {
+    "company": "Watsco",
+    "careers_url": "https://www.watsco.com/careers",
+    "final_url": "https://www.watsco.com/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.oldrepublic.com/careers": {
+    "company": "Old Republic International",
+    "careers_url": "https://www.oldrepublic.com/careers",
+    "final_url": "https://www.oldrepublic.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.ugicorp.com/careers": {
+    "company": "UGI (UGI Corporation)",
+    "careers_url": "https://www.ugicorp.com/careers",
+    "final_url": "https://www.ugicorp.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.fastenal.com": {
+    "company": "Fastenal",
+    "careers_url": "https://careers.fastenal.com",
+    "final_url": "https://careers.fastenal.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.knight-swift.com": {
+    "company": "Knight-Swift Transportation Holdings",
+    "careers_url": "https://jobs.knight-swift.com",
+    "final_url": "https://jobs.knight-swift.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.rpminc.com/careers": {
+    "company": "RPM International",
+    "careers_url": "https://www.rpminc.com/careers",
+    "final_url": "https://www.rpminc.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.monsterbevcorp.com/careers": {
+    "company": "Monster Beverage",
+    "careers_url": "https://www.monsterbevcorp.com/careers",
+    "final_url": "https://www.monsterbevcorp.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.supermicro.com": {
+    "company": "Super Micro Computer",
+    "careers_url": "https://careers.supermicro.com",
+    "final_url": "https://careers.supermicro.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.concentrix.com": {
+    "company": "Concentrix",
+    "careers_url": "https://careers.concentrix.com",
+    "final_url": "https://careers.concentrix.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.ameren.com/careers": {
+    "company": "Ameren",
+    "careers_url": "https://www.ameren.com/careers",
+    "final_url": "https://www.ameren.com/career",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.intuitive.com": {
+    "company": "Intuitive Surgical",
+    "careers_url": "https://careers.intuitive.com",
+    "final_url": "https://careers.intuitive.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.yum.com": {
+    "company": "Yum Brands",
+    "careers_url": "https://careers.yum.com",
+    "final_url": "https://careers.yum.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.o-i.com/careers": {
+    "company": "O-I Glass",
+    "careers_url": "https://www.o-i.com/careers",
+    "final_url": "https://www.o-i.com/about-o-i/careers/?referrer_uri=/careers&referrer_eol=1735603200",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.endeavorco.com/careers": {
+    "company": "Endeavor Group Holdings",
+    "careers_url": "https://www.endeavorco.com/careers",
+    "final_url": "https://endeavorco.com/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.howmet.com/join-us": {
+    "company": "Howmet Aerospace",
+    "careers_url": "https://www.howmet.com/join-us",
+    "final_url": "https://www.howmet.com/join-us",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://coreandmain.com/careers": {
+    "company": "Core & Main",
+    "careers_url": "https://coreandmain.com/careers",
+    "final_url": "https://coreandmain.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.kenvue.com/careers": {
+    "company": "Kenvue",
+    "careers_url": "https://www.kenvue.com/careers",
+    "final_url": "https://www.kenvue.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://about.sprouts.com/careers": {
+    "company": "Sprouts Farmers Market",
+    "careers_url": "https://about.sprouts.com/careers",
+    "final_url": "https://www.sprouts.com/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.hioscar.com/careers": {
+    "company": "Oscar Health",
+    "careers_url": "https://www.hioscar.com/careers",
+    "final_url": "https://www.hioscar.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.solventum.com/careers": {
+    "company": "Solventum",
+    "careers_url": "https://www.solventum.com/careers",
+    "final_url": "https://www.solventum.com/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.siriusxm.com/careers": {
+    "company": "Sirius XM Holdings",
+    "careers_url": "https://www.siriusxm.com/careers",
+    "final_url": "https://careers.siriusxm.com/careers/",
+    "ats": "iCIMS",
+    "verified": true,
+    "evidence": "https://careers.siriusxm.com/careers/",
+    "notes": ""
+  },
+  "https://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/careers": {
+    "company": "GuideWell Mutual Holding",
+    "careers_url": "https://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/careers",
+    "final_url": "https://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1",
+    "ats": "Oracle Recruiting (ORC/Taleo)",
+    "verified": true,
+    "evidence": "https://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1",
+    "notes": ""
+  },
+  "https://careers.aflac.com": {
+    "company": "Aflac",
+    "careers_url": "https://careers.aflac.com",
+    "final_url": "https://careers.aflac.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.abbvie.com": {
+    "company": "AbbVie",
+    "careers_url": "https://careers.abbvie.com",
+    "final_url": "https://careers.abbvie.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.ferguson.com/content/careers": {
+    "company": "Ferguson Enterprises",
+    "careers_url": "https://www.ferguson.com/content/careers",
+    "final_url": "https://www.ferguson.com/content/corporate-information/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.newyorklife.com/careers": {
+    "company": "New York Life Insurance",
+    "careers_url": "https://www.newyorklife.com/careers",
+    "final_url": "https://www.newyorklife.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.emerson.com/en-us/careers": {
+    "company": "Emerson Electric",
+    "careers_url": "https://www.emerson.com/en-us/careers",
+    "final_url": "https://www.emerson.com/en-us/careers",
+    "ats": "Oracle Recruiting (ORC/Taleo)",
+    "verified": true,
+    "evidence": "https://www.emerson.com/en-us/careers",
+    "notes": ""
+  },
+  "https://www.diamondbackenergy.com/careers": {
+    "company": "Diamondback Energy",
+    "careers_url": "https://www.diamondbackenergy.com/careers",
+    "final_url": "https://www.diamondbackenergy.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.intel.com": {
+    "company": "Intel",
+    "careers_url": "https://jobs.intel.com",
+    "final_url": "https://corpredirect.intel.com/Redirector/404Redirector.aspx?404;https://jobs.intel.com/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.tjx.com": {
+    "company": "TJX",
+    "careers_url": "https://jobs.tjx.com",
+    "final_url": "https://jobs.tjx.com/global/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://jobs.tjx.com/global/en",
+    "notes": ""
+  },
+  "https://www.rgare.com/careers": {
+    "company": "Reinsurance Group of America",
+    "careers_url": "https://www.rgare.com/careers",
+    "final_url": "https://www.rgarecareers.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://www.rgarecareers.com/us/en",
+    "notes": ""
+  },
+  "https://careers.statestreet.com": {
+    "company": "State Street",
+    "careers_url": "https://careers.statestreet.com",
+    "final_url": "https://careers.statestreet.com/global/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.statestreet.com/global/en",
+    "notes": ""
+  },
+  "https://jobs.hp.com": {
+    "company": "HP (Hewlett Packard)",
+    "careers_url": "https://jobs.hp.com",
+    "final_url": "https://jobs.hp.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.adp.com": {
+    "company": "Automatic Data Processing (ADP)",
+    "careers_url": "https://jobs.adp.com",
+    "final_url": "https://jobs.adp.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.pfgc.com": {
+    "company": "Performance Food Group",
+    "careers_url": "https://careers.pfgc.com",
+    "final_url": "https://careers.pfgc.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.ussteel.com/careers": {
+    "company": "United States Steel",
+    "careers_url": "https://www.ussteel.com/careers",
+    "final_url": "https://www.ussteel.com/careers/careers-in-steel",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.tysonfoods.com/careers": {
+    "company": "Tyson Foods",
+    "careers_url": "https://www.tysonfoods.com/careers",
+    "final_url": "https://www.tysonfoods.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.united.com": {
+    "company": "United Airlines Holdings",
+    "careers_url": "https://careers.united.com",
+    "final_url": "https://careers.united.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.united.com/us/en",
+    "notes": ""
+  },
+  "https://www.group1auto.com/careers": {
+    "company": "Group 1 Automotive",
+    "careers_url": "https://www.group1auto.com/careers",
+    "final_url": "https://www.group1auto.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.dominionenergy.com": {
+    "company": "Dominion Energy",
+    "careers_url": "https://careers.dominionenergy.com",
+    "final_url": "https://careers.dominionenergy.com",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://careers.dominionenergy.com",
+    "notes": ""
+  },
+  "https://careers.blackrock.com": {
+    "company": "BlackRock",
+    "careers_url": "https://careers.blackrock.com",
+    "final_url": "https://careers.blackrock.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.libertymutualgroup.com": {
+    "company": "Liberty Mutual Insurance Group",
+    "careers_url": "https://jobs.libertymutualgroup.com",
+    "final_url": "https://jobs.libertymutualgroup.com",
+    "ats": "iCIMS",
+    "verified": true,
+    "evidence": "https://jobs.libertymutualgroup.com",
+    "notes": ""
+  },
+  "https://jobs.aa.com": {
+    "company": "American Airlines Group",
+    "careers_url": "https://jobs.aa.com",
+    "final_url": "https://jobs.aa.com",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://jobs.aa.com",
+    "notes": ""
+  },
+  "https://jobs.chrobinson.com": {
+    "company": "C.H. Robinson Worldwide",
+    "careers_url": "https://jobs.chrobinson.com",
+    "final_url": "https://www.chrobinson.com/en-us/about-us/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.ppg.com/careers": {
+    "company": "PPG Industries",
+    "careers_url": "https://www.ppg.com/careers",
+    "final_url": "https://www.ppg.com/en-US/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.oracle.com": {
+    "company": "Oracle",
+    "careers_url": "https://careers.oracle.com",
+    "final_url": "https://careers.oracle.com/en/sites/jobsearch",
+    "ats": "Oracle Recruiting (ORC/Taleo)",
+    "verified": true,
+    "evidence": "https://careers.oracle.com/en/sites/jobsearch",
+    "notes": ""
+  },
+  "https://www.enterpriseproducts.com/careers": {
+    "company": "Enterprise Products Partners",
+    "careers_url": "https://www.enterpriseproducts.com/careers",
+    "final_url": "https://www.enterpriseproducts.com/careers/",
+    "ats": "Oracle Recruiting (ORC/Taleo)",
+    "verified": true,
+    "evidence": "https://www.enterpriseproducts.com/careers/",
+    "notes": ""
+  },
+  "https://plainsallamerican.com/careers": {
+    "company": "Plains GP Holdings",
+    "careers_url": "https://plainsallamerican.com/careers",
+    "final_url": "https://www.plains.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.ti.com": {
+    "company": "Texas Instruments",
+    "careers_url": "https://careers.ti.com",
+    "final_url": "https://careers.ti.com/en/sites/CX",
+    "ats": "Oracle Recruiting (ORC/Taleo)",
+    "verified": true,
+    "evidence": "https://careers.ti.com/en/sites/CX",
+    "notes": ""
+  },
+  "https://careers.autozone.com": {
+    "company": "AutoZone",
+    "careers_url": "https://careers.autozone.com",
+    "final_url": "https://careers.autozone.com/hcmUI/CandidateExperience/en/sites/CX_1",
+    "ats": "Oracle Recruiting (ORC/Taleo)",
+    "verified": true,
+    "evidence": "https://careers.autozone.com/hcmUI/CandidateExperience/en/sites/CX_1",
+    "notes": ""
+  },
+  "https://careers.lamresearch.com": {
+    "company": "Lam Research",
+    "careers_url": "https://careers.lamresearch.com",
+    "final_url": "https://careers.lamresearch.com/careers",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://careers.lamresearch.com/careers",
+    "notes": ""
+  },
+  "https://careers.corteva.com": {
+    "company": "Corteva",
+    "careers_url": "https://careers.corteva.com",
+    "final_url": "https://careers.corteva.com",
+    "ats": "Eightfold",
+    "verified": true,
+    "evidence": "https://careers.corteva.com",
+    "notes": ""
+  },
+  "https://www.aig.com/careers": {
+    "company": "AIG (American International Group)",
+    "careers_url": "https://www.aig.com/careers",
+    "final_url": "https://www.aig.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.coca-colacompany.com": {
+    "company": "Coca-Cola",
+    "careers_url": "https://careers.coca-colacompany.com",
+    "final_url": "https://careers.coca-colacompany.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.kiewit.com/careers": {
+    "company": "Peter Kiewit Sons'",
+    "careers_url": "https://www.kiewit.com/careers",
+    "final_url": "https://www.kiewit.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.bldr.com/careers": {
+    "company": "Builders FirstSource",
+    "careers_url": "https://www.bldr.com/careers",
+    "final_url": "https://careers.bldr.com/",
+    "ats": "iCIMS",
+    "verified": true,
+    "evidence": "https://careers.bldr.com/",
+    "notes": ""
+  },
+  "https://www.echostar.com/careers": {
+    "company": "EchoStar",
+    "careers_url": "https://www.echostar.com/careers",
+    "final_url": "https://www.echostar.com/careers",
+    "ats": "iCIMS",
+    "verified": true,
+    "evidence": "https://www.echostar.com/careers",
+    "notes": ""
+  },
+  "https://chsinc.com/careers": {
+    "company": "CHS (Cooperative)",
+    "careers_url": "https://chsinc.com/careers",
+    "final_url": "https://jobs.chsinc.com/",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://jobs.chsinc.com/",
+    "notes": ""
+  },
+  "https://www.afginc.com/careers": {
+    "company": "American Financial Group",
+    "careers_url": "https://www.afginc.com/careers",
+    "final_url": "https://www.afginc.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://delekus.com/careers": {
+    "company": "Delek US Holdings",
+    "careers_url": "https://delekus.com/careers",
+    "final_url": "https://delekus.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.bms.com": {
+    "company": "Bristol-Myers Squibb",
+    "careers_url": "https://careers.bms.com",
+    "final_url": "https://careers.bms.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.amfam.com/careers": {
+    "company": "American Family Insurance Group",
+    "careers_url": "https://www.amfam.com/careers",
+    "final_url": "https://careers.amfam.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://corporate.dow.com/en-us/careers": {
+    "company": "Dow",
+    "careers_url": "https://corporate.dow.com/en-us/careers",
+    "final_url": "https://corporate.dow.com/en-us/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.sempra.com/careers": {
+    "company": "Sempra",
+    "careers_url": "https://www.sempra.com/careers",
+    "final_url": "https://www.sempra.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.thermofisher.com": {
+    "company": "Thermo Fisher Scientific",
+    "careers_url": "https://jobs.thermofisher.com",
+    "final_url": "https://jobs.thermofisher.com/global/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://jobs.thermofisher.com/global/en",
+    "notes": ""
+  },
+  "https://www.massmutual.com/careers": {
+    "company": "Massachusetts Mutual Life Insurance",
+    "careers_url": "https://www.massmutual.com/careers",
+    "final_url": "https://www.massmutual.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.landolakesinc.com/Careers": {
+    "company": "Land O'Lakes",
+    "careers_url": "https://www.landolakesinc.com/Careers",
+    "final_url": "https://careers.landolakesinc.com/us/en/",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.landolakesinc.com/us/en/",
+    "notes": ""
+  },
+  "https://careers.generaldynamics.com": {
+    "company": "General Dynamics",
+    "careers_url": "https://careers.generaldynamics.com",
+    "final_url": "https://careers.generaldynamics.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.prudential.com": {
+    "company": "Prudential Financial",
+    "careers_url": "https://jobs.prudential.com",
+    "final_url": "https://jobs.prudential.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.jacobs.com": {
+    "company": "Jacobs Solutions",
+    "careers_url": "https://careers.jacobs.com",
+    "final_url": "https://careers.jacobs.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.travelers.com": {
+    "company": "Travelers",
+    "careers_url": "https://careers.travelers.com",
+    "final_url": "https://careers.travelers.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.edisoncareers.com": {
+    "company": "Edison International",
+    "careers_url": "https://www.edisoncareers.com",
+    "final_url": "https://www.edisoncareers.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.mgmresorts.com": {
+    "company": "MGM Resorts International",
+    "careers_url": "https://careers.mgmresorts.com",
+    "final_url": "https://careers.mgmresorts.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.grainger.com": {
+    "company": "Grainger (W.W. Grainger)",
+    "careers_url": "https://jobs.grainger.com",
+    "final_url": "https://jobs.grainger.com",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://jobs.grainger.com",
+    "notes": ""
+  },
+  "https://careers.usbank.com": {
+    "company": "U.S. Bancorp",
+    "careers_url": "https://careers.usbank.com",
+    "final_url": "https://careers.usbank.com/global/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.usbank.com/global/en",
+    "notes": ""
+  },
+  "https://careers.wbd.com": {
+    "company": "Warner Bros. Discovery",
+    "careers_url": "https://careers.wbd.com",
+    "final_url": "https://careers.wbd.com/global/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.wbd.com/global/en",
+    "notes": ""
+  },
+  "https://www.abbott.com/careers": {
+    "company": "Abbott Laboratories",
+    "careers_url": "https://www.abbott.com/careers",
+    "final_url": "https://www.abbott.com/careers.html",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.northropgrumman.com/careers": {
+    "company": "Northrop Grumman",
+    "careers_url": "https://www.northropgrumman.com/careers",
+    "final_url": "https://www.northropgrumman.com/careers",
+    "ats": "Eightfold",
+    "verified": true,
+    "evidence": "https://www.northropgrumman.com/careers",
+    "notes": ""
+  },
+  "https://www.ameriprise.com/careers": {
+    "company": "Ameriprise Financial",
+    "careers_url": "https://www.ameriprise.com/careers",
+    "final_url": "https://www.ameriprise.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.pultegroup.com": {
+    "company": "PulteGroup",
+    "careers_url": "https://careers.pultegroup.com",
+    "final_url": "https://careers.pultegroup.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.northwesternmutual.com": {
+    "company": "Northwestern Mutual",
+    "careers_url": "https://careers.northwesternmutual.com",
+    "final_url": "https://careers.northwesternmutual.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.globalp.com/careers": {
+    "company": "Global Partners",
+    "careers_url": "https://www.globalp.com/careers",
+    "final_url": "https://www.globalp.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.dollargeneral.com": {
+    "company": "Dollar General",
+    "careers_url": "https://careers.dollargeneral.com",
+    "final_url": "https://careers.dollargeneral.com",
+    "ats": "iCIMS",
+    "verified": true,
+    "evidence": "https://careers.dollargeneral.com",
+    "notes": ""
+  },
+  "https://www.itw.com/careers": {
+    "company": "Illinois Tool Works",
+    "careers_url": "https://www.itw.com/careers",
+    "final_url": "https://careers.itw.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.itw.com/us/en",
+    "notes": ""
+  },
+  "https://www.uber.com/us/en/careers": {
+    "company": "Uber Technologies",
+    "careers_url": "https://www.uber.com/us/en/careers",
+    "final_url": "https://www.uber.com/us/en/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.ally.com/careers": {
+    "company": "Ally Financial",
+    "careers_url": "https://www.ally.com/careers",
+    "final_url": "https://www.ally.com/about/careers/",
+    "ats": "Avature",
+    "verified": true,
+    "evidence": "https://www.ally.com/about/careers/",
+    "notes": ""
+  },
+  "https://www.borgwarner.com/careers": {
+    "company": "BorgWarner",
+    "careers_url": "https://www.borgwarner.com/careers",
+    "final_url": "https://www.borgwarner.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.honeywell.com": {
+    "company": "Honeywell International",
+    "careers_url": "https://careers.honeywell.com",
+    "final_url": "https://careers.honeywell.com/en/sites/Honeywell",
+    "ats": "Oracle Recruiting (ORC/Taleo)",
+    "verified": true,
+    "evidence": "https://careers.honeywell.com/en/sites/Honeywell",
+    "notes": ""
+  },
+  "https://www.elcompanies.com/en/careers": {
+    "company": "Est\u00e9e Lauder",
+    "careers_url": "https://www.elcompanies.com/en/careers",
+    "final_url": "https://www.elcompanies.com/en/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.loews.com/careers": {
+    "company": "Loews",
+    "careers_url": "https://www.loews.com/careers",
+    "final_url": "https://www.loews.com/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.mondelezinternational.com": {
+    "company": "Mondelez International",
+    "careers_url": "https://careers.mondelezinternational.com",
+    "final_url": "https://www.mondelezinternational.com/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.starbucks.com/careers": {
+    "company": "Starbucks",
+    "careers_url": "https://www.starbucks.com/careers",
+    "final_url": "https://careers.starbucks.com",
+    "ats": "Eightfold",
+    "verified": true,
+    "evidence": "https://careers.starbucks.com",
+    "notes": ""
+  },
+  "https://www.qualcomm.com/company/careers": {
+    "company": "Qualcomm",
+    "careers_url": "https://www.qualcomm.com/company/careers",
+    "final_url": "https://www.qualcomm.com/company/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.broadcom.com": {
+    "company": "Broadcom",
+    "careers_url": "https://careers.broadcom.com",
+    "final_url": "https://careers.broadcom.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://corporate.oreillyauto.com/careers": {
+    "company": "O'Reilly Automotive",
+    "careers_url": "https://corporate.oreillyauto.com/careers",
+    "final_url": "https://corporate.oreillyauto.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.usfoods.com/careers.html": {
+    "company": "US Foods Holding",
+    "careers_url": "https://www.usfoods.com/careers.html",
+    "final_url": "https://www.usfoods.com/careers.html",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.drhorton.com/Careers": {
+    "company": "D.R. Horton",
+    "careers_url": "https://www.drhorton.com/Careers",
+    "final_url": "https://www.drhorton.com/Careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.fluor.com/careers": {
+    "company": "Fluor",
+    "careers_url": "https://www.fluor.com/careers",
+    "final_url": "https://www.fluor.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.leidos.com": {
+    "company": "Leidos Holdings",
+    "careers_url": "https://careers.leidos.com",
+    "final_url": "https://careers.leidos.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.paccar.com": {
+    "company": "Paccar",
+    "careers_url": "https://careers.paccar.com",
+    "final_url": "https://careers.paccar.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.viatris.com": {
+    "company": "Viatris",
+    "careers_url": "https://careers.viatris.com",
+    "final_url": "https://careers.viatris.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.pmi.com/careers": {
+    "company": "Philip Morris International",
+    "careers_url": "https://www.pmi.com/careers",
+    "final_url": "https://www.pmi.com/careers/overview",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.kindermorgan.com/Careers": {
+    "company": "Kinder Morgan",
+    "careers_url": "https://www.kindermorgan.com/Careers",
+    "final_url": "https://www.kindermorgan.com/Careers/charlestonjobs",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.salesforce.com/company/careers": {
+    "company": "Salesforce",
+    "careers_url": "https://www.salesforce.com/company/careers",
+    "final_url": "https://www.salesforce.com/company/careers/?bc=OTH",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.nucor.com/careers": {
+    "company": "Nucor",
+    "careers_url": "https://www.nucor.com/careers",
+    "final_url": "https://nucor.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.ecolab.com": {
+    "company": "Ecolab",
+    "careers_url": "https://jobs.ecolab.com",
+    "final_url": "https://jobs.ecolab.com/global/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://jobs.ecolab.com/global/en",
+    "notes": ""
+  },
+  "https://jobs.baxter.com": {
+    "company": "Baxter International",
+    "careers_url": "https://jobs.baxter.com",
+    "final_url": "https://jobs.baxter.com/en",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.jabil.com/careers": {
+    "company": "Jabil",
+    "careers_url": "https://www.jabil.com/careers",
+    "final_url": "https://www.jabil.com/careers.html",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.lennar.com/careers": {
+    "company": "Lennar",
+    "careers_url": "https://www.lennar.com/careers",
+    "final_url": "https://www.lennar.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.devonenergy.com/careers": {
+    "company": "Devon Energy",
+    "careers_url": "https://www.devonenergy.com/careers",
+    "final_url": "https://www.devonenergy.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.lilly.com": {
+    "company": "Eli Lilly",
+    "careers_url": "https://careers.lilly.com",
+    "final_url": "https://careers.lilly.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.molinahealthcare.com": {
+    "company": "Molina Healthcare",
+    "careers_url": "https://careers.molinahealthcare.com",
+    "final_url": "https://careers.molinahealthcare.com",
+    "ats": "Oracle Recruiting (ORC/Taleo)",
+    "verified": true,
+    "evidence": "https://careers.molinahealthcare.com",
+    "notes": ""
+  },
+  "https://www.tiaa.org/public/about-tiaa/careers": {
+    "company": "TIAA",
+    "careers_url": "https://www.tiaa.org/public/about-tiaa/careers",
+    "final_url": "https://www.tiaa.org/public/about-tiaa/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.cummins.com/careers": {
+    "company": "Cummins",
+    "careers_url": "https://www.cummins.com/careers",
+    "final_url": "https://www.cummins.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.caseys.com/careers": {
+    "company": "Casey's General Stores",
+    "careers_url": "https://www.caseys.com/careers",
+    "final_url": "https://www.caseys.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.bnymellon.com": {
+    "company": "Bank of New York Mellon",
+    "careers_url": "https://jobs.bnymellon.com",
+    "final_url": "https://bnymellon.eightfold.ai/careers",
+    "ats": "Oracle Recruiting (ORC/Taleo)",
+    "verified": true,
+    "evidence": "https://bnymellon.eightfold.ai/careers",
+    "notes": ""
+  },
+  "https://www.bestbuy-jobs.com": {
+    "company": "Best Buy",
+    "careers_url": "https://www.bestbuy-jobs.com",
+    "final_url": "https://www.bestbuy-jobs.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.netflix.com": {
+    "company": "Netflix",
+    "careers_url": "https://jobs.netflix.com",
+    "final_url": "https://jobs.netflix.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://republicservices.jobs": {
+    "company": "Republic Services",
+    "careers_url": "https://republicservices.jobs",
+    "final_url": "https://jobs.republicservices.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://jobs.republicservices.com/us/en",
+    "notes": ""
+  },
+  "https://jobs.iqvia.com": {
+    "company": "IQVIA Holdings",
+    "careers_url": "https://jobs.iqvia.com",
+    "final_url": "https://jobs.iqvia.com/en",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.targaresources.com/careers": {
+    "company": "Targa Resources",
+    "careers_url": "https://www.targaresources.com/careers",
+    "final_url": "https://www.targaresources.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.truist.com": {
+    "company": "Truist Financial",
+    "careers_url": "https://careers.truist.com",
+    "final_url": "https://careers.truist.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.truist.com/us/en",
+    "notes": ""
+  },
+  "https://www.foxcorporation.com/careers": {
+    "company": "Fox (Fox Corporation)",
+    "careers_url": "https://www.foxcorporation.com/careers",
+    "final_url": "https://www.foxcorporation.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.keurigdrpepper.com": {
+    "company": "Keurig Dr Pepper",
+    "careers_url": "https://careers.keurigdrpepper.com",
+    "final_url": "https://careers.keurigdrpepper.com/en",
+    "ats": "Eightfold",
+    "verified": true,
+    "evidence": "https://careers.keurigdrpepper.com/en",
+    "notes": ""
+  },
+  "https://www.gapinc.com/en-us/careers/career-search": {
+    "company": "Gap",
+    "careers_url": "https://www.gapinc.com/en-us/careers/career-search",
+    "final_url": "https://www.gapinc.com/en-us/careers/career-search",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.arrow.com": {
+    "company": "Arrow Electronics",
+    "careers_url": "https://careers.arrow.com",
+    "final_url": "https://careers.arrow.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.arrow.com/us/en",
+    "notes": ""
+  },
+  "https://www.asburyauto.com/Join-Our-Team": {
+    "company": "Asbury Automotive Group",
+    "careers_url": "https://www.asburyauto.com/Join-Our-Team",
+    "final_url": "https://www.asburyauto.com/Join-Our-Team",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.hollyfrontier.com/careers": {
+    "company": "HF Sinclair",
+    "careers_url": "https://www.hollyfrontier.com/careers",
+    "final_url": "https://www.hollyfrontier.com/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://usa.visa.com/careers": {
+    "company": "Visa",
+    "careers_url": "https://usa.visa.com/careers",
+    "final_url": "https://usa.visa.com/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.cbre.com/careers": {
+    "company": "CBRE Group",
+    "careers_url": "https://www.cbre.com/careers",
+    "final_url": "https://www.cbre.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.pacificlife.com/home/careers.html": {
+    "company": "Pacific Life",
+    "careers_url": "https://www.pacificlife.com/home/careers.html",
+    "final_url": "https://www.pacificlife.com/home/Careers.html",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.vistracorp.com/careers": {
+    "company": "Vistra",
+    "careers_url": "https://www.vistracorp.com/careers",
+    "final_url": "https://vistracorp.com/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.stanleyblackanddecker.com/careers": {
+    "company": "Stanley Black & Decker",
+    "careers_url": "https://www.stanleyblackanddecker.com/careers",
+    "final_url": "https://www.stanleyblackanddecker.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.westernsouthern.com/about/careers": {
+    "company": "Western & Southern Financial Group",
+    "careers_url": "https://www.westernsouthern.com/about/careers",
+    "final_url": "https://www.westernsouthern.com/about/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.lithiacareers.com": {
+    "company": "Lithia Motors",
+    "careers_url": "https://www.lithiacareers.com",
+    "final_url": "https://careers.lithiadriveway.com/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.paramount.com/careers": {
+    "company": "Paramount Global",
+    "careers_url": "https://www.paramount.com/careers",
+    "final_url": "https://www.paramount.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.carmax.com": {
+    "company": "CarMax",
+    "careers_url": "https://careers.carmax.com",
+    "final_url": "https://careers.carmax.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.carmax.com/us/en",
+    "notes": ""
+  },
+  "https://www.omnicomgroup.com/careers": {
+    "company": "Omnicom Group",
+    "careers_url": "https://www.omnicomgroup.com/careers",
+    "final_url": "https://www.omnicomgroup.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.dollartree.com/careers": {
+    "company": "Dollar Tree",
+    "careers_url": "https://www.dollartree.com/careers",
+    "final_url": "https://careers.dollartree.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.dollartree.com/us/en",
+    "notes": ""
+  },
+  "https://careers.fisglobal.com": {
+    "company": "Fidelity National Information Services (FIS)",
+    "careers_url": "https://careers.fisglobal.com",
+    "final_url": "https://careers.fisglobal.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.fisglobal.com/us/en",
+    "notes": ""
+  },
+  "https://careers.conedison.com": {
+    "company": "Consolidated Edison",
+    "careers_url": "https://careers.conedison.com",
+    "final_url": "https://careers.conedison.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.unfi.com/careers": {
+    "company": "United Natural Foods",
+    "careers_url": "https://www.unfi.com/careers",
+    "final_url": "https://www.unfi.com/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.rsac.com/careers": {
+    "company": "Reliance (Reliance Steel & Aluminum)",
+    "careers_url": "https://www.rsac.com/careers",
+    "final_url": "https://careers.reliance.com",
+    "ats": "iCIMS",
+    "verified": true,
+    "evidence": "https://careers.reliance.com",
+    "notes": ""
+  },
+  "https://www.csx.com/index.cfm/working-at-csx": {
+    "company": "CSX",
+    "careers_url": "https://www.csx.com/index.cfm/working-at-csx",
+    "final_url": "https://www.csx.com/index.cfm/working-at-csx",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.paypal.com/us/webapps/mpp/jobs": {
+    "company": "PayPal Holdings",
+    "careers_url": "https://www.paypal.com/us/webapps/mpp/jobs",
+    "final_url": "https://careers.pypl.com/home/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.penskeautomotive.com/careers": {
+    "company": "Penske Automotive Group",
+    "careers_url": "https://www.penskeautomotive.com/careers",
+    "final_url": "https://www.penskeautomotive.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://aecom.com/careers": {
+    "company": "AECOM",
+    "careers_url": "https://aecom.com/careers",
+    "final_url": "https://aecom.com/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.spectrum.com": {
+    "company": "Charter Communications",
+    "careers_url": "https://jobs.spectrum.com",
+    "final_url": "https://jobs.spectrum.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.walmart.com": {
+    "company": "Walmart",
+    "careers_url": "https://careers.walmart.com",
+    "final_url": "https://careers.walmart.com",
+    "ats": "In-house / Proprietary",
+    "verified": true,
+    "evidence": "https://careers.walmart.com",
+    "notes": ""
+  },
+  "https://www.kellanova.com/en/careers.html": {
+    "company": "Kellanova",
+    "careers_url": "https://www.kellanova.com/en/careers.html",
+    "final_url": "https://www.kellanova.com/en/careers.html",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.lumen.com": {
+    "company": "Lumen Technologies",
+    "careers_url": "https://jobs.lumen.com",
+    "final_url": "https://jobs.lumen.com/global/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://jobs.lumen.com/global/en",
+    "notes": ""
+  },
+  "https://www.duke-energy.com/our-company/careers": {
+    "company": "Duke Energy",
+    "careers_url": "https://www.duke-energy.com/our-company/careers",
+    "final_url": "https://www.duke-energy.com/our-company/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.amazon.jobs": {
+    "company": "Amazon",
+    "careers_url": "https://www.amazon.jobs",
+    "final_url": "https://www.amazon.jobs/en/",
+    "ats": "In-house / Proprietary",
+    "verified": true,
+    "evidence": "https://www.amazon.jobs/en/",
+    "notes": ""
+  },
+  "https://careers.hpe.com": {
+    "company": "Hewlett Packard Enterprise",
+    "careers_url": "https://careers.hpe.com",
+    "final_url": "https://careers.hpe.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.hpe.com/us/en",
+    "notes": ""
+  },
+  "https://www.farmers.com/careers": {
+    "company": "Farmers Insurance Exchange",
+    "careers_url": "https://www.farmers.com/careers",
+    "final_url": "https://www.farmers.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.unitedhealthgroup.com": {
+    "company": "UnitedHealth Group",
+    "careers_url": "https://careers.unitedhealthgroup.com",
+    "final_url": "https://www.unitedhealthgroup.com/careers/en/work.html",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.apple.com/careers": {
+    "company": "Apple",
+    "careers_url": "https://www.apple.com/careers",
+    "final_url": "https://www.apple.com/careers/us/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.dxc.technology/careers": {
+    "company": "DXC Technology",
+    "careers_url": "https://www.dxc.technology/careers",
+    "final_url": "https://dxc.com/us/en",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.oxy.com/careers": {
+    "company": "Occidental Petroleum",
+    "careers_url": "https://www.oxy.com/careers",
+    "final_url": "https://www.oxy.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.agcocorp.com/careers": {
+    "company": "AGCO",
+    "careers_url": "https://www.agcocorp.com/careers",
+    "final_url": "https://www.agcocorp.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.nrg.com/careers": {
+    "company": "NRG Energy",
+    "careers_url": "https://www.nrg.com/careers",
+    "final_url": "https://www.nrg.com/about/careers.html",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.nexteraenergy.com/careers.html": {
+    "company": "NextEra Energy",
+    "careers_url": "https://www.nexteraenergy.com/careers.html",
+    "final_url": "https://www.nexteraenergy.com/careers.html",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.linkedin.com/company/berkshire-hathaway/jobs": {
+    "company": "Berkshire Hathaway",
+    "careers_url": "https://www.linkedin.com/company/berkshire-hathaway/jobs",
+    "final_url": "https://www.linkedin.com/company/berkshire-hathaway",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.intuit.com/careers": {
+    "company": "Intuit",
+    "careers_url": "https://www.intuit.com/careers",
+    "final_url": "https://www.intuit.com/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.cvshealth.com": {
+    "company": "CVS Health",
+    "careers_url": "https://jobs.cvshealth.com",
+    "final_url": "https://jobs.cvshealth.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://jobs.cvshealth.com/us/en",
+    "notes": ""
+  },
+  "https://jobs.danaher.com": {
+    "company": "Danaher",
+    "careers_url": "https://jobs.danaher.com",
+    "final_url": "https://jobs.danaher.com/global/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://jobs.danaher.com/global/en",
+    "notes": ""
+  },
+  "https://corporate.exxonmobil.com/Careers": {
+    "company": "Exxon Mobil",
+    "careers_url": "https://corporate.exxonmobil.com/Careers",
+    "final_url": "https://corporate.exxonmobil.com/Careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.gilead.com": {
+    "company": "Gilead Sciences",
+    "careers_url": "https://careers.gilead.com",
+    "final_url": "https://careers.gilead.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.google.com": {
+    "company": "Alphabet",
+    "careers_url": "https://careers.google.com",
+    "final_url": "https://www.google.com/about/careers/applications/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.uhs.com": {
+    "company": "Universal Health Services",
+    "careers_url": "https://jobs.uhs.com",
+    "final_url": "https://jobs.uhs.com/careers/",
+    "ats": "iCIMS",
+    "verified": true,
+    "evidence": "https://jobs.uhs.com/careers/",
+    "notes": ""
+  },
+  "https://careers.mckesson.com": {
+    "company": "McKesson",
+    "careers_url": "https://careers.mckesson.com",
+    "final_url": "https://careers.mckesson.com/en",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.unitedrentals.com": {
+    "company": "United Rentals",
+    "careers_url": "https://jobs.unitedrentals.com",
+    "final_url": "https://jobs.unitedrentals.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.autonation.com": {
+    "company": "AutoNation",
+    "careers_url": "https://careers.autonation.com",
+    "final_url": "https://careers.autonation.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.autonation.com/us/en",
+    "notes": ""
+  },
+  "https://jobs.bostonscientific.com": {
+    "company": "Boston Scientific",
+    "careers_url": "https://jobs.bostonscientific.com",
+    "final_url": "https://jobs.bostonscientific.com",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://jobs.bostonscientific.com",
+    "notes": ""
+  },
+  "https://www.kraftheinzcompany.com/careers": {
+    "company": "Kraft Heinz",
+    "careers_url": "https://www.kraftheinzcompany.com/careers",
+    "final_url": "https://www.kraftheinzcompany.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.cencora.com/careers": {
+    "company": "Cencora",
+    "careers_url": "https://www.cencora.com/careers",
+    "final_url": "https://careers.cencora.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.cencora.com/us/en",
+    "notes": ""
+  },
+  "https://careers.costco.com": {
+    "company": "Costco Wholesale",
+    "careers_url": "https://careers.costco.com",
+    "final_url": "https://careers.costco.com",
+    "ats": "iCIMS",
+    "verified": true,
+    "evidence": "https://careers.costco.com",
+    "notes": ""
+  },
+  "https://www.otis.com/en/us/careers": {
+    "company": "Otis Worldwide",
+    "careers_url": "https://www.otis.com/en/us/careers",
+    "final_url": "https://www.otis.com/en/us/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.avnet.com/wps/portal/us/about-avnet/careers": {
+    "company": "Avnet",
+    "careers_url": "https://www.avnet.com/wps/portal/us/about-avnet/careers",
+    "final_url": "https://www.avnet.com/americas/about-avnet/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.edwardjones.com": {
+    "company": "Edward Jones (Jones Financial)",
+    "careers_url": "https://careers.edwardjones.com",
+    "final_url": "https://careers.edwardjones.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.appliedmaterials.com/careers": {
+    "company": "Applied Materials",
+    "careers_url": "https://www.appliedmaterials.com/careers",
+    "final_url": "https://www.appliedmaterials.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.microsoft.com": {
+    "company": "Microsoft",
+    "careers_url": "https://careers.microsoft.com",
+    "final_url": "https://careers.microsoft.com/v2/global/en/home.html",
+    "ats": "In-house / Proprietary",
+    "verified": true,
+    "evidence": "https://careers.microsoft.com/v2/global/en/home.html",
+    "notes": ""
+  },
+  "https://careers.southwestair.com": {
+    "company": "Southwest Airlines",
+    "careers_url": "https://careers.southwestair.com",
+    "final_url": "https://careers.southwestair.com",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.southwestair.com",
+    "notes": ""
+  },
+  "https://jobs.ball.com": {
+    "company": "Ball Corporation",
+    "careers_url": "https://jobs.ball.com",
+    "final_url": "https://jobs.ball.com",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://jobs.ball.com",
+    "notes": ""
+  },
+  "https://www.aboutschwab.com/careers": {
+    "company": "Charles Schwab",
+    "careers_url": "https://www.aboutschwab.com/careers",
+    "final_url": "https://www.aboutschwab.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.lkqcorp.com": {
+    "company": "LKQ",
+    "careers_url": "https://careers.lkqcorp.com",
+    "final_url": "https://careers.lkqcorp.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.jpmorganchase.com": {
+    "company": "JPMorgan Chase",
+    "careers_url": "https://careers.jpmorganchase.com",
+    "final_url": "https://www.jpmorganchase.com/careers?redirect=careers_jpm",
+    "ats": "Oracle Recruiting (ORC/Taleo)",
+    "verified": true,
+    "evidence": "https://www.jpmorganchase.com/careers?redirect=careers_jpm",
+    "notes": ""
+  },
+  "https://careers.chevron.com": {
+    "company": "Chevron",
+    "careers_url": "https://careers.chevron.com",
+    "final_url": "https://careers.chevron.com",
+    "ats": "Eightfold",
+    "verified": true,
+    "evidence": "https://careers.chevron.com",
+    "notes": ""
+  },
+  "https://careers.bakerhughes.com": {
+    "company": "Baker Hughes",
+    "careers_url": "https://careers.bakerhughes.com",
+    "final_url": "https://careers.bakerhughes.com/global/en",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.thecignagroup.com": {
+    "company": "Cigna Group",
+    "careers_url": "https://careers.thecignagroup.com",
+    "final_url": "https://careers.thecignagroup.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.mcdonalds.com": {
+    "company": "McDonald's",
+    "careers_url": "https://careers.mcdonalds.com",
+    "final_url": "https://careers.mcdonalds.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.mutualofomaha.com/careers": {
+    "company": "Mutual of Omaha",
+    "careers_url": "https://www.mutualofomaha.com/careers",
+    "final_url": "https://www.mutualofomaha.com/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.pnc.com/en/about-pnc/careers": {
+    "company": "PNC Financial Services Group",
+    "careers_url": "https://www.pnc.com/en/about-pnc/careers",
+    "final_url": "https://www.pnc.com/en/about-pnc/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.mosaicco.com/careers": {
+    "company": "Mosaic (Mosaic Co.)",
+    "careers_url": "https://www.mosaicco.com/careers",
+    "final_url": "https://mosaicco.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://southerncompany.jobs": {
+    "company": "Southern (Southern Company)",
+    "careers_url": "https://southerncompany.jobs",
+    "final_url": "https://southerncompany.jobs",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.textron.com/Careers": {
+    "company": "Textron",
+    "careers_url": "https://www.textron.com/Careers",
+    "final_url": "https://careers.textron.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.mastercard.com": {
+    "company": "Mastercard",
+    "careers_url": "https://careers.mastercard.com",
+    "final_url": "https://careers.mastercard.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.mastercard.com/us/en",
+    "notes": ""
+  },
+  "https://careers.labcorp.com": {
+    "company": "Laboratory Corp. of America (Labcorp)",
+    "careers_url": "https://careers.labcorp.com",
+    "final_url": "https://careers.labcorp.com/global/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.labcorp.com/global/en",
+    "notes": ""
+  },
+  "https://search-careers.gm.com": {
+    "company": "General Motors",
+    "careers_url": "https://search-careers.gm.com",
+    "final_url": "https://search-careers.gm.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.principal.com/careers": {
+    "company": "Principal Financial",
+    "careers_url": "https://www.principal.com/careers",
+    "final_url": "https://www.principal.com/about-us/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.regeneron.com": {
+    "company": "Regeneron Pharmaceuticals",
+    "careers_url": "https://careers.regeneron.com",
+    "final_url": "https://careers.regeneron.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.citigroup.com": {
+    "company": "Citigroup",
+    "careers_url": "https://careers.citigroup.com",
+    "final_url": "https://careers.citigroup.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.constellationenergy.com/careers.html": {
+    "company": "Constellation Energy",
+    "careers_url": "https://www.constellationenergy.com/careers.html",
+    "final_url": "https://jobs.constellationenergy.com/careers-home/",
+    "ats": "iCIMS",
+    "verified": true,
+    "evidence": "https://jobs.constellationenergy.com/careers-home/",
+    "notes": ""
+  },
+  "https://www.pge.com/en_US/careers/index.page": {
+    "company": "PG&E (Pacific Gas & Electric)",
+    "careers_url": "https://www.pge.com/en_US/careers/index.page",
+    "final_url": "https://www.pge.com/en_US/careers/index.page",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.sonicautomotive.com/careers": {
+    "company": "Sonic Automotive",
+    "careers_url": "https://www.sonicautomotive.com/careers",
+    "final_url": "https://www.sonicautomotive.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.centene.com": {
+    "company": "Centene",
+    "careers_url": "https://jobs.centene.com",
+    "final_url": "https://jobs.centene.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.homedepot.com": {
+    "company": "Home Depot",
+    "careers_url": "https://careers.homedepot.com",
+    "final_url": "https://careers.homedepot.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://rocketyourcareer.usa.coupang.com": {
+    "company": "Coupang",
+    "careers_url": "https://rocketyourcareer.usa.coupang.com",
+    "final_url": "https://www.coupang.jobs/en/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.tractorsupply.jobs": {
+    "company": "Tractor Supply",
+    "careers_url": "https://www.tractorsupply.jobs",
+    "final_url": "https://www.tractorsupply.jobs",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.marathonpetroleum.com/Careers": {
+    "company": "Marathon Petroleum",
+    "careers_url": "https://www.marathonpetroleum.com/Careers",
+    "final_url": "https://www.marathonpetroleum.com/Careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.eogresources.com/careers": {
+    "company": "EOG Resources",
+    "careers_url": "https://www.eogresources.com/careers",
+    "final_url": "http://eogresources-west-us-fnf3gveyfehre9bx.westus3-01.azurewebsites.net/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://up.jobs": {
+    "company": "Union Pacific",
+    "careers_url": "https://up.jobs",
+    "final_url": "https://up.jobs",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://up.jobs",
+    "notes": ""
+  },
+  "https://careers.riteaid.com": {
+    "company": "Rite Aid",
+    "careers_url": "https://careers.riteaid.com",
+    "final_url": "https://careers.riteaid.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.kroger.com": {
+    "company": "Kroger",
+    "careers_url": "https://jobs.kroger.com",
+    "final_url": "https://www.krogerfamilycareers.com/en/sites/CX_2001",
+    "ats": "Oracle Recruiting (ORC/Taleo)",
+    "verified": true,
+    "evidence": "https://www.krogerfamilycareers.com/en/sites/CX_2001",
+    "notes": ""
+  },
+  "https://phillips66.jobs": {
+    "company": "Phillips 66",
+    "careers_url": "https://phillips66.jobs",
+    "final_url": "https://careers.phillips66.com",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://careers.phillips66.com",
+    "notes": ""
+  },
+  "https://www.mtb.com/careers": {
+    "company": "M&T Bank",
+    "careers_url": "https://www.mtb.com/careers",
+    "final_url": "https://www.mtb.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.macysjobs.com": {
+    "company": "Macy's",
+    "careers_url": "https://www.macysjobs.com",
+    "final_url": "https://ebwh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/",
+    "ats": "Oracle Recruiting (ORC/Taleo)",
+    "verified": true,
+    "evidence": "https://ebwh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/",
+    "notes": ""
+  },
+  "https://www.fanniemae.com/careers": {
+    "company": "Fannie Mae",
+    "careers_url": "https://www.fanniemae.com/careers",
+    "final_url": "https://www.fanniemae.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.marriott.com": {
+    "company": "Marriott International",
+    "careers_url": "https://careers.marriott.com",
+    "final_url": "https://careers.marriott.com",
+    "ats": "Oracle Recruiting (ORC/Taleo)",
+    "verified": true,
+    "evidence": "https://careers.marriott.com",
+    "notes": ""
+  },
+  "https://jobs.walgreens.com": {
+    "company": "Walgreens Boots Alliance",
+    "careers_url": "https://jobs.walgreens.com",
+    "final_url": "https://jobs.walgreens.com/en",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://lifeatexpedia.com": {
+    "company": "Expedia Group",
+    "careers_url": "https://lifeatexpedia.com",
+    "final_url": "https://lifeatexpedia.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.lear.com/careers": {
+    "company": "Lear",
+    "careers_url": "https://www.lear.com/careers",
+    "final_url": "https://www.lear.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.valero.com/careers": {
+    "company": "Valero Energy",
+    "careers_url": "https://www.valero.com/careers",
+    "final_url": "https://www.valero.com/careers",
+    "ats": "Oracle Recruiting (ORC/Taleo)",
+    "verified": true,
+    "evidence": "https://www.valero.com/careers",
+    "notes": ""
+  },
+  "https://dteenergy.com/careers": {
+    "company": "DTE Energy",
+    "careers_url": "https://dteenergy.com/careers",
+    "final_url": "https://dteenergy.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.genpt.com": {
+    "company": "Genuine Parts",
+    "careers_url": "https://jobs.genpt.com",
+    "final_url": "https://jobs.genpt.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.aes.com/careers": {
+    "company": "AES Corporation",
+    "careers_url": "https://www.aes.com/careers",
+    "final_url": "https://www.aes.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.sherwin-williams.com": {
+    "company": "Sherwin-Williams",
+    "careers_url": "https://careers.sherwin-williams.com",
+    "final_url": "https://careers.sherwin-williams.com/us/en/home.html",
+    "ats": "Oracle Recruiting (ORC/Taleo)",
+    "verified": true,
+    "evidence": "https://careers.sherwin-williams.com/us/en/home.html",
+    "notes": ""
+  },
+  "https://www.53.com/content/fifth-third/en/careers.html": {
+    "company": "Fifth Third Bancorp",
+    "careers_url": "https://www.53.com/content/fifth-third/en/careers.html",
+    "final_url": "https://www.53.com/content/fifth-third/en/careers.html",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.berryglobal.com/careers": {
+    "company": "Berry Global Group",
+    "careers_url": "https://www.berryglobal.com/careers",
+    "final_url": "https://www.amcor.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.verizon.com/about/careers": {
+    "company": "Verizon Communications",
+    "careers_url": "https://www.verizon.com/about/careers",
+    "final_url": "https://mycareer.verizon.com/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.halliburton.com": {
+    "company": "Halliburton",
+    "careers_url": "https://jobs.halliburton.com",
+    "final_url": "https://jobs.halliburton.com",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://jobs.halliburton.com",
+    "notes": ""
+  },
+  "https://www.airproducts.com/careers": {
+    "company": "Air Products & Chemicals",
+    "careers_url": "https://www.airproducts.com/careers",
+    "final_url": "https://www.airproducts.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.fcx.com/careers": {
+    "company": "Freeport-McMoRan",
+    "careers_url": "https://www.fcx.com/careers",
+    "final_url": "https://www.fcx.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://att.jobs": {
+    "company": "AT&T",
+    "careers_url": "https://att.jobs",
+    "final_url": "https://att.jobs",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.cardinalhealth.com/en/careers.html": {
+    "company": "Cardinal Health",
+    "careers_url": "https://www.cardinalhealth.com/en/careers.html",
+    "final_url": "https://www.cardinalhealth.com/en/careers.html",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://corningjobs.corning.com": {
+    "company": "Corning",
+    "careers_url": "https://corningjobs.corning.com",
+    "final_url": "https://corningjobs.corning.com",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://corningjobs.corning.com",
+    "notes": ""
+  },
+  "https://careers.livenationentertainment.com": {
+    "company": "Live Nation Entertainment",
+    "careers_url": "https://careers.livenationentertainment.com",
+    "final_url": "https://careers.livenationentertainment.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.wellsfargo.com/careers": {
+    "company": "Wells Fargo",
+    "careers_url": "https://www.wellsfargo.com/careers",
+    "final_url": "https://www.wellsfargo.com/about/careers/?utm_medium=www-redirect&utm_source=careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://corporate.ford.com/careers.html": {
+    "company": "Ford Motor",
+    "careers_url": "https://corporate.ford.com/careers.html",
+    "final_url": "https://corporate.ford.com/careers.html",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://amphenol.com/careers": {
+    "company": "Amphenol",
+    "careers_url": "https://amphenol.com/careers",
+    "final_url": "https://amphenol.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.goldmansachs.com/careers": {
+    "company": "Goldman Sachs Group",
+    "careers_url": "https://www.goldmansachs.com/careers",
+    "final_url": "https://www.goldmansachs.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.marshmclennan.com": {
+    "company": "Marsh & McLennan",
+    "careers_url": "https://careers.marshmclennan.com",
+    "final_url": "https://careers.marshmclennan.com/global/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.marshmclennan.com/global/en",
+    "notes": ""
+  },
+  "https://www.amd.com/en/corporate/careers": {
+    "company": "Advanced Micro Devices (AMD)",
+    "careers_url": "https://www.amd.com/en/corporate/careers",
+    "final_url": "https://careers.amd.com/careers-home",
+    "ats": "iCIMS",
+    "verified": true,
+    "evidence": "https://careers.amd.com/careers-home",
+    "notes": ""
+  },
+  "https://www.westlake.com/careers": {
+    "company": "Westlake (Chemical)",
+    "careers_url": "https://www.westlake.com/careers",
+    "final_url": "https://www.westlaketalent.com/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.emcorgroup.com/careers": {
+    "company": "EMCOR Group",
+    "careers_url": "https://www.emcorgroup.com/careers",
+    "final_url": "https://emcorgroup.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.target.com": {
+    "company": "Target",
+    "careers_url": "https://jobs.target.com",
+    "final_url": "https://corporate.target.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.freddiemac.com": {
+    "company": "Freddie Mac",
+    "careers_url": "https://careers.freddiemac.com",
+    "final_url": "https://careers.freddiemac.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.freddiemac.com/us/en",
+    "notes": ""
+  },
+  "https://www.wesco.com/careers": {
+    "company": "WESCO International",
+    "careers_url": "https://www.wesco.com/careers",
+    "final_url": "https://www.wesco.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.firstcitizens.com": {
+    "company": "First Citizens BancShares",
+    "careers_url": "https://jobs.firstcitizens.com",
+    "final_url": "https://jobs.firstcitizens.com",
+    "ats": "iCIMS",
+    "verified": true,
+    "evidence": "https://jobs.firstcitizens.com",
+    "notes": ""
+  },
+  "https://www.dupont.com/careers": {
+    "company": "DuPont",
+    "careers_url": "https://www.dupont.com/careers",
+    "final_url": "https://www.dupont.com/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.libertymedia.com/careers": {
+    "company": "Liberty Media",
+    "careers_url": "https://www.libertymedia.com/careers",
+    "final_url": "https://www.libertymedia.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.metacareers.com": {
+    "company": "Meta Platforms",
+    "careers_url": "https://www.metacareers.com",
+    "final_url": "https://www.metacareers.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.statefarm.com/careers": {
+    "company": "State Farm Insurance",
+    "careers_url": "https://www.statefarm.com/careers",
+    "final_url": "https://www.statefarm.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.humana.com": {
+    "company": "Humana",
+    "careers_url": "https://careers.humana.com",
+    "final_url": "https://careers.humana.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.humana.com/us/en",
+    "notes": ""
+  },
+  "https://www.tesla.com/careers": {
+    "company": "Tesla",
+    "careers_url": "https://www.tesla.com/careers",
+    "final_url": "https://www.tesla.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.clevelandcliffs.com/careers": {
+    "company": "Cleveland-Cliffs",
+    "careers_url": "https://www.clevelandcliffs.com/careers",
+    "final_url": "https://careers.clevelandcliffs.com/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.chs.net/careers": {
+    "company": "Community Health Systems",
+    "careers_url": "https://www.chs.net/careers",
+    "final_url": "https://www.chs.net/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.morganstanley.com/people/your-career-at-morgan-stanley": {
+    "company": "Morgan Stanley",
+    "careers_url": "https://www.morganstanley.com/people/your-career-at-morgan-stanley",
+    "final_url": "https://www.morganstanley.com/people/your-career-at-morgan-stanley",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://block.xyz/careers": {
+    "company": "Block (formerly Square)",
+    "careers_url": "https://block.xyz/careers",
+    "final_url": "https://block.xyz/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.exeloncorp.com": {
+    "company": "Exelon",
+    "careers_url": "https://jobs.exeloncorp.com",
+    "final_url": "https://jobs.exeloncorp.com/careers-home/",
+    "ats": "iCIMS",
+    "verified": true,
+    "evidence": "https://jobs.exeloncorp.com/careers-home/",
+    "notes": ""
+  },
+  "https://www.kkr.com/careers": {
+    "company": "KKR",
+    "careers_url": "https://www.kkr.com/careers",
+    "final_url": "https://www.kkr.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://firstenergycorp.com/careers": {
+    "company": "FirstEnergy",
+    "careers_url": "https://firstenergycorp.com/careers",
+    "final_url": "https://www.firstenergycorp.com/careers.html",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.jnj.com": {
+    "company": "Johnson & Johnson",
+    "careers_url": "https://jobs.jnj.com",
+    "final_url": "https://www.careers.jnj.com/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.henryschein.com/us-en/corporate/careers.aspx": {
+    "company": "Henry Schein",
+    "careers_url": "https://www.henryschein.com/us-en/corporate/careers.aspx",
+    "final_url": "https://www.henryschein.com/us-en/corporate/careers.aspx",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.cdwjobs.com": {
+    "company": "CDW",
+    "careers_url": "https://www.cdwjobs.com",
+    "final_url": "https://www.cdwjobs.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.bookingholdings.com": {
+    "company": "Booking Holdings",
+    "careers_url": "https://careers.bookingholdings.com",
+    "final_url": "https://careers.bookingholdings.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.unum.com": {
+    "company": "Unum Group",
+    "careers_url": "https://careers.unum.com",
+    "final_url": "https://careers.unum.com/global/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.unum.com/global/en",
+    "notes": ""
+  },
+  "https://www.adm.com/en-us/careers": {
+    "company": "Archer Daniels Midland",
+    "careers_url": "https://www.adm.com/en-us/careers",
+    "final_url": "https://www.adm.com/en-us/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.westerndigital.com": {
+    "company": "Western Digital",
+    "careers_url": "https://jobs.westerndigital.com",
+    "final_url": "https://jobs.westerndigital.com/content.html",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.pepsicojobs.com": {
+    "company": "PepsiCo",
+    "careers_url": "https://www.pepsicojobs.com",
+    "final_url": "https://www.pepsicojobs.com/main/",
+    "ats": "iCIMS",
+    "verified": true,
+    "evidence": "https://www.pepsicojobs.com/main/",
+    "notes": ""
+  },
+  "https://synchronycareers.com": {
+    "company": "Synchrony",
+    "careers_url": "https://synchronycareers.com",
+    "final_url": "https://www.synchronycareers.com/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://quantaservices.jobs": {
+    "company": "Quanta Services",
+    "careers_url": "https://quantaservices.jobs",
+    "final_url": "https://quantaservices.jobs",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.fedex.com": {
+    "company": "FedEx",
+    "careers_url": "https://careers.fedex.com",
+    "final_url": "https://careers.fedex.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.disneycareers.com": {
+    "company": "Walt Disney",
+    "careers_url": "https://jobs.disneycareers.com",
+    "final_url": "https://jobs.disneycareers.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.jobs-ups.com": {
+    "company": "UPS",
+    "careers_url": "https://www.jobs-ups.com",
+    "final_url": "https://www.jobs-ups.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://www.jobs-ups.com/us/en",
+    "notes": ""
+  },
+  "https://careers.conagrabrands.com": {
+    "company": "Conagra Brands",
+    "careers_url": "https://careers.conagrabrands.com",
+    "final_url": "https://careers.conagrabrands.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.conagrabrands.com/us/en",
+    "notes": ""
+  },
+  "https://jobs.citizensbank.com": {
+    "company": "Citizens Financial Group",
+    "careers_url": "https://jobs.citizensbank.com",
+    "final_url": "https://jobs.citizensbank.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.dell.com": {
+    "company": "Dell Technologies",
+    "careers_url": "https://jobs.dell.com",
+    "final_url": "https://jobs.dell.com/en",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.nscorp.com": {
+    "company": "Norfolk Southern",
+    "careers_url": "https://jobs.nscorp.com",
+    "final_url": "https://jobs.nscorp.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.tenethealth.com": {
+    "company": "Tenet Healthcare",
+    "careers_url": "https://jobs.tenethealth.com",
+    "final_url": "https://jobs.tenethealth.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.berkley.com": {
+    "company": "W.R. Berkley",
+    "careers_url": "https://careers.berkley.com",
+    "final_url": "https://careers.berkley.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://corporate.lowes.com/careers": {
+    "company": "Lowe's",
+    "careers_url": "https://corporate.lowes.com/careers",
+    "final_url": "https://talent.lowes.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://talent.lowes.com/us/en",
+    "notes": ""
+  },
+  "https://www.raymondjames.com/careers": {
+    "company": "Raymond James Financial",
+    "careers_url": "https://www.raymondjames.com/careers",
+    "final_url": "https://www.raymondjames.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.altria.com/careers": {
+    "company": "Altria Group",
+    "careers_url": "https://www.altria.com/careers",
+    "final_url": "https://www.altria.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.pgcareers.com": {
+    "company": "Procter & Gamble",
+    "careers_url": "https://www.pgcareers.com",
+    "final_url": "https://www.pgcareers.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://www.pgcareers.com/us/en",
+    "notes": ""
+  },
+  "https://www.entergy.com/careers": {
+    "company": "Entergy",
+    "careers_url": "https://www.entergy.com/careers",
+    "final_url": "https://jobs.entergy.com",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://jobs.entergy.com",
+    "notes": ""
+  },
+  "https://careers.stryker.com": {
+    "company": "Stryker",
+    "careers_url": "https://careers.stryker.com",
+    "final_url": "https://careers.stryker.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.energytransfer.com/careers": {
+    "company": "Energy Transfer",
+    "careers_url": "https://www.energytransfer.com/careers",
+    "final_url": "https://www.energytransfer.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.davita.com": {
+    "company": "DaVita",
+    "careers_url": "https://careers.davita.com",
+    "final_url": "https://careers.davita.com",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.davita.com",
+    "notes": ""
+  },
+  "https://jobs.boeing.com": {
+    "company": "Boeing",
+    "careers_url": "https://jobs.boeing.com",
+    "final_url": "https://jobs.boeing.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.kimberly-clark.com": {
+    "company": "Kimberly-Clark",
+    "careers_url": "https://careers.kimberly-clark.com",
+    "final_url": "https://careers.kimberly-clark.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.hormelfoods.com/careers": {
+    "company": "Hormel Foods",
+    "careers_url": "https://www.hormelfoods.com/careers",
+    "final_url": "https://www.hormelfoods.com/careers/",
+    "ats": "Oracle Recruiting (ORC/Taleo)",
+    "verified": true,
+    "evidence": "https://www.hormelfoods.com/careers/",
+    "notes": ""
+  },
+  "https://www.albertsonscompanies.com/careers.html": {
+    "company": "Albertsons",
+    "careers_url": "https://www.albertsonscompanies.com/careers.html",
+    "final_url": "https://www.albertsonscompanies.com/careers.html",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.cheniere.com/careers": {
+    "company": "Cheniere Energy",
+    "careers_url": "https://www.cheniere.com/careers",
+    "final_url": "https://www.cheniere.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.crowncork.com/careers": {
+    "company": "Crown Holdings",
+    "careers_url": "https://www.crowncork.com/careers",
+    "final_url": "https://www.crowncork.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.rossstores.com": {
+    "company": "Ross Stores",
+    "careers_url": "https://jobs.rossstores.com",
+    "final_url": "https://jobs.rossstores.com",
+    "ats": "Avature",
+    "verified": true,
+    "evidence": "https://jobs.rossstores.com",
+    "notes": ""
+  },
+  "https://careers.wm.com": {
+    "company": "Waste Management",
+    "careers_url": "https://careers.wm.com",
+    "final_url": "https://emcm.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/WMCareers",
+    "ats": "Oracle Recruiting (ORC/Taleo)",
+    "verified": true,
+    "evidence": "https://emcm.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/WMCareers",
+    "notes": ""
+  },
+  "https://www.wayfair.com/careers": {
+    "company": "Wayfair",
+    "careers_url": "https://www.wayfair.com/careers",
+    "final_url": "https://www.aboutwayfair.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.westrock.com": {
+    "company": "WestRock",
+    "careers_url": "https://jobs.westrock.com",
+    "final_url": "https://jobs.westrock.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.mastec.com/careers": {
+    "company": "MasTec",
+    "careers_url": "https://www.mastec.com/careers",
+    "final_url": "https://www.mastec.com/careers/",
+    "ats": "iCIMS",
+    "verified": true,
+    "evidence": "https://www.mastec.com/careers/",
+    "notes": ""
+  },
+  "https://careers.rtx.com": {
+    "company": "RTX",
+    "careers_url": "https://careers.rtx.com",
+    "final_url": "https://careers.rtx.com/global/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.rtx.com/global/en",
+    "notes": ""
+  },
+  "https://jobs.discover.com": {
+    "company": "Discover Financial Services",
+    "careers_url": "https://jobs.discover.com",
+    "final_url": "https://jobs.discover.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.americanexpress.com/en-us/careers": {
+    "company": "American Express",
+    "careers_url": "https://www.americanexpress.com/en-us/careers",
+    "final_url": "https://www.americanexpress.com/en-us/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.gecareers.com": {
+    "company": "General Electric",
+    "careers_url": "https://jobs.gecareers.com",
+    "final_url": "https://careers.geaerospace.com/global/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.geaerospace.com/global/en",
+    "notes": ""
+  },
+  "https://www.newmont.com/careers": {
+    "company": "Newmont",
+    "careers_url": "https://www.newmont.com/careers",
+    "final_url": "https://www.newmont.com/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.lockheedmartinjobs.com": {
+    "company": "Lockheed Martin",
+    "careers_url": "https://www.lockheedmartinjobs.com",
+    "final_url": "https://www.lockheedmartin.com/en-us/careers/index.html",
+    "ats": "Avature",
+    "verified": true,
+    "evidence": "https://www.lockheedmartin.com/en-us/careers/index.html",
+    "notes": ""
+  },
+  "https://careers.caterpillar.com": {
+    "company": "Caterpillar",
+    "careers_url": "https://careers.caterpillar.com",
+    "final_url": "https://careers.caterpillar.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.eversource.com/content/general/residential/about/careers": {
+    "company": "Eversource Energy",
+    "careers_url": "https://www.eversource.com/content/general/residential/about/careers",
+    "final_url": "https://jobs.eversource.com/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.gecareers.com/healthcare": {
+    "company": "GE HealthCare Technologies",
+    "careers_url": "https://jobs.gecareers.com/healthcare",
+    "final_url": "https://careers.geaerospace.com/global/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.geaerospace.com/global/en",
+    "notes": ""
+  },
+  "https://fnf.com/careers": {
+    "company": "Fidelity National Financial",
+    "careers_url": "https://fnf.com/careers",
+    "final_url": "https://fnf.com/careers",
+    "ats": "iCIMS",
+    "verified": true,
+    "evidence": "https://fnf.com/careers",
+    "notes": ""
+  },
+  "https://careers.hcahealthcare.com": {
+    "company": "HCA Healthcare",
+    "careers_url": "https://careers.hcahealthcare.com",
+    "final_url": "https://careers.hcahealthcare.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.molsoncoors.com/careers": {
+    "company": "Molson Coors Beverage",
+    "careers_url": "https://www.molsoncoors.com/careers",
+    "final_url": "https://www.molsoncoors.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.whirlpoolcareers.com": {
+    "company": "Whirlpool",
+    "careers_url": "https://www.whirlpoolcareers.com",
+    "final_url": "https://www.whirlpoolcareers.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.colgate.com": {
+    "company": "Colgate-Palmolive",
+    "careers_url": "https://jobs.colgate.com",
+    "final_url": "https://jobs.colgate.com",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://jobs.colgate.com",
+    "notes": ""
+  },
+  "https://www.caesars.com/careers": {
+    "company": "Caesars Entertainment",
+    "careers_url": "https://www.caesars.com/careers",
+    "final_url": "https://www.caesars.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.progressive.com/careers": {
+    "company": "Progressive",
+    "careers_url": "https://www.progressive.com/careers",
+    "final_url": "https://careers.progressive.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.l3harris.com": {
+    "company": "L3Harris Technologies",
+    "careers_url": "https://careers.l3harris.com",
+    "final_url": "https://careers.l3harris.com/en",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.ibm.com/careers": {
+    "company": "IBM",
+    "careers_url": "https://www.ibm.com/careers",
+    "final_url": "https://www.ibm.com/careers",
+    "ats": "Avature",
+    "verified": true,
+    "evidence": "https://www.ibm.com/careers",
+    "notes": ""
+  },
+  "https://jobs.metlife.com": {
+    "company": "MetLife",
+    "careers_url": "https://jobs.metlife.com",
+    "final_url": "https://www.metlifecareers.com/en_US/ml",
+    "ats": "Avature",
+    "verified": true,
+    "evidence": "https://www.metlifecareers.com/en_US/ml",
+    "notes": ""
+  },
+  "https://www.deere.com/en/careers": {
+    "company": "Deere (John Deere)",
+    "careers_url": "https://www.deere.com/en/careers",
+    "final_url": "https://www.deere.com/en/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.nvidia.com/en-us/about-nvidia/careers": {
+    "company": "Nvidia",
+    "careers_url": "https://www.nvidia.com/en-us/about-nvidia/careers",
+    "final_url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.iff.com": {
+    "company": "International Flavors & Fragrances",
+    "careers_url": "https://careers.iff.com",
+    "final_url": "https://careers.iff.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.stonex.com/Careers": {
+    "company": "StoneX Group",
+    "careers_url": "https://www.stonex.com/Careers",
+    "final_url": "https://www.stonex.com/en/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://bd.jobs": {
+    "company": "Becton Dickinson (BD)",
+    "careers_url": "https://bd.jobs",
+    "final_url": "https://bd.jobs/jobs/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://pxd.com/working-pxd": {
+    "company": "Pioneer Natural Resources",
+    "careers_url": "https://pxd.com/working-pxd",
+    "final_url": "https://www.pxd.com/working-pxd",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://hii.com/careers": {
+    "company": "Huntington Ingalls Industries",
+    "careers_url": "https://hii.com/careers",
+    "final_url": "https://hii.com/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.cognizant.com": {
+    "company": "Cognizant Technology Solutions",
+    "careers_url": "https://careers.cognizant.com",
+    "final_url": "https://careers.cognizant.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.lfg.com/public/aboutus/careers": {
+    "company": "Lincoln National (Lincoln Financial)",
+    "careers_url": "https://www.lfg.com/public/aboutus/careers",
+    "final_url": "https://www.lfg.com/public/aboutus/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.conocophillips.com": {
+    "company": "ConocoPhillips",
+    "careers_url": "https://careers.conocophillips.com",
+    "final_url": "https://careers.conocophillips.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.murphyusa.com/Careers": {
+    "company": "Murphy USA",
+    "careers_url": "https://www.murphyusa.com/Careers",
+    "final_url": "https://www.murphyusa.com/Careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.pfizer.com": {
+    "company": "Pfizer",
+    "careers_url": "https://careers.pfizer.com",
+    "final_url": "https://www.pfizer.com/about/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.pseg.com": {
+    "company": "Public Service Enterprise Group (PSEG)",
+    "careers_url": "https://jobs.pseg.com",
+    "final_url": "https://jobs.pseg.com",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://jobs.pseg.com",
+    "notes": ""
+  },
+  "https://careers.delta.com": {
+    "company": "Delta Air Lines",
+    "careers_url": "https://careers.delta.com",
+    "final_url": "https://careers.delta.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://parker.com/careers": {
+    "company": "Parker-Hannifin",
+    "careers_url": "https://parker.com/careers",
+    "final_url": "https://www.parker.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.ulta.com": {
+    "company": "Ulta Beauty",
+    "careers_url": "https://careers.ulta.com",
+    "final_url": "https://careers.ulta.com/careers",
+    "ats": "iCIMS",
+    "verified": true,
+    "evidence": "https://careers.ulta.com/careers",
+    "notes": ""
+  },
+  "https://www.thehersheycompany.com/en_us/careers.html": {
+    "company": "Hershey (The Hershey Company)",
+    "careers_url": "https://www.thehersheycompany.com/en_us/careers.html",
+    "final_url": "https://careers.thehersheycompany.com/errorpage/?errortype=404",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://careers.thehersheycompany.com/errorpage/?errortype=404",
+    "notes": ""
+  },
+  "https://careers.tdsynnex.com": {
+    "company": "TD Synnex",
+    "careers_url": "https://careers.tdsynnex.com",
+    "final_url": "https://careers.tdsynnex.com/us/en",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.tdsynnex.com/us/en",
+    "notes": ""
+  },
+  "https://corporate.publix.com/careers": {
+    "company": "Publix Super Markets",
+    "careers_url": "https://corporate.publix.com/careers",
+    "final_url": "https://jobs.publix.com/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.chewy.com/jobs": {
+    "company": "Chewy",
+    "careers_url": "https://www.chewy.com/jobs",
+    "final_url": "https://careers.chewy.com/us/en/home",
+    "ats": "Phenom",
+    "verified": true,
+    "evidence": "https://careers.chewy.com/us/en/home",
+    "notes": ""
+  },
+  "https://www.americantower.com/careers": {
+    "company": "American Tower",
+    "careers_url": "https://www.americantower.com/careers",
+    "final_url": "https://www.americantower.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.advanceautoparts.jobs": {
+    "company": "Advance Auto Parts",
+    "careers_url": "https://www.advanceautoparts.jobs",
+    "final_url": "https://www.advanceautoparts.jobs",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.manpowergroup.com": {
+    "company": "ManpowerGroup",
+    "careers_url": "https://careers.manpowergroup.com",
+    "final_url": "https://careers.manpowergroup.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.analog.com": {
+    "company": "Analog Devices",
+    "careers_url": "https://careers.analog.com",
+    "final_url": "https://careers.analog.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://mohawkind.com/careers": {
+    "company": "Mohawk Industries",
+    "careers_url": "https://mohawkind.com/careers",
+    "final_url": "https://mohawkind.com/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.assurant.com": {
+    "company": "Assurant",
+    "careers_url": "https://jobs.assurant.com",
+    "final_url": "https://jobs.assurant.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.internationalpaper.com/careers": {
+    "company": "International Paper",
+    "careers_url": "https://www.internationalpaper.com/careers",
+    "final_url": "https://jobs.internationalpaper.com/",
+    "ats": "SAP SuccessFactors",
+    "verified": true,
+    "evidence": "https://jobs.internationalpaper.com/",
+    "notes": ""
+  },
+  "https://www.nationwide.com/careers": {
+    "company": "Nationwide",
+    "careers_url": "https://www.nationwide.com/careers",
+    "final_url": "https://www.nationwide.com/personal/about-us/careers/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jobs.cisco.com": {
+    "company": "Cisco Systems",
+    "careers_url": "https://jobs.cisco.com",
+    "final_url": "https://www.cisco.com/c/en/us/about/careers.html",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.thorindustries.com/careers": {
+    "company": "Thor Industries",
+    "careers_url": "https://www.thorindustries.com/careers",
+    "final_url": "https://www.thorindustries.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://careers.aramark.com": {
+    "company": "Aramark",
+    "careers_url": "https://careers.aramark.com",
+    "final_url": "https://careers.aramark.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://graybar.wd1.myworkdayjobs.com/Graybar_Electric": {
+    "company": "Graybar Electric",
+    "careers_url": "https://graybar.wd1.myworkdayjobs.com/Graybar_Electric",
+    "final_url": "https://graybar.wd1.myworkdayjobs.com/Graybar_Electric",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://www.alcoa.com/global/en/who-we-are/careers": {
+    "company": "Alcoa",
+    "careers_url": "https://www.alcoa.com/global/en/who-we-are/careers",
+    "final_url": "https://www.alcoa.com/careers/en",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://www.kla.com/careers": {
+    "company": "KLA Corporation",
+    "careers_url": "https://www.kla.com/careers",
+    "final_url": "https://www.kla.com/careers",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://www.steeldynamics.com/careers": {
+    "company": "Steel Dynamics",
+    "careers_url": "https://www.steeldynamics.com/careers",
+    "final_url": "https://www.steeldynamics.com/careersnew/",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.albemarle.com/careers": {
+    "company": "Albemarle",
+    "careers_url": "https://www.albemarle.com/careers",
+    "final_url": "https://www.albemarle.com/us/en/careers",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://careers.key.com": {
+    "company": "KeyCorp",
+    "careers_url": "https://careers.key.com",
+    "final_url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://www.cbrands.com/careers": {
+    "company": "Constellation Brands",
+    "careers_url": "https://www.cbrands.com/careers",
+    "final_url": "https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://careers.campbellsoupcompany.com": {
+    "company": "Campbell Soup",
+    "careers_url": "https://careers.campbellsoupcompany.com",
+    "final_url": "https://careers.thecampbellscompany.com/",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://careers.boozallen.com": {
+    "company": "Booz Allen Hamilton Holding",
+    "careers_url": "https://careers.boozallen.com",
+    "final_url": "https://www.boozallen.com/careers.html",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://www.jmsmucker.com/careers": {
+    "company": "J.M. Smucker",
+    "careers_url": "https://www.jmsmucker.com/careers",
+    "final_url": "https://www.jmsmucker.com/careers",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://www.blackstone.com/careers": {
+    "company": "Blackstone",
+    "careers_url": "https://www.blackstone.com/careers",
+    "final_url": "https://www.blackstone.com/careers/careers-blackstone/",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://careers.zoetis.com": {
+    "company": "Zoetis",
+    "careers_url": "https://careers.zoetis.com",
+    "final_url": "https://www.zoetis.com/join-us",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://www.taylormorrison.com/careers": {
+    "company": "Taylor Morrison Home",
+    "careers_url": "https://www.taylormorrison.com/careers",
+    "final_url": "https://careers.taylormorrison.com/",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://www.ufpi.com/careers": {
+    "company": "UFP Industries",
+    "careers_url": "https://www.ufpi.com/careers",
+    "final_url": "https://ufpi.com/careers/",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://www.oneok.com/Careers": {
+    "company": "Oneok",
+    "careers_url": "https://www.oneok.com/Careers",
+    "final_url": "https://www.oneok.com/Careers",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://www.workday.com/en-us/company/careers.html": {
+    "company": "Workday",
+    "careers_url": "https://www.workday.com/en-us/company/careers.html",
+    "final_url": "https://www.workday.com/en-us/company/careers/overview.html",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://world-kinect.com/careers": {
+    "company": "World Kinect",
+    "careers_url": "https://world-kinect.com/careers",
+    "final_url": "https://www.world-kinect.com/careers",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://jobs.nike.com": {
+    "company": "Nike",
+    "careers_url": "https://jobs.nike.com",
+    "final_url": "https://careers.nike.com/",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://www.capitalonecareers.com": {
+    "company": "Capital One Financial",
+    "careers_url": "https://www.capitalonecareers.com",
+    "final_url": "https://www.capitalonecareers.com",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://careers.kohls.com": {
+    "company": "Kohl's",
+    "careers_url": "https://careers.kohls.com",
+    "final_url": "https://careers.kohls.com",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://www.usaajobs.com": {
+    "company": "USAA",
+    "careers_url": "https://www.usaajobs.com",
+    "final_url": "https://www.usaajobs.com",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://careers.kyndryl.com": {
+    "company": "Kyndryl Holdings",
+    "careers_url": "https://careers.kyndryl.com",
+    "final_url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://www.pbfenergy.com/careers": {
+    "company": "PBF Energy",
+    "careers_url": "https://www.pbfenergy.com/careers",
+    "final_url": "https://www.pbfenergy.com/careers/",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://www.guardianlife.com/careers": {
+    "company": "Guardian Life Ins. Co. of America",
+    "careers_url": "https://www.guardianlife.com/careers",
+    "final_url": "https://www.guardianlife.com/careers",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://jobs.micron.com": {
+    "company": "Micron Technology",
+    "careers_url": "https://jobs.micron.com",
+    "final_url": "https://micron.eightfold.ai/careers",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://careers.ryder.com": {
+    "company": "Ryder System",
+    "careers_url": "https://careers.ryder.com",
+    "final_url": "https://careers.ryder.com",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://www.markel.com/careers": {
+    "company": "Markel Group",
+    "careers_url": "https://www.markel.com/careers",
+    "final_url": "https://www.markel.com/about-us/careers",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://www.3m.com/3M/en_US/careers-us": {
+    "company": "3M",
+    "careers_url": "https://www.3m.com/3M/en_US/careers-us",
+    "final_url": "https://www.3m.com/3M/en_US/careers-us/",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://andersonsinc.com/careers": {
+    "company": "Andersons",
+    "careers_url": "https://andersonsinc.com/careers",
+    "final_url": "https://www.andersonsinc.com/careers/",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://careers.nordstrom.com": {
+    "company": "Nordstrom",
+    "careers_url": "https://careers.nordstrom.com",
+    "final_url": "https://careers.nordstrom.com",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://careers.amgen.com": {
+    "company": "Amgen",
+    "careers_url": "https://careers.amgen.com",
+    "final_url": "https://careers.amgen.com/en",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://jobs.xcelenergy.com": {
+    "company": "Xcel Energy",
+    "careers_url": "https://jobs.xcelenergy.com",
+    "final_url": "https://jobs.xcelenergy.com",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://apollo.com/careers": {
+    "company": "Apollo Global Management",
+    "careers_url": "https://apollo.com/careers",
+    "final_url": "https://www.apollo.com/careers",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://careers.elevancehealth.com": {
+    "company": "Elevance Health",
+    "careers_url": "https://careers.elevancehealth.com",
+    "final_url": "https://careers.elevancehealth.com",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://careers.bankofamerica.com": {
+    "company": "Bank of America",
+    "careers_url": "https://careers.bankofamerica.com",
+    "final_url": "https://careers.bankofamerica.com/en-us",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://www.dickssportinggoods.jobs": {
+    "company": "Dick's Sporting Goods",
+    "careers_url": "https://www.dickssportinggoods.jobs",
+    "final_url": "https://www.dickssportinggoods.jobs",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://www.auto-owners.com/career-center": {
+    "company": "Auto-Owners Insurance",
+    "careers_url": "https://www.auto-owners.com/career-center",
+    "final_url": "https://www.auto-owners.com/about/why-work-at-auto-owners",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://www.thehartford.com/careers": {
+    "company": "Hartford Financial Services Group",
+    "careers_url": "https://www.thehartford.com/careers",
+    "final_url": "https://www.thehartford.com/careers",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://careers.jbhunt.com": {
+    "company": "J.B. Hunt Transport Services",
+    "careers_url": "https://careers.jbhunt.com",
+    "final_url": "https://careers.jbhunt.com",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://jobs.comcast.com": {
+    "company": "Comcast",
+    "careers_url": "https://jobs.comcast.com",
+    "final_url": "https://jobs.comcast.com",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://careers.sysco.com": {
+    "company": "Sysco",
+    "careers_url": "https://careers.sysco.com",
+    "final_url": "https://careers.sysco.com/en",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://careers.spglobal.com": {
+    "company": "S&P Global",
+    "careers_url": "https://careers.spglobal.com",
+    "final_url": "https://careers.spglobal.com/jobs",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://careers.generalmills.com": {
+    "company": "General Mills",
+    "careers_url": "https://careers.generalmills.com",
+    "final_url": "https://careers.generalmills.com/careers/",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://www.adobe.com/careers": {
+    "company": "Adobe",
+    "careers_url": "https://www.adobe.com/careers",
+    "final_url": "https://www.adobe.com/careers",
+    "ats": "Unknown",
+    "verified": false,
+    "evidence": "",
+    "notes": "No strong ATS markers (page likely JS/proprietary)."
+  },
+  "https://jll.wd1.myworkdayjobs.com/jllcareers": {
+    "company": "Jones Lang LaSalle (JLL)",
+    "careers_url": "https://jll.wd1.myworkdayjobs.com/jllcareers",
+    "final_url": "https://jll.wd1.myworkdayjobs.com/jllcareers",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://careers.northerntrust.com": {
+    "company": "Northern Trust",
+    "careers_url": "https://careers.northerntrust.com",
+    "final_url": "https://ntrs.wd1.myworkdayjobs.com/northerntrust",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://jobs.carrier.com": {
+    "company": "Carrier Global",
+    "careers_url": "https://jobs.carrier.com",
+    "final_url": "https://jobs.carrier.com/en",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://avisbudgetgroup.jobs": {
+    "company": "Avis Budget Group",
+    "careers_url": "https://avisbudgetgroup.jobs",
+    "final_url": "https://www.avisbudgetgroup.jobs/",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://jobs.goodyear.com": {
+    "company": "Goodyear Tire & Rubber",
+    "careers_url": "https://jobs.goodyear.com",
+    "final_url": "https://corporate.goodyear.com/us/en/company/working-at-goodyear.html",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://jobs.merck.com": {
+    "company": "Merck",
+    "careers_url": "https://jobs.merck.com",
+    "final_url": "https://jobs.merck.com/us/en",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://careers.bjs.com": {
+    "company": "BJ's Wholesale Club",
+    "careers_url": "https://careers.bjs.com",
+    "final_url": "https://careers.bjs.com",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://www.vfc.com/careers": {
+    "company": "VF (VF Corporation)",
+    "careers_url": "https://www.vfc.com/careers",
+    "final_url": "https://www.vfc.com/careers",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://aep.com/careers": {
+    "company": "American Electric Power",
+    "careers_url": "https://aep.com/careers",
+    "final_url": "https://www.aep.com/careers/",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://careers.fiserv.com": {
+    "company": "Fiserv",
+    "careers_url": "https://careers.fiserv.com",
+    "final_url": "https://www.careers.fiserv.com/",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  },
+  "https://www.allstate.jobs": {
+    "company": "Allstate",
+    "careers_url": "https://www.allstate.jobs",
+    "final_url": "https://www.allstatecorporation.com/careers.aspx",
+    "ats": "Workday",
+    "verified": false,
+    "evidence": "",
+    "notes": "Workday signal found; JSON endpoint not reachable (may be gated)."
+  }
+}

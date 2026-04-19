@@ -1,0 +1,17 @@
+{
+  "full_name": "Jane Doe",
+  "email": "jane@example.com",
+  "phone": "+1-555-123-4567",
+  "location": "San Francisco, CA",
+  "linkedin_url": "https://www.linkedin.com/in/janedoe",
+  "github_url": "https://github.com/janedoe",
+  "portfolio_url": "https://janedoe.dev",
+  "work_auth": true,
+  "sponsorship_needed": false,
+  "total_years_experience": 5.5,
+  "years_by_skill": { "python": 4.0, "sql": 3.5 },
+  "preferred_location_type": "Remote",
+  "demographic_preferences": "prefer_not_to_say",
+  "resume_path": "config/resume.pdf",
+  "cover_letter_template_path": "config/cover_letter.md"
+}

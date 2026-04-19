@@ -1,0 +1,10 @@
+mode: review  # or auto_submit
+max_jobs_per_run: 10
+log_dir: out/logs
+llm_model: gpt-4o-mini
+llm_temperature: 0.2
+prefer_not_to_say: true
+screenshot: true
+gemini_api_key: ""
+gemini_model: "models/gemini-2.5-flash"
+headless: false

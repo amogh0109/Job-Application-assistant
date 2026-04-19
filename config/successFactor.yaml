@@ -1,0 +1,1823 @@
+filters:
+  locale: en_US
+  location: ''
+  match_mode: 'off'
+  keywords: []
+scraper:
+  timeout_s: 25
+  user_agent: Mozilla/5.0 (RMK-discovery)
+  try_paths:
+  - /services/rss/job/?locale={locale}&keywords={keywords_encoded}
+  - /sitemap.xml
+  - /xml/sitemap.xml
+  - /en/jobs/xml/?rss=true
+bases_fixed:
+- name: Jobs at American Airlines
+  base: https://jobs.aa.com
+- name: BestRun - Custom Search
+  base: https://ace1950.jobs2web.com
+- name: ACE1960 - Sales Demo - Custom Search
+  base: https://ace1960.jobs2web.com
+- name: Action Service Distributie BV - Custom Search
+  base: https://apply.action.com
+- name: Checkers Drive-In Restaurants, Inc. - Custom Search
+  base: https://apply.checkers.com
+- name: iavgmbh - Custom Search
+  base: https://apply.iav.com
+- name: Aramark - Custom Search
+  base: https://aramarkcareers.com
+- name: State of Arkansas - Custom Search
+  base: https://arcareers.arkansas.gov
+- name: ASSA ABLOY - Custom Search
+  base: https://assaabloy.jobs2web.com
+- name: BASF SE - Custom Search
+  base: https://basf.jobs
+- name: Baker Construction - Custom Search
+  base: https://bcecareers.com
+- name: carrefourb - Custom Search
+  base: https://belgiumjobs.carrefour.eu
+- name: BRITA Group - Custom Search
+  base: https://brita.jobs
+- name: Burberry - Custom Search
+  base: https://burberrycareers.com
+- name: CAIXABANK S.A. - Custom Search
+  base: https://caixabankcareers.com
+- name: atsaustria - Custom Search
+  base: https://career.ats.net
+- name: BENTELER - Custom Search
+  base: https://career.benteler.jobs
+- name: Chinachem Group - Custom Search
+  base: https://career.chinachemgroup.com
+- name: Deutsche Börse Group - Custom Search
+  base: https://career.deutsche-boerse.com
+- name: frostaag - Custom Search
+  base: https://career.frosta-ag.com
+- name: HiPP - Custom Search
+  base: https://career.hipp.com
+- name: LANXESS - Custom Search
+  base: https://career.lanxess.com
+- name: SKF - Custom Search
+  base: https://career.skf.com
+- name: Sonepar - Custom Search
+  base: https://career.sonepar.com
+- name: Allos S.r.l. - Custom Search
+  base: https://careers-demo.allos.it
+- name: NTT DATA  Services - Custom Search
+  base: https://careers-inc.nttdata.com
+- name: Acuity Inc. - Custom Search
+  base: https://careers.acuitybrands.com
+- name: AGCO - Custom Search
+  base: https://careers.agcocorp.com
+- name: AGFA - Custom Search
+  base: https://careers.agfa.com
+- name: Aker BP - Custom Search
+  base: https://careers.akerbp.com
+- name: AkzoNobel - Custom Search
+  base: https://careers.akzonobel.com
+- name: Alghanim Industries - Custom Search
+  base: https://careers.alghanim.com
+- name: allnex - Custom Search
+  base: https://careers.allnex.com
+- name: Ansys - Custom Search
+  base: https://careers.ansys.com
+- name: Apache Corporation - Custom Search
+  base: https://careers.apachecorp.com
+- name: aramex - Custom Search
+  base: https://careers.aramex.com
+- name: ARDAGH GROUP - Custom Search
+  base: https://careers.ardaghgroup.com
+- name: Arla Foods - Custom Search
+  base: https://careers.arla.com
+- name: Arthrex - Custom Search
+  base: https://careers.arthrex.com
+- name: Auckland Council - Custom Search
+  base: https://careers.aucklandcouncil.govt.nz
+- name: Avaya - Custom Search
+  base: https://careers.avaya.com
+- name: Bachem AG - Custom Search
+  base: https://careers.bachem.com
+- name: United Bank - Custom Search
+  base: https://careers.bankwithunited.com
+- name: Briggs & Stratton - Custom Search
+  base: https://careers.basco.com
+- name: Suntory Global Spirits - Custom Search
+  base: https://careers.beamsuntory.com
+- name: BHP Career Portal - Custom Search
+  base: https://careers.bhp.com
+- name: BHTC - Custom Search
+  base: https://careers.bhtc.com
+- name: Borealis AG - Custom Search
+  base: https://careers.borealisgroup.com
+- name: The Ag Division of Brandt Holdings - Custom Search
+  base: https://careers.brandtholdings.com
+- name: Bridgestone Europe NV/SA - Custom Search
+  base: https://careers.bridgestone-emea.com
+- name: Britvic - Custom Search
+  base: https://careers.britvic.com
+- name: Bureau Veritas - Custom Search
+  base: https://careers.bureauveritas.com
+- name: Black & Veatch Family of Companies - Custom Search
+  base: https://careers.bv.com
+- name: BWXT - Custom Search
+  base: https://careers.bwxt.com
+- name: CalPortland - Custom Search
+  base: https://careers.calportland.com
+- name: Campari Group - Custom Search
+  base: https://careers.camparigroup.com
+- name: Canon - Custom Search
+  base: https://careers.canon.com.au
+- name: Capitec Bank Ltd - Custom Search
+  base: https://careers.capitecbank.co.za
+- name: Carestream Health - Custom Search
+  base: https://careers.carestream.com
+- name: Carlsberg - Custom Search
+  base: https://careers.carlsberg.com
+- name: CDM - Custom Search
+  base: https://careers.cdmig.com
+- name: Celestica International Inc. - Custom Search
+  base: https://careers.celestica.com
+- name: Central Group - Custom Search
+  base: https://careers.centralgroup.com
+- name: chainiqgro - Custom Search
+  base: https://careers.chainiq.com
+- name: Chobani - Custom Search
+  base: https://careers.chobani.com
+- name: Cintas - Custom Search
+  base: https://careers.cintas.com
+- name: Civmec - Custom Search
+  base: https://careers.civmec.com.au
+- name: Coast Capital Savings - Custom Search
+  base: https://careers.coastcapitalsavings.com
+- name: Colas - Custom Search
+  base: https://careers.colasjobs.com
+- name: Coles Group - Custom Search
+  base: https://careers.colesgroup.com.au
+- name: Coloplast A/S - Custom Search
+  base: https://careers.coloplast.com
+- name: Consumers Energy - Custom Search
+  base: https://careers.consumersenergy.com
+- name: Continuum Global Solutions - Custom Search
+  base: https://careers.continuumgbl.com
+- name: coty - Custom Search
+  base: https://careers.coty.com
+- name: CPS Energy - Custom Search
+  base: https://careers.cpsenergy.com
+- name: Central Queensland University - Custom Search
+  base: https://careers.cqu.edu.au
+- name: CRIF S.p.A. - Custom Search
+  base: https://careers.crif.com
+- name: CTS Corporation - Custom Search
+  base: https://careers.ctscorp.com
+- name: CYBEX GMBH - Custom Search
+  base: https://careers.cybex-online.com
+- name: Data Analysis Inc. - Custom Search
+  base: https://careers.daicompanies.com
+- name: PT Bank Danamon Indonesia Tbk - Custom Search
+  base: https://careers.danamon.co.id
+- name: Datwyler - Custom Search
+  base: https://careers.datwyler.com
+- name: DCC - Custom Search
+  base: https://careers.dcc.ie
+- name: Durham County - Custom Search
+  base: https://careers.dconc.gov
+- name: Deloitte - Custom Search
+  base: https://careers.deloitte.ca
+- name: Dentalvacancies.eu - Custom Search
+  base: https://careers.dentalvacancies.eu
+- name: Digicel - Custom Search
+  base: https://careers.digicelgroup.com
+- name: Discovery - Custom Search
+  base: https://careers.discovery.co.za
+- name: Dolby Laboratories, Inc. - Custom Search
+  base: https://careers.dolby.com
+- name: Dominion Energy - Custom Search
+  base: https://careers.dominionenergy.com
+- name: Dover Corporation - Custom Search
+  base: https://careers.dovercorporation.com
+- name: Designer Brands (DSW, Camuto Group) - Custom Search
+  base: https://careers.dswinc.com
+- name: DTE Energy - Custom Search
+  base: https://careers.dteenergy.com
+- name: Duke Careers - Custom Search
+  base: https://careers.duke.edu
+- name: Global Data Centers EMEA - Custom Search
+  base: https://careers.e-shelter.com
+- name: EBSCO Industries Inc - Custom Search
+  base: https://careers.ebscoind.com
+- name: Edgewell Personal Care Brands, LLC - Custom Search
+  base: https://careers.edgewell.com
+- name: Emirates Global Aluminium - Custom Search
+  base: https://careers.ega.ae
+- name: Enable Injections Inc. - Custom Search
+  base: https://careers.enableinjections.com
+- name: Endress+Hauser - Custom Search
+  base: https://careers.endress.com
+- name: Evolution Mining Limited - Custom Search
+  base: https://careers.evolutionmining.com.au
+- name: Far East Organization - Custom Search
+  base: https://careers.fareast.com.sg
+- name: Florida Crystals / ASR Group - Custom Search
+  base: https://careers.fcc-asrgroup.com
+- name: FlightSafety International - Custom Search
+  base: https://careers.flightsafety.com
+- name: Flowers Foods - Custom Search
+  base: https://careers.flowersfoods.com
+- name: foodstuffs - Custom Search
+  base: https://careers.foodstuffs-si.co.nz
+- name: Gallo - Custom Search
+  base: https://careers.gallo.com
+- name: Garney Construction - Custom Search
+  base: https://careers.garney.com
+- name: Gateway Foundation Inc - Custom Search
+  base: https://careers.gatewayfoundation.org
+- name: Gentherm - Custom Search
+  base: https://careers.gentherm.com
+- name: Getinge - Custom Search
+  base: https://careers.getinge.com
+- name: Giesecke+Devrient - Custom Search
+  base: https://careers.gi-de.com
+- name: GIC Private Limited - Custom Search
+  base: https://careers.gic.com.sg
+- name: GKN Aerospace Careers - Custom Search
+  base: https://careers.gknaerospace.com
+- name: Glanbia - Custom Search
+  base: https://careers.glanbia.com
+- name: GMR Enterprises Pvt Ltd - Custom Search
+  base: https://careers.gmrgroup.in
+- name: Goodstart Early Learning - Custom Search
+  base: https://careers.goodstart.org.au
+- name: Graphic Packaging Careers - Custom Search
+  base: https://careers.graphicpkg.com
+- name: Groupe Rocher - Custom Search
+  base: https://careers.groupe-rocher.com
+- name: GRUMA - Custom Search
+  base: https://careers.gruma.com
+- name: Grünenthal GmbH - Custom Search
+  base: https://careers.grunenthal.com
+- name: Laboratoire Guerbet - Custom Search
+  base: https://careers.guerbet.com
+- name: Gulfstream Aerospace Corporation - Custom Search
+  base: https://careers.gulfstream.com
+- name: Hafele India Private Limited - Custom Search
+  base: https://careers.hafeleindia.com
+- name: Hartmann - Custom Search
+  base: https://careers.hartmann.info
+- name: Haworth, Inc. - Custom Search
+  base: https://careers.haworth.com
+- name: Helsana Versicherungen AG - Custom Search
+  base: https://careers.helsana.ch
+- name: Henderson Group - Custom Search
+  base: https://careers.henderson-group.com
+- name: Hero Group - Custom Search
+  base: https://careers.hero-group.ch
+- name: HHC - Custom Search
+  base: https://careers.hhcorp.org
+- name: Hong Kong Productivity Council - Custom Search
+  base: https://careers.hkpc.org
+- name: HMH - Custom Search
+  base: https://careers.hmhco.com
+- name: Hubbell Incorporated - Custom Search
+  base: https://careers.hubbell.com
+- name: JM Huber Corporation - Custom Search
+  base: https://careers.huber.com
+- name: Huntington Ingalls - Custom Search
+  base: https://careers.huntingtoningalls.com
+- name: Hysan Development Company Limited - Custom Search
+  base: https://careers.hysan.com.hk
+- name: International SOS - Custom Search
+  base: https://careers.internationalsos.com
+- name: IRT Group - Custom Search
+  base: https://careers.irt.org.au
+- name: Irvine Company - Custom Search
+  base: https://careers.irvinecompany.com
+- name: NTT DATA - Custom Search
+  base: https://careers.itelligencegroup.com
+- name: JBS Australia - Custom Search
+  base: https://careers.jbssa.com.au
+- name: JetBlue Airways Corporation - Custom Search
+  base: https://careers.jetblue.com
+- name: Johns Hopkins Aramco Healthcare - Custom Search
+  base: https://careers.jhah.com
+- name: Alfred Kärcher SE & Co. KG - Custom Search
+  base: https://careers.kaercher.com
+- name: kbcgroup - Custom Search
+  base: https://careers.kbc-group.com
+- name: John Keells Group - Custom Search
+  base: https://careers.keells.com
+- name: Kemira - Custom Search
+  base: https://careers.kemira.com
+- name: Keolis - Custom Search
+  base: https://careers.keolis.com
+- name: KiwiRail - Custom Search
+  base: https://careers.kiwirail.co.nz
+- name: Knorr-Bremse - Custom Search
+  base: https://careers.knorr-bremse.com
+- name: Klöckner Pentaplast - Custom Search
+  base: https://careers.kpfilms.com
+- name: Landis+Gyr - Custom Search
+  base: https://careers.landisgyr.com
+- name: Lane Crawford (Hong Kong) Limited - Custom Search
+  base: https://careers.lanecrawford.com.hk
+- name: LATECOERE - Custom Search
+  base: https://careers.latecoere.aero
+- name: Leggett & Platt - Custom Search
+  base: https://careers.leggett.com
+- name: Leonardo DRS, Inc. - Custom Search
+  base: https://careers.leonardodrs.com
+- name: Lexington Medical Center - Custom Search
+  base: https://careers.lexmed.com
+- name: Lids - Custom Search
+  base: https://careers.lids.com
+- name: Liebherr - Custom Search
+  base: https://careers.liebherr.com
+- name: Lindsay - Custom Search
+  base: https://careers.lindsay.com
+- name: MIT Lincoln Laboratory - Custom Search
+  base: https://careers.ll.mit.edu
+- name: L'Occitane - Custom Search
+  base: https://careers.loccitane.com
+- name: Lupin - Custom Search
+  base: https://careers.lupin.com
+- name: Lyondell Basell North America - Custom Search
+  base: https://careers.lyondellbasell.com
+- name: Macmahon Holdings Limited - Custom Search
+  base: https://careers.macmahon.com.au
+- name: MAG - Custom Search
+  base: https://careers.magairports.com
+- name: Manitou Group - Custom Search
+  base: https://careers.manitou-group.com
+- name: Matthews International - Custom Search
+  base: https://careers.matw.com
+- name: McCormick & Company - Custom Search
+  base: https://careers.mccormick.com
+- name: MedArtis - Custom Search
+  base: https://careers.medartis.com
+- name: Mediclinic - Custom Search
+  base: https://careers.mediclinic.com
+- name: Melia Hotels International - Custom Search
+  base: https://careers.melia.com
+- name: Merivale - Custom Search
+  base: https://careers.merivale.com
+- name: Metcash - Custom Search
+  base: https://careers.metcash.com
+- name: Milliken and Company - Custom Search
+  base: https://careers.milliken.com
+- name: Akkodis Bulgaria - Custom Search
+  base: https://careers.modis-ito.com
+- name: Mohawk Industries - Custom Search
+  base: https://careers.mohawkind.com
+- name: Mölnlycke Health Care - Custom Search
+  base: https://careers.molnlycke.com
+- name: Mota-Engil - Custom Search
+  base: https://careers.mota-engil.com
+- name: medicossin - Custom Search
+  base: https://careers.msf-applications.org
+- name: msg global solutions - Custom Search
+  base: https://careers.msg-global.com
+- name: MSX INTERNATIONAL - Custom Search
+  base: https://careers.msxi.com
+- name: Unternehmensgruppe Theo Müller - Custom Search
+  base: https://careers.muellergroup.com
+- name: Mohawk Valley Health System - Custom Search
+  base: https://careers.mvhealthsystem.org
+- name: Nagel-Group Logistics SE - Custom Search
+  base: https://careers.nagel-group.com
+- name: nakilat - Custom Search
+  base: https://careers.nakilat.com
+- name: NCH Corporation - Custom Search
+  base: https://careers.nch.com
+- name: Shared Services Partnership - Custom Search
+  base: https://careers.newjob.org.uk
+- name: Nexeo Plastics - Custom Search
+  base: https://careers.nexeoplastics.com
+- name: NEXUS AG - Custom Search
+  base: https://careers.nexus-ag.de
+- name: Nordea Bank - Custom Search
+  base: https://careers.nordea.com
+- name: novocure - Custom Search
+  base: https://careers.novocure.com
+- name: Novo Nordisk - Custom Search
+  base: https://careers.novonordisk.com
+- name: NRG - Custom Search
+  base: https://careers.nrgenergy.com
+- name: NTT DATA Romania SA - Custom Search
+  base: https://careers.nttdata.ro
+- name: NEW YORK POWER AUTHORITY - Custom Search
+  base: https://careers.nypa.gov
+- name: Olam International Limited - Custom Search
+  base: https://careers.olamgroup.com
+- name: The University of Mississippi - Custom Search
+  base: https://careers.olemiss.edu
+- name: Olympus Corporation of the Americas - Custom Search
+  base: https://careers.olympusamerica.com
+- name: Ontex - Custom Search
+  base: https://careers.ontex.com
+- name: Orbia - Custom Search
+  base: https://careers.orbia.com
+- name: Orkla - Custom Search
+  base: https://careers.orkla.com
+- name: PacifiCorp - Custom Search
+  base: https://careers.pacificorp.com
+- name: Par Pacific - Custom Search
+  base: https://careers.parpacific.com
+- name: Pepco - Custom Search
+  base: https://careers.pepco.eu
+- name: Pestana Hotel Group - Custom Search
+  base: https://careers.pestanagroup.com
+- name: Pacific Gas And Electric Company - Custom Search
+  base: https://careers.pge.com
+- name: grupoposadp2 - Custom Search
+  base: https://careers.posadas.com
+- name: POST Luxembourg - Custom Search
+  base: https://careers.postgroup.lu
+- name: Power International Holding - Custom Search
+  base: https://careers.powerholding-intl.com
+- name: Premier Foods - Custom Search
+  base: https://careers.premierfoods.co.uk
+- name: The King's Trust - Custom Search
+  base: https://careers.princes-trust.org.uk
+- name: Prinzhorn Group Career site - Custom Search
+  base: https://careers.prinzhorn-holding.com
+- name: ProHealth Care, Inc - Custom Search
+  base: https://careers.prohealthcare.org
+- name: Provident Bank - Custom Search
+  base: https://careers.provident.bank
+- name: PTTEP - Custom Search
+  base: https://careers.pttep.com
+- name: Purdue University - Custom Search
+  base: https://careers.purdue.edu
+- name: Purolator - Custom Search
+  base: https://careers.purolator.com
+- name: QinetiQ - Custom Search
+  base: https://careers.qinetiq.com
+- name: Qorvo - Custom Search
+  base: https://careers.qorvo.com
+- name: Quintet Private Bank - Custom Search
+  base: https://careers.quintet.com
+- name: theroyalch - Custom Search
+  base: https://careers.rch.org.au
+- name: REV Group, Inc. - Custom Search
+  base: https://careers.revgroup.com
+- name: Rich Products Corporation - Custom Search
+  base: https://careers.rich.com
+- name: Ricoh - Custom Search
+  base: https://careers.ricoh.com.hk
+- name: Rimac Automobili - Custom Search
+  base: https://careers.rimac-automobili.com
+- name: ronalag - Custom Search
+  base: https://careers.ronalgroup.com
+- name: Rösler - Custom Search
+  base: https://careers.rosler.com
+- name: Resorts World Genting - Custom Search
+  base: https://careers.rwgenting.com
+- name: Sanlam Group - Custom Search
+  base: https://careers.sanlamcloud.co.za
+- name: SAPIENS - Custom Search
+  base: https://careers.sapiens.com
+- name: SAS Group - Custom Search
+  base: https://careers.sasgroup.net
+- name: savictechn - Custom Search
+  base: https://careers.savictech.com
+- name: SBB CFF FFS - Custom Search
+  base: https://careers.sbb.ch
+- name: singlebuoy - Custom Search
+  base: https://careers.sbmoffshore.com
+- name: The Siam Cement Public Company Limited - Custom Search
+  base: https://careers.scg.com
+- name: Scheer GmbH - Custom Search
+  base: https://careers.scheer-group.com
+- name: Sedgwick County - Custom Search
+  base: https://careers.sedgwickcounty.org
+- name: SEEBURGER AG - Custom Search
+  base: https://careers.seeburger.com
+- name: senecafood - Custom Search
+  base: https://careers.senecafoods.com
+- name: SES - Custom Search
+  base: https://careers.ses.com
+- name: SGX - Custom Search
+  base: https://careers.sgx.com
+- name: Shiseido - Custom Search
+  base: https://careers.shiseido.com
+- name: Siegwerk Druckfarben AG & Co. KGaA - Custom Search
+  base: https://careers.siegwerk.com
+- name: Simplot - Custom Search
+  base: https://careers.simplot.com
+- name: Skyworks - Custom Search
+  base: https://careers.skyworksinc.com
+- name: SLK Software - Custom Search
+  base: https://careers.slkgroup.com
+- name: SMRT Corporation Ltd - Custom Search
+  base: https://careers.smrt.com.sg
+- name: Sonae Arauco - Custom Search
+  base: https://careers.sonaearauco.com
+- name: South32 Group Operations Pty. Ltd. - Custom Search
+  base: https://careers.south32.net
+- name: Scandinavian Tobacco Group - Custom Search
+  base: https://careers.st-group.com
+- name: Tata Starbucks Private Limited - Custom Search
+  base: https://careers.starbucks.in
+- name: StarHub Ltd - Custom Search
+  base: https://careers.starhub.com
+- name: ST Engineering Group - Custom Search
+  base: https://careers.stengg.com
+- name: Stericycle - Custom Search
+  base: https://careers.stericycle.com
+- name: Steris Corporation - Custom Search
+  base: https://careers.steris.com
+- name: Sun, Inc. - Custom Search
+  base: https://careers.suncommunities.com
+- name: Singapore University of Social Sciences - Custom Search
+  base: https://careers.suss.edu.sg
+- name: Swiss Re - Custom Search
+  base: https://careers.swissre.com
+- name: DP World - Custom Search
+  base: https://careers.syncreon.com
+- name: Global Industrial - Custom Search
+  base: https://careers.systemax.com
+- name: Tapestry - Custom Search
+  base: https://careers.tapestry.com
+- name: tataaiggen - Custom Search
+  base: https://careers.tataaig.com
+- name: TATA MOTORS LIMITED - Custom Search
+  base: https://careers.tatamotors.com
+- name: TE Connectivity - Custom Search
+  base: https://careers.te.com
+- name: T.CON Team Consulting - Custom Search
+  base: https://careers.team-con.de
+- name: Grupo Techint - Custom Search
+  base: https://careers.techint.com
+- name: Teleflex - Custom Search
+  base: https://careers.teleflex.com
+- name: terumoeuro - Custom Search
+  base: https://careers.terumo-europe.com
+- name: Terumo BCT, Inc. - Custom Search
+  base: https://careers.terumobct.com
+- name: Teva Pharmaceuticals - Custom Search
+  base: https://careers.teva
+- name: The Body Shop International Limited - Custom Search
+  base: https://careers.thebodyshop.com
+- name: HEINEKEN - Custom Search
+  base: https://careers.theheinekencompany.com
+- name: Timken - Custom Search
+  base: https://careers.timken.com
+- name: Tosca Services, LLC - Custom Search
+  base: https://careers.toscaltd.com
+- name: TransGrid - Custom Search
+  base: https://careers.transgrid.com.au
+- name: Triumph Group - Custom Search
+  base: https://careers.triumphgroup.com
+- name: TSI, Inc. - Custom Search
+  base: https://careers.tsi.com
+- name: tts - Custom Search
+  base: https://careers.tt-s.com
+- name: UGI Corporation - Custom Search
+  base: https://careers.ugicorp.com
+- name: Umicore - Custom Search
+  base: https://careers.umicore.com
+- name: UNESCO - Custom Search
+  base: https://careers.unesco.org
+- name: Unilab, Inc. - Custom Search
+  base: https://careers.unilab.com.ph
+- name: upllimited - Custom Search
+  base: https://careers.upl-ltd.com
+- name: State of Vermont - Custom Search
+  base: https://careers.vermont.gov
+- name: Vestas - Custom Search
+  base: https://careers.vestas.com
+- name: Vetter Pharma - Custom Search
+  base: https://careers.vetter-pharma.com
+- name: Paramount - Custom Search
+  base: https://careers.viacomcbs.com
+- name: Vistra - Custom Search
+  base: https://careers.vistra.com
+- name: Vodafoneidea - Custom Search
+  base: https://careers.vodafoneidea.com
+- name: WAGNER Group - Custom Search
+  base: https://careers.wagner-group.com
+- name: Wärtsilä - Custom Search
+  base: https://careers.wartsila.com
+- name: Welcome Break - Custom Search
+  base: https://careers.welcomebreak.co.uk
+- name: Western Power - Custom Search
+  base: https://careers.westernpower.com.au
+- name: Westinghouse Electric Company, LLC - Custom Search
+  base: https://careers.westinghousenuclear.com
+- name: West Pharmaceutical Services - Custom Search
+  base: https://careers.westpharma.com
+- name: Winbond Electronics Corporation - Custom Search
+  base: https://careers.winbond.com
+- name: Wyndham Hotels & Resorts - Custom Search
+  base: https://careers.wyndhamhotels.com
+- name: Yancoal - Custom Search
+  base: https://careers.yancoal.com.au
+- name: Yash Technologies - Custom Search
+  base: https://careers.yash.com
+- name: YKK AP America Inc. - Custom Search
+  base: https://careers.ykkap.com
+- name: YMCA Brisbane - Custom Search
+  base: https://careers.ymcabrisbane.org
+- name: FQM - Custom Search
+  base: https://carreiras.fqmgrupo.com.br
+- name: Grupo Bensaude - Custom Search
+  base: https://carreiras.grupobensaude.pt
+- name: Klabin S.A. - Custom Search
+  base: https://carreiras.klabin.com.br
+- name: KPMG - Custom Search
+  base: https://carreras.kpmg.es
+- name: ROLEX SA - Custom Search
+  base: https://carriere-rolex.com
+- name: Snam S.p.A. - Custom Search
+  base: https://carriere.snam.it
+- name: Groupe Pomona - Custom Search
+  base: https://carrieres.groupe-pomona.fr
+- name: TF1 - Custom Search
+  base: https://carrieres.groupe-tf1.fr
+- name: Corning - Custom Search
+  base: https://corningjobs.corning.com
+- name: D-Career - Custom Search
+  base: https://d-career.org
+- name: CONDIS - Custom Search
+  base: https://empleo.condis.es
+- name: Deloitte Empleo - Custom Search
+  base: https://empleo.es.deloitte.com
+- name: Una empresa del Grupo Bancolombia - Custom Search
+  base: https://empleo.grupobancolombia.com
+- name: AFIRME - Custom Search
+  base: https://empleos.afirme.com
+- name: AT&T Services, Inc. - Custom Search
+  base: https://empleos.att.com.mx
+- name: Banco Mercantil del Norte, S.A. - Custom Search
+  base: https://empleos.banorte.com
+- name: telecomarg - Custom Search
+  base: https://empleos.telecom.com.ar
+- name: erstegro01P2 - Custom Search
+  base: https://erstegroup-careers.com
+- name: Esselunga S.p.A. - Custom Search
+  base: https://esselungajob.it
+- name: Gebrüder Weiss GmbH - Custom Search
+  base: https://greatjobs.gw-world.com
+- name: Singtel Group - Custom Search
+  base: https://groupcareers.singtel.com
+- name: HPC Jobs Service - Custom Search
+  base: https://hpcjobsservice.edfenergy.com
+- name: Post | PostFinance | PostAuto - Custom Search
+  base: https://hr.post.ch
+- name: State of Illinois - Custom Search
+  base: https://illinois.jobs2web.com
+- name: Lumen Technologies - Custom Search
+  base: https://internaljobs.centurylink.com
+- name: Stad Antwerpen - Custom Search
+  base: https://job.antwerpen.be
+- name: Schindler Group - Custom Search
+  base: https://job.schindler.com
+- name: Axfoodfamiljen - Custom Search
+  base: https://jobb.axfood.se
+- name: ams OSRAM - Custom Search
+  base: https://jobboard.osram.com
+- name: Nestle Operational Services Worldwide SA - Custom Search
+  base: https://jobdetails.nestle.com
+- name: Nestlé Operational Services Worldwide SA GTP - Custom Search
+  base: https://jobdetailsgtp.nestle.com
+- name: ACEA S.p.A. - Custom Search
+  base: https://jobs.acea.it
+- name: adidas - Custom Search
+  base: https://jobs.adidas-group.com
+- name: Advanced Energy Industries, Inc - Custom Search
+  base: https://jobs.advanced-energy.com
+- name: Aebi Schmidt Group - Custom Search
+  base: https://jobs.aebi-schmidt.com
+- name: ALDI | HOFER - Custom Search
+  base: https://jobs.aldi-hofer.com
+- name: ALDI SÜD - Custom Search
+  base: https://jobs.aldi-sued.de
+- name: alfanar - Custom Search
+  base: https://jobs.alfanar.com
+- name: Craft Recruiting - Custom Search
+  base: https://jobs.allcraftjobs.com
+- name: Alpiq AG - Custom Search
+  base: https://jobs.alpiq.com
+- name: Alter Domus - Custom Search
+  base: https://jobs.alterdomus.com
+- name: Ambu - Custom Search
+  base: https://jobs.ambu.com
+- name: Ampol - Custom Search
+  base: https://jobs.ampol.com.au
+- name: Amtrak - Custom Search
+  base: https://jobs.amtrak.com
+- name: Amway Inc. - Custom Search
+  base: https://jobs.amway.com
+- name: A. O. Smith Corporation - Custom Search
+  base: https://jobs.aosmith.com
+- name: Aptar Group - Custom Search
+  base: https://jobs.aptar.com
+- name: Arkema - Custom Search
+  base: https://jobs.arkema.com
+- name: ARLANXEO - Custom Search
+  base: https://jobs.arlanxeo.com
+- name: Armstrong World Industries - Custom Search
+  base: https://jobs.armstrongceilings.com
+- name: Atos - Custom Search
+  base: https://jobs.atos.net
+- name: ATS Automation - Custom Search
+  base: https://jobs.atsautomation.com
+- name: AusNet - Custom Search
+  base: https://jobs.ausnetservices.com.au
+- name: Aerovias Del Continente Americano S.A. - Custom Search
+  base: https://jobs.avianca.com
+- name: Career - avl.com - Custom Search
+  base: https://jobs.avl.com
+- name: Babcock - Custom Search
+  base: https://jobs.babcockinternational.com
+- name: Ball - Custom Search
+  base: https://jobs.ball.com
+- name: Barco - Custom Search
+  base: https://jobs.barco.com
+- name: Barry Callebaut - Custom Search
+  base: https://jobs.barry-callebaut.com
+- name: Bauerfeind AG - Custom Search
+  base: https://jobs.bauerfeind.de
+- name: Bayer AG - Custom Search
+  base: https://jobs.bayer.com
+- name: Baylor College of Medicine - Custom Search
+  base: https://jobs.bcm.edu
+- name: BCV - Custom Search
+  base: https://jobs.bcv.ch
+- name: beeline Group - Custom Search
+  base: https://jobs.beeline-group.com
+- name: Bentley Systems - Custom Search
+  base: https://jobs.bentley.com
+- name: Bilfinger - Custom Search
+  base: https://jobs.bilfinger.com
+- name: BIRKENSTOCK - Custom Search
+  base: https://jobs.birkenstock-group.com
+- name: BLB NRW - Custom Search
+  base: https://jobs.blb.nrw.de
+- name: Blickle Räder+Rollen GmbH u. Co. KG - Custom Search
+  base: https://jobs.blickle.career
+- name: BMW Group - Custom Search
+  base: https://jobs.bmwgroup.com
+- name: BOK Financial - Custom Search
+  base: https://jobs.bokf.com
+- name: Bolton - Custom Search
+  base: https://jobs.boltongroup.net
+- name: Bonduelle - Custom Search
+  base: https://jobs.bonduelle.com
+- name: Boston Scientific - Custom Search
+  base: https://jobs.bostonscientific.com
+- name: branchgroup - Custom Search
+  base: https://jobs.branchgroup.com
+- name: Bunge - Custom Search
+  base: https://jobs.bunge.com
+- name: C & A - Custom Search
+  base: https://jobs.canda.com
+- name: Canfor - Custom Search
+  base: https://jobs.canfor.com
+- name: Capgemini - Custom Search
+  base: https://jobs.capgemini.com
+- name: CARCOUSTICS INTERNATIONAL GMBH - Custom Search
+  base: https://jobs.carcoustics.com
+- name: Carilion Clinic - Custom Search
+  base: https://jobs.carilionclinic.org
+- name: Caritasverband der Erzdiözese München und Freising - Custom Search
+  base: https://jobs.caritas-nah-am-naechsten.de
+- name: Cascades - Custom Search
+  base: https://jobs.cascades.com
+- name: Gruppo Cassa Centrale - Custom Search
+  base: https://jobs.cassacentrale.it
+- name: Cemex - Custom Search
+  base: https://jobs.cemex.com
+- name: MOEVE - Custom Search
+  base: https://jobs.cepsa.com
+- name: Chart Industries - Custom Search
+  base: https://jobs.chartindustries.com
+- name: CMA CGM - Custom Search
+  base: https://jobs.cmacgm-group.com
+- name: CMC - Custom Search
+  base: https://jobs.cmc.com
+- name: Colgate-Palmolive Company - Custom Search
+  base: https://jobs.colgate.com
+- name: CommScope Inc. - Custom Search
+  base: https://jobs.commscope.com
+- name: Compass Group - Custom Search
+  base: https://jobs.compassgroupcareers.com
+- name: Computacenter AG & Co. oHG - Custom Search
+  base: https://jobs.computacenter.com
+- name: congatecag - Custom Search
+  base: https://jobs.congatec.com
+- name: Construction Benefits - Custom Search
+  base: https://jobs.construction-benefits.com
+- name: Coop - Custom Search
+  base: https://jobs.coop.ch
+- name: corbion - Custom Search
+  base: https://jobs.corbion.com
+- name: coroplastf - Custom Search
+  base: https://jobs.coroplast.de
+- name: Cosentino - Custom Search
+  base: https://jobs.cosentino.com
+- name: CRH - Custom Search
+  base: https://jobs.crh.com
+- name: CSIRO - Custom Search
+  base: https://jobs.csiro.au
+- name: Daiichi Sankyo Europe - Custom Search
+  base: https://jobs.daiichi-sankyo.eu
+- name: Danish Crown Group - Custom Search
+  base: https://jobs.danishcrown.com
+- name: Dart Container - Custom Search
+  base: https://jobs.dart.biz
+- name: The Davey Tree Expert Company - Custom Search
+  base: https://jobs.davey.com
+- name: Department of Communities and Justice - Custom Search
+  base: https://jobs.dcj.nsw.gov.au
+- name: John Deere - Custom Search
+  base: https://jobs.deere.com
+- name: Delek US - Custom Search
+  base: https://jobs.delekus.com
+- name: Deloitte Services Pty Ltd - Custom Search
+  base: https://jobs.deloitte.com.au
+- name: Deloitte - Custom Search
+  base: https://jobs.deloitte.de
+- name: Deloitte Luxembourg - Custom Search
+  base: https://jobs.deloitte.lu
+- name: Donnelley Financial Solutions - Custom Search
+  base: https://jobs.dfinsolutions.com
+- name: DKB Das kann Bank - Custom Search
+  base: https://jobs.dkb.de
+- name: Döhler Group - Custom Search
+  base: https://jobs.doehler.com
+- name: Doosan Corp - Custom Search
+  base: https://jobs.doosan.com
+- name: dormakaba - Custom Search
+  base: https://jobs.dormakaba.com
+- name: Dorman Products - Custom Search
+  base: https://jobs.dormanproducts.com
+- name: DSM - Custom Search
+  base: https://jobs.dsm.com
+- name: DSV - Custom Search
+  base: https://jobs.dsv.com
+- name: DZ PRIVATBANK - Custom Search
+  base: https://jobs.dz-privatbank.com
+- name: Eastman - Custom Search
+  base: https://jobs.eastman.com
+- name: Easy to Cloud AG - Custom Search
+  base: https://jobs.easy2cloud.ch
+- name: EBRD - Custom Search
+  base: https://jobs.ebrd.com
+- name: Ecotone - Custom Search
+  base: https://jobs.ecotone.bio
+- name: EDP  Energias de Portugal S.A. - Custom Search
+  base: https://jobs.edp.com
+- name: EEW - Energy from Waste GmbH - Custom Search
+  base: https://jobs.eew-energyfromwaste.com
+- name: ENCEVO S.A. - Custom Search
+  base: https://jobs.encevo.eu
+- name: EnerSys Delaware Inc. - Custom Search
+  base: https://jobs.enersys.com
+- name: Entergy - Custom Search
+  base: https://jobs.entergy.com
+- name: enviaM-Gruppe - Custom Search
+  base: https://jobs.enviam-gruppe.de
+- name: Epson America, Inc. - Custom Search
+  base: https://jobs.epson.com
+- name: ERAMET - Custom Search
+  base: https://jobs.eramet.com
+- name: Erie Insurance - Custom Search
+  base: https://jobs.erieinsurance.com
+- name: ESA - Custom Search
+  base: https://jobs.esa.int
+- name: Musashi Europe - Custom Search
+  base: https://jobs.eu.musashi-group.com
+- name: ExxonMobil - Custom Search
+  base: https://jobs.exxonmobil.com
+- name: Farm Credit East - Custom Search
+  base: https://jobs.farmcrediteast.com
+- name: FARYS - Custom Search
+  base: https://jobs.farys.be
+- name: Freeport McMoRan - Custom Search
+  base: https://jobs.fcx.com
+- name: Ferrero - Custom Search
+  base: https://jobs.ferrero.com
+- name: Festo SE & Co. KG - Custom Search
+  base: https://jobs.festo.com
+- name: FIS Informationssysteme - Custom Search
+  base: https://jobs.fisgruppe.de
+- name: franke - Custom Search
+  base: https://jobs.franke.com
+- name: FUCHS Group - Custom Search
+  base: https://jobs.fuchs.com
+- name: GardaWorld - Custom Search
+  base: https://jobs.garda.com
+- name: Gebr. Heinemann - Custom Search
+  base: https://jobs.gebr-heinemann.com
+- name: GFT Technologies SE - Custom Search
+  base: https://jobs.gft.com
+- name: Givaudan SA - Custom Search
+  base: https://jobs.givaudan.com
+- name: Goodyear - Custom Search
+  base: https://jobs.goodyear.com
+- name: W. R. Grace & Co. - Custom Search
+  base: https://jobs.grace.com
+- name: Graincorp Operations - Custom Search
+  base: https://jobs.graincorp.com.au
+- name: Grainger Businesses - Custom Search
+  base: https://jobs.grainger.com
+- name: Great Lakes Cheese - Custom Search
+  base: https://jobs.greatlakescheese.com
+- name: grenkeag - Custom Search
+  base: https://jobs.grenke.com
+- name: BEL - Custom Search
+  base: https://jobs.groupe-bel.com
+- name: GROWMARK, Inc. - Custom Search
+  base: https://jobs.growmark.com
+- name: Halliburton - Custom Search
+  base: https://jobs.halliburton.com
+- name: Harley-Davidson - Custom Search
+  base: https://jobs.harley-davidson.com
+- name: Hasbro - Custom Search
+  base: https://jobs.hasbro.com
+- name: Hatch - Custom Search
+  base: https://jobs.hatch.com
+- name: Purpose Financial - Custom Search
+  base: https://jobs.havepurpose.com
+- name: Haverty Furniture Companies, Inc - Custom Search
+  base: https://jobs.havertys.com
+- name: Hero Motocorp - Custom Search
+  base: https://jobs.heromotocorp.com
+- name: HII's Mission Technologies division - Custom Search
+  base: https://jobs.hii-tsd.com
+- name: Hilmar Cheese Company Inc. - Custom Search
+  base: https://jobs.hilmarcheese.com
+- name: Hollister Incorporated - Custom Search
+  base: https://jobs.hollister.com
+- name: HORNBACH - Custom Search
+  base: https://jobs.hornbach.com
+- name: HRS Group - Custom Search
+  base: https://jobs.hrs.com
+- name: HÜBNER - Custom Search
+  base: https://jobs.hubner-group.com
+- name: Humanitas - Custom Search
+  base: https://jobs.humanitas.it
+- name: norskhydro - Custom Search
+  base: https://jobs.hydro.com
+- name: Hydro One Networks Inc - Custom Search
+  base: https://jobs.hydroone.com
+- name: Hyundai Motor Europe GmbH - Custom Search
+  base: https://jobs.hyundai-europe.com
+- name: IFFCOTECH Limited FZC - Custom Search
+  base: https://jobs.iffco.com
+- name: Ingenico - Custom Search
+  base: https://jobs.ingenico.com
+- name: Instone Real Estate - Custom Search
+  base: https://jobs.instone.de
+- name: International Paper - Custom Search
+  base: https://jobs.internationalpaper.com
+- name: Intesa Sanpaolo Group - Custom Search
+  base: https://jobs.intesasanpaolo.com
+- name: J.E. Dunn Construction Group Inc P - Custom Search
+  base: https://jobs.jedunn.com
+- name: Jeld-Wen Inc. - Custom Search
+  base: https://jobs.jeld-wen.com
+- name: Johns Hopkins University - Custom Search
+  base: https://jobs.jhu.edu
+- name: J. J. Keller & Associates, Inc. - Custom Search
+  base: https://jobs.jjkeller.com
+- name: John Holland - Custom Search
+  base: https://jobs.johnholland.com.au
+- name: JT International S.A. - Custom Search
+  base: https://jobs.jti.com
+- name: Herbert Kannegiesser GmbH - Custom Search
+  base: https://jobs.kannegiesser.com
+- name: Kaufland - Custom Search
+  base: https://jobs.kaufland.com
+- name: Kennametal, Inc. - Custom Search
+  base: https://jobs.kennametal.com
+- name: Hugo Kern und Liebers GmbH & Co.KG - Custom Search
+  base: https://jobs.kern-liebers.com
+- name: Kerry - Custom Search
+  base: https://jobs.kerry.com
+- name: Kinross Gold Corporation - Custom Search
+  base: https://jobs.kinross.com
+- name: Kistler - Custom Search
+  base: https://jobs.kistler.com
+- name: Koenig & Bauer AG - Custom Search
+  base: https://jobs.koenig-bauer.com
+- name: Körber Group - Custom Search
+  base: https://jobs.koerber.com
+- name: KPMG AG Wirtschaftspruefungsgesellschaft - Custom Search
+  base: https://jobs.kpmg.de
+- name: KraussMaffei - Custom Search
+  base: https://jobs.kraussmaffei.com
+- name: Stiftung kreuznacher diakonie - Custom Search
+  base: https://jobs.kreuznacherdiakonie.de
+- name: Bernard Krone Holding SE & Co. KG - Custom Search
+  base: https://jobs.krone.group
+- name: KWS SAAT SE - Custom Search
+  base: https://jobs.kws.com
+- name: L.A. Care Health Plan - Custom Search
+  base: https://jobs.lacare.org
+- name: Lactalis - Custom Search
+  base: https://jobs.lactalisexperience.fr
+- name: Luigi Lavazza S.p.A. - Custom Search
+  base: https://jobs.lavazza.com
+- name: Lear Corporation - Custom Search
+  base: https://jobs.lear.com
+- name: LEW-Gruppe - Custom Search
+  base: https://jobs.lew.de
+- name: Liberty - Custom Search
+  base: https://jobs.libertyenergyandwater.com
+- name: Lidl - Custom Search
+  base: https://jobs.lidl
+- name: Lincoln Electric - Custom Search
+  base: https://jobs.lincolnelectric.com
+- name: Lincoln Financial - Custom Search
+  base: https://jobs.lincolnfinancial.com
+- name: Careers - Custom Search
+  base: https://jobs.lionco.com
+- name: Lionsgate - Custom Search
+  base: https://jobs.lionsgate.com
+- name: Livingston International - Custom Search
+  base: https://jobs.livingstonintl.com
+- name: Louisiana-Pacific Corporation - Custom Search
+  base: https://jobs.lpcorp.com
+- name: Lloyds Register - Custom Search
+  base: https://jobs.lr.org
+- name: Lubrizol Corporation - Custom Search
+  base: https://jobs.lubrizol.com
+- name: Luckia - Custom Search
+  base: https://jobs.luckiagaminggroup.com
+- name: Lundbeck - Custom Search
+  base: https://jobs.lundbeck
+- name: Mahindra & Mahindra Limited - Custom Search
+  base: https://jobs.mahindracareers.com
+- name: MAPAL Group - Custom Search
+  base: https://jobs.mapal.com
+- name: MAPFRE - Custom Search
+  base: https://jobs.mapfre.com
+- name: MISSOURI DEPARTMENT OF CONSERVATION - Custom Search
+  base: https://jobs.mdc.mo.gov
+- name: Medibank Private Limited - Custom Search
+  base: https://jobs.medibank.com.au
+- name: Milcobel - Custom Search
+  base: https://jobs.milcobel.com
+- name: City of Mississauga - Custom Search
+  base: https://jobs.mississauga.ca
+- name: MOD Super Fast Pizza, LLC - Custom Search
+  base: https://jobs.modpizza.com
+- name: Molson Coors - Custom Search
+  base: https://jobs.molsoncoors.com
+- name: Moncler Spa - Custom Search
+  base: https://jobs.moncler.com
+- name: Minneapolis Public Schools - Custom Search
+  base: https://jobs.mpls.k12.mn.us
+- name: Ministry of Social Development - Custom Search
+  base: https://jobs.msd.govt.nz
+- name: MULTIVAC - Custom Search
+  base: https://jobs.multivac.com
+- name: State of Florida - Custom Search
+  base: https://jobs.myflorida.com
+- name: sortimoint - Custom Search
+  base: https://jobs.mysortimo.de
+- name: North American Lighting - Custom Search
+  base: https://jobs.nal.com
+- name: National Steel and Shipbuilding Com - Custom Search
+  base: https://jobs.nassco.com
+- name: Newcastle University - Custom Search
+  base: https://jobs.ncl.ac.uk
+- name: Nedbank - Custom Search
+  base: https://jobs.nedbank.co.za
+- name: NetApp, Inc. - Custom Search
+  base: https://jobs.netapp.com
+- name: Evangelische Stiftung Neuerkerode - Custom Search
+  base: https://jobs.neuerkerode.de
+- name: New York Life Insurance Co - Custom Search
+  base: https://jobs.newyorklife.com
+- name: Centuri Group, Inc. - Custom Search
+  base: https://jobs.nextcenturi.com
+- name: Nexteer Automotive Corporation - Custom Search
+  base: https://jobs.nexteer.com
+- name: NextEra Energy - Custom Search
+  base: https://jobs.nexteraenergy.com
+- name: Nordex Group - Custom Search
+  base: https://jobs.nordex-online.com
+- name: Nordzucker Group - Custom Search
+  base: https://jobs.nordzucker.com
+- name: NORMA Group Holding GmbH - Custom Search
+  base: https://jobs.normagroup.com
+- name: Norfolk Southern Corp. - Custom Search
+  base: https://jobs.nscorp.com
+- name: Nucor - Custom Search
+  base: https://jobs.nucor.com
+- name: Dr. Oetker / Cameo - Custom Search
+  base: https://jobs.oetker.com
+- name: ORBIS SE - Custom Search
+  base: https://jobs.orbis.de
+- name: Oak Ridge National Laboratory - Custom Search
+  base: https://jobs.ornl.gov
+- name: ottobock - Custom Search
+  base: https://jobs.ottobock.com
+- name: Oxford Instruments Plc - Custom Search
+  base: https://jobs.oxinst.com
+- name: PACCAR - Custom Search
+  base: https://jobs.paccar.com
+- name: Phibro Animal Health - Custom Search
+  base: https://jobs.pahc.com
+- name: parsa - Custom Search
+  base: https://jobs.parsa-beauty.de
+- name: Partners Group AG - Custom Search
+  base: https://jobs.partnersgroup.com
+- name: Peabody - Custom Search
+  base: https://jobs.peabodyenergy.com
+- name: Pedernales Electric Cooperative - Custom Search
+  base: https://jobs.pec.coop
+- name: Perfetti Van Melle - Custom Search
+  base: https://jobs.perfettivanmelle.com
+- name: Pfeifer Group - Custom Search
+  base: https://jobs.pfeifergroup.com
+- name: Pirelli - Custom Search
+  base: https://jobs.pirelli.com
+- name: Plan International - Custom Search
+  base: https://jobs.plan-international.org
+- name: Pöppelmann Holding GmbH & Co.KG - Custom Search
+  base: https://jobs.poeppelmann.com
+- name: Pollmeier Massivholz GmbH & Co.KG - Custom Search
+  base: https://jobs.pollmeier.com
+- name: Popular - Custom Search
+  base: https://jobs.popular.com
+- name: Prada Group - Custom Search
+  base: https://jobs.pradagroup.com
+- name: Puget Sound Energy - Custom Search
+  base: https://jobs.pse.com
+- name: PSEG - Custom Search
+  base: https://jobs.pseg.com
+- name: PUIG, S.L. - Custom Search
+  base: https://jobs.puig.com
+- name: Puratos - Custom Search
+  base: https://jobs.puratos.com
+- name: Queensland Rail - Custom Search
+  base: https://jobs.queenslandrail.com.au
+- name: RailWorks - Custom Search
+  base: https://jobs.railworks.com
+- name: Rational AG - Custom Search
+  base: https://jobs.rational-online.com
+- name: Richemont - Custom Search
+  base: https://jobs.richemont.com
+- name: METRO - Custom Search
+  base: https://jobs.ridemetro.org
+- name: Rode Kruis-Vlaanderen - Custom Search
+  base: https://jobs.rodekruis.be
+- name: Rödl & Partner - Custom Search
+  base: https://jobs.roedl.com
+- name: Röhm GmbH - Custom Search
+  base: https://jobs.roehm.com
+- name: Rogers Communications - Custom Search
+  base: https://jobs.rogers.com
+- name: Royal London Group - Custom Search
+  base: https://jobs.royallondon.com
+- name: RWE - Custom Search
+  base: https://jobs.rwe.com
+- name: Salzgitter Konzern - Custom Search
+  base: https://jobs.salzgitter-ag.com
+- name: Sanctuary Group - Custom Search
+  base: https://jobs.sanctuary-group.co.uk
+- name: SAP - Custom Search
+  base: https://jobs.sap.com
+- name: Schaeffler - Custom Search
+  base: https://jobs.schaeffler.com
+- name: Schreiner Group GmbH & Co. KG - Custom Search
+  base: https://jobs.schreiner-group.com
+- name: Bausparkasse Schwäbisch Hall AG - Custom Search
+  base: https://jobs.schwaebisch-hall.de
+- name: Schwarz Produktion - Custom Search
+  base: https://jobs.schwarz-produktion.com
+- name: Scotiabank - Custom Search
+  base: https://jobs.scotiabank.com
+- name: Deloitte SEA - Custom Search
+  base: https://jobs.sea.deloitte.com
+- name: Sealed Air Corporation - Custom Search
+  base: https://jobs.sealedair.com
+- name: Seetec - Custom Search
+  base: https://jobs.seetec.co.uk
+- name: Sephora - Custom Search
+  base: https://jobs.sephora.com
+- name: Septa - Custom Search
+  base: https://jobs.septa.org
+- name: SGL Carbon - Custom Search
+  base: https://jobs.sglcarbon.com
+- name: SICK AG - Custom Search
+  base: https://jobs.sick.com
+- name: SICPA SA - Custom Search
+  base: https://jobs.sicpa.com
+- name: SIEGENIA GRUPPE - Custom Search
+  base: https://jobs.siegenia.com
+- name: SIGNAL IDUNA - Custom Search
+  base: https://jobs.signal-iduna.de
+- name: Foundever® - Custom Search
+  base: https://jobs.sitel.com
+- name: Sobeys - Custom Search
+  base: https://jobs.sobeyscareers.com
+- name: sonnengmbh - Custom Search
+  base: https://jobs.sonnen.de
+- name: Sonova AG - Custom Search
+  base: https://jobs.sonova.com
+- name: Spire Inc. - Custom Search
+  base: https://jobs.spireenergy.com
+- name: STADA Arzneimittel AG - Custom Search
+  base: https://jobs.stada.com
+- name: Stepan Company - Custom Search
+  base: https://jobs.stepan.com
+- name: STIHL - Custom Search
+  base: https://jobs.stihl.com
+- name: Hamburger Energienetz GmbH - Custom Search
+  base: https://jobs.stromnetz-hamburg.de
+- name: Sulzer - Custom Search
+  base: https://jobs.sulzer.com
+- name: Super Micro Computer - Custom Search
+  base: https://jobs.supermicro.com
+- name: Suva - Custom Search
+  base: https://jobs.suva.ch
+- name: Stadtwerke Saarbrücken GmbH - Custom Search
+  base: https://jobs.sw-sb.de
+- name: Swissport International  AG - Custom Search
+  base: https://jobs.swissport.com
+- name: Systematic A/S - Custom Search
+  base: https://jobs.systematic.com
+- name: Target Careers - Custom Search
+  base: https://jobs.target.com.au
+- name: National Industrialization Company (Tasnee) - Custom Search
+  base: https://jobs.tasnee.com
+- name: TBC Corporation - Custom Search
+  base: https://jobs.tbccorp.com
+- name: Tchibo GmbH - Custom Search
+  base: https://jobs.tchibo.com
+- name: Tecnológico de Monterrey - Custom Search
+  base: https://jobs.tec.mx
+- name: Teck - Custom Search
+  base: https://jobs.teck.com
+- name: New Mexico Gas Co - Peoples Gas - Tampa Electric - Custom Search
+  base: https://jobs.tecoenergy.com
+- name: Tele2 - Custom Search
+  base: https://jobs.tele2.com
+- name: Telefónica - Custom Search
+  base: https://jobs.telefonica.com
+- name: Tennant Company - Custom Search
+  base: https://jobs.tennantco.com
+- name: Teradyne - Custom Search
+  base: https://jobs.teradyne.com
+- name: Tertianum - Custom Search
+  base: https://jobs.tertianum.ch
+- name: Tetra Pak - Custom Search
+  base: https://jobs.tetrapak.com
+- name: Thomas Magnete GmbH - Custom Search
+  base: https://jobs.thomas-group.com
+- name: City of Toronto - Custom Search
+  base: https://jobs.toronto.ca
+- name: Transport for NSW - Custom Search
+  base: https://jobs.transport.nsw.gov.au
+- name: TRILUX Group - Custom Search
+  base: https://jobs.trilux.com
+- name: TUI - Custom Search
+  base: https://jobs.tuigroup.com
+- name: University of Cincinnati - Custom Search
+  base: https://jobs.uc.edu
+- name: UCLouvain - Custom Search
+  base: https://jobs.uclouvain.be
+- name: Universitätsklinikum Schleswig-Holstein - Custom Search
+  base: https://jobs.uksh.de
+- name: Universität Siegen - Custom Search
+  base: https://jobs.uni-siegen.de
+- name: Uniper - Custom Search
+  base: https://jobs.uniper.energy
+- name: Universitair Ziekenhuis Gent - Custom Search
+  base: https://jobs.uzgent.be
+- name: Vaillant Group - Custom Search
+  base: https://jobs.vaillant-group.com
+- name: Vail Resorts - Custom Search
+  base: https://jobs.vailresortscareers.com
+- name: City of Vancouver - Custom Search
+  base: https://jobs.vancouver.ca
+- name: Ventia - Custom Search
+  base: https://jobs.ventia.com
+- name: Ventura Foods - Custom Search
+  base: https://jobs.venturafoods.com
+- name: Vetropack - Custom Search
+  base: https://jobs.vetropack.com
+- name: SUSONITY - Custom Search
+  base: https://jobs.vibrantm.com
+- name: Cimpress/Vista - Custom Search
+  base: https://jobs.vistaprint.com
+- name: Voith Group - Custom Search
+  base: https://jobs.voith.com
+- name: Concesionaria Vuela Compañía de Aviación S.A.P.I - Custom Search
+  base: https://jobs.volaris.com
+- name: Volvo Car Corporation - Custom Search
+  base: https://jobs.volvocars.com
+- name: vonoviase - Custom Search
+  base: https://jobs.vonovia.de
+- name: 0002024129 - Custom Search
+  base: https://jobs.vub.be
+- name: Wacker Chemie AG - Custom Search
+  base: https://jobs.wacker.com
+- name: Warburtons - Custom Search
+  base: https://jobs.warburtons.co.uk
+- name: Webasto - Custom Search
+  base: https://jobs.webasto.com
+- name: WenS - Custom Search
+  base: https://jobs.werkenvoornederland.nl
+- name: worldline - Custom Search
+  base: https://jobs.worldline.com
+- name: XPO - Custom Search
+  base: https://jobs.xpo.com
+- name: Yara International - Custom Search
+  base: https://jobs.yara.com
+- name: YMCA NSW - Custom Search
+  base: https://jobs.ymcansw.org.au
+- name: Zalaris - Custom Search
+  base: https://jobs.zalaris.com
+- name: ZF Group - Custom Search
+  base: https://jobs.zf.com
+- name: Veolia Environmental Services - Custom Search
+  base: https://jobsanz.veolia.com.au
+- name: Alstom - Custom Search
+  base: https://jobsearch.alstom.com
+- name: Apply now! - Custom Search
+  base: https://jobsearch.createyourowncareer.com
+- name: GRIFOLS, S.A. - Custom Search
+  base: https://jobsearch.grifols.com
+- name: Insight Enterprises, Inc. - Custom Search
+  base: https://jobsearch.insight.com
+- name: SCHOTT AG - Custom Search
+  base: https://join.schott.com
+- name: PKO Bank Polski - Custom Search
+  base: https://kariera.pkobp.pl
+- name: Bank Pekao - Custom Search
+  base: https://karieranabank.pl
+- name: Bonafarm Csoport - Custom Search
+  base: https://karrier.bonafarmcsoport.hu
+- name: OTP Bank Nyrt. - Custom Search
+  base: https://karrier.otpbank.hu
+- name: v. Bodelschwinghsche Stiftungen Bethel - Custom Search
+  base: https://karriere.bethel.de
+- name: Hochland SE - Custom Search
+  base: https://karriere.hochland-group.com
+- name: lbbw - Custom Search
+  base: https://karriere.lbbw.de
+- name: August Rüggeberg GmbH & Co. KG - Custom Search
+  base: https://karriere.pferd.com
+- name: Provinzial - Custom Search
+  base: https://karriere.provinzial.com
+- name: REWE Group - Custom Search
+  base: https://karriere.rewe-group.com
+- name: Karriere - Custom Search
+  base: https://karriere.stella-hr.de
+- name: Süwag - Custom Search
+  base: https://karriere.suewag.com
+- name: Westfalen AG - Custom Search
+  base: https://karriere.westfalen.com
+- name: Kiewit - Custom Search
+  base: https://kiewitcareers.kiewit.com
+- name: Komatsu - Custom Search
+  base: https://komatsu.jobs
+- name: Canada Life and Irish Life - Custom Search
+  base: https://life-careers.com
+- name: Mann+Hummel GmbH - Custom Search
+  base: https://mann-hummel-careers.com
+- name: Careers Officeworks - Custom Search
+  base: https://mycareer.officeworks.com.au
+- name: Kelda Group Limited - Custom Search
+  base: https://mycareers.yorkshirewater.com
+- name: ArcelorMittal - Custom Search
+  base: https://najobs.arcelormittal.com
+- name: the NBA - Custom Search
+  base: https://nbacareers.nba.com
+- name: OP Ryhmä - Custom Search
+  base: https://op-careers.fi
+- name: Alicorp S.A.A. - Custom Search
+  base: https://oportunidadesalicorp.com
+- name: Pets at Home Limited - Custom Search
+  base: https://petsathomegroup.jobs2web.com
+- name: Foxconn - Custom Search
+  base: https://prace.foxconn.cz
+- name: Deutsche Telekom Group - Custom Search
+  base: https://rec.telekom.com
+- name: Ypsomed - Custom Search
+  base: https://recruiting.ypsomed.com
+- name: National Research Council Canada - Custom Search
+  base: https://recruitment-recrutement.nrc-cnrc.gc.ca
+- name: Burda - Custom Search
+  base: https://rmk.burda.com
+- name: Schwarz - Custom Search
+  base: https://schwarz.jobs.schwarz
+- name: Seagate Technology - Custom Search
+  base: https://seagatecareers.com
+- name: RENOLIT SE - Custom Search
+  base: https://sf.renolit.com
+- name: SMA Solar Technology AG - Custom Search
+  base: https://sma.jobs
+- name: Swiss Medical Group - Custom Search
+  base: https://swissmedical.jobs2web.com
+- name: Grupo Red Eléctrica - Custom Search
+  base: https://talento.carrerasenred.com
+- name: Caja Popular Mexicana - Custom Search
+  base: https://talento.cpm.coop
+- name: Caja Colombiana de Subsidio Familiar - Custom Search
+  base: https://trabajaconnosotros.colsubsidio.com
+- name: santalucia - Custom Search
+  base: https://trabajo.santalucia.es
+- name: Agrosuper S. A. - Custom Search
+  base: https://trabajos.agrosuper.cl
+- name: Grup Bon Preu - Custom Search
+  base: https://treballaambnosaltres.bonpreuesclat.cat
+- name: estafeta - Custom Search
+  base: https://uneteaestafeta.com
+- name: Crown Equipment Corporation - Custom Search
+  base: https://us-careers.crown.com
+- name: Vitens - Custom Search
+  base: https://werkenbijvitens.nl
+- name: State of Indiana - Custom Search
+  base: https://workforindiana.in.gov
+- name: AlEn - Custom Search
+  base: https://careers.grupoalen.com
+- name: ixom - Custom Search
+  base: https://careers.ixom.com
+- name: LUKB - Custom Search
+  base: https://careers.lukb.ch
+- name: ORAFOL - Custom Search
+  base: https://careers.orafol.com
+- name: Oxford Global Resources - Custom Search
+  base: https://careers.oxfordcorp.com
+- name: Subaru - Custom Search
+  base: https://careers.subaru-sia.com
+- name: Hoag Memorial Hospital Presbyterian - Custom Search
+  base: https://jobs.hoag.org
+- name: Nebraska Public Power District - Custom Search
+  base: https://jobs.nppd.com
+- name: W.C. Bradley Co. - Custom Search
+  base: https://jobs.wcbradley.com
+- name: linetgroup - Custom Search
+  base: https://career.linetgroup.com
+- name: PT Chandra Asri Pacific Tbk. - Custom Search
+  base: https://careers.capcx.com
+- name: Clarksons - Custom Search
+  base: https://careers.clarksons.com
+- name: Delicato Family Wines - Custom Search
+  base: https://careers.delicato.com
+- name: AL AHLI BANK OF KUWAIT - Custom Search
+  base: https://careers.eahli.com
+- name: metafinanz Informationssysteme GmbH - Custom Search
+  base: https://careers.metafinanz.de
+- name: Piller Blowers & Compressors GmbH - Custom Search
+  base: https://jobs.piller.de
+- name: Hancock Iron Ore - Custom Search
+  base: https://mycareer.royhill.com.au
+- name: Tuyển dụng Novaland Group - Custom Search
+  base: https://tuyendung.novaland.com.vn
+- name: Bridgestone Asia Pacific - Custom Search
+  base: https://careers.bridgestone-asiapacific.com
+- name: UK Power Networks - Custom Search
+  base: https://careers.ukpowernetworks.co.uk
+- name: Mirgor S.A.C.I.F.I.A. - Custom Search
+  base: https://empleos.mirgor.com.ar
+- name: Grupo PROMAX - Custom Search
+  base: https://jobs.gpromax.com
+- name: LTTS - Custom Search
+  base: https://jobs.ltts.com
+- name: Northern Beaches Council - Custom Search
+  base: https://jobs.northernbeaches.nsw.gov.au
+- name: Emergent Biosolutions - Custom Search
+  base: https://careers.emergentbiosolutions.com
+- name: PG Group - Custom Search
+  base: https://careers.pggroup.co.za
+- name: rpeople - Custom Search
+  base: https://careers.ronesans.com
+- name: SRP - Custom Search
+  base: https://careers.srpnet.com
+- name: Kongsberg Automotive - Custom Search
+  base: https://jobs.kongsbergautomotive.com
+- name: Orora Group - Custom Search
+  base: https://jobs.ororagroup.com
+- name: Semperit - Custom Search
+  base: https://jobs.semperitgroup.com
+- name: STAEDTLER - Custom Search
+  base: https://jobs.staedtler.com
+- name: NRW.BANK - Custom Search
+  base: https://karriere.nrwbank.de
+- name: Jägermeister Jobs - Custom Search
+  base: https://career.jaegermeister.com
+- name: ABP - Custom Search
+  base: https://careers.abports.co.uk
+- name: ArisGlobal - Custom Search
+  base: https://careers.arisglobal.com
+- name: Civil Aviation Authority - Custom Search
+  base: https://careers.caa.co.uk
+- name: IJM Group - Custom Search
+  base: https://careers.ijm.com
+- name: Orior - Custom Search
+  base: https://careers.orior.ch
+- name: Saudi Awwal Bank - Custom Search
+  base: https://careers.sabb.com
+- name: Trakindo Utama - Custom Search
+  base: https://careers.trakindo.co.id
+- name: Vitra - Custom Search
+  base: https://careers.vitra.com
+- name: Transports Publics de la Région - Custom Search
+  base: https://carrieres.t-l.ch
+- name: DNB - Custom Search
+  base: https://jobb.dnb.no
+- name: Ausgrid - Custom Search
+  base: https://jobs.ausgrid.com.au
+- name: Banque Cantonale de Fribourg - Custom Search
+  base: https://jobs.bcf.ch
+- name: Hovis - Custom Search
+  base: https://jobs.hovis.co.uk
+- name: Mercedes-AMG GmbH - Custom Search
+  base: https://jobs.mercedes-amg.com
+- name: thermofin - Custom Search
+  base: https://jobs.thermofin.de
+- name: VIVAVIS AG - Custom Search
+  base: https://karriere.vivavis.com
+- name: Het Kadaster - Custom Search
+  base: https://werkenbijhetkadaster.nl
+- name: Smart - Custom Search
+  base: https://careers.pldt.com.ph
+- name: stratasys - Custom Search
+  base: https://careers.stratasys.com
+- name: International Labour Organization - Custom Search
+  base: https://jobs.ilo.org
+- name: Albrecht Jung GmbH & Co KG - Custom Search
+  base: https://jobs.jung.de
+- name: Kraton - Custom Search
+  base: https://jobs.kraton.com
+- name: Pentos AG - Custom Search
+  base: https://jobs.pentos.com
+- name: Sloan Valve Company - Custom Search
+  base: https://jobs.sloan.com
+- name: water-link - Custom Search
+  base: https://jobs.water-link.be
+- name: Szerencsejáték Zrt. - Custom Search
+  base: https://karrier.szerencsejatek.hu
+- name: Essex Police and Kent Police - Custom Search
+  base: https://police-jobs.org.uk
+- name: BANPU Group - Custom Search
+  base: https://careers.banpu.com
+- name: Bingo - Custom Search
+  base: https://careers.bingoindustries.com.au
+- name: IRPC Public Company Limited - Custom Search
+  base: https://careers.irpc.co.th
+- name: KEYENCE - Custom Search
+  base: https://careers.keyence.com
+- name: Pedders Shock Absorber Service Pty. Ltd - Custom Search
+  base: https://careers.pedders.com.au
+- name: Pembina Pipeline Corporation - Custom Search
+  base: https://careers.pembina.com
+- name: kdrvictori - Custom Search
+  base: https://careers.yarratrams.com.au
+- name: Groupama Asigurări - Custom Search
+  base: https://cariere.groupama.ro
+- name: GreenStone Farm Credit Services - Custom Search
+  base: https://jobs.greenstonefcs.com
+- name: metrotrain - Custom Search
+  base: https://jobs.metrotrains.com.au
+- name: Terpel - Custom Search
+  base: https://trabajos.terpel.com
+- name: Actiris - Custom Search
+  base: https://apply.actiris.brussels
+- name: Al Mansour Automotive Company - Custom Search
+  base: https://careers.almansour.com.eg
+- name: City Football Group Limited - Custom Search
+  base: https://careers.cityfootballgroup.com
+- name: icrc - Custom Search
+  base: https://careers.icrc.org
+- name: taptranspo - Custom Search
+  base: https://recrutamento.tap.pt
+- name: SOCIEDAD ESTATAL CORREOS Y TELEGRAFOS - Custom Search
+  base: https://talento.correos.com
+- name: KEYENCE - Custom Search
+  base: https://career.keyence.de
+- name: Atlantic Grupa D.D. - Prilagođeno pretraživanje
+  base: https://careers.atlanticgrupa.com
+- name: Civil Aviation Authority Of NZ - Custom Search
+  base: https://careers.aviation.govt.nz
+- name: Catholic Education Western Australia Limited - Custom Search
+  base: https://careers.cewa.edu.au
+- name: DERTOUR Suisse - Custom Search
+  base: https://jobs.dertouristik.ch
+- name: Enabel - Custom Search
+  base: https://jobs.enabel.be
+- name: Pan American Energy, S.L - Custom Search
+  base: https://jobs.pan-american-energy.com
+- name: Sulzer GmbH - Custom Search
+  base: https://jobs.sulzer.de
+- name: Trinchero Family Estates - Custom Search
+  base: https://jobs.tfewines.com
+- name: Arburg GmbH + Co. KG - Custom Search
+  base: https://jobs.arburg.com
+- name: V-LINE GROUP - Custom Search
+  base: https://jobs.v-line.com
+- name: Co-Operative Bulk Handling Limited - Custom Search
+  base: https://careers.cbh.com.au
+- name: Gibson Energy - Custom Search
+  base: https://careers.gibsonenergy.com
+- name: Liberty Group Limited - Custom Search
+  base: https://careers.liberty.co.za
+- name: The Royal Commission for AlUla - Custom Search
+  base: https://careerssf.rcu.gov.sa
+- name: HESTA Super Fund - Custom Search
+  base: https://peopleconnect.hesta.com.au
+- name: Avebe - Custom Search
+  base: https://careers.avebe.com
+- name: EMA - Custom Search
+  base: https://careers.ema.europa.eu
+- name: Idorsia - Custom Search
+  base: https://careers.idorsia.com
+- name: Powercor - Citipower - Custom Search
+  base: https://careers.powercor.com.au
+- name: AIR NOSTRUM - Custom Search
+  base: https://jobs.airnostrum.es
+- name: projekt0708 GmbH - Custom Search
+  base: https://jobs.p78lab.com
+- name: Associated Press - Custom Search
+  base: https://careers.ap.org
+- name: Greenpeace East Asia - Custom Search
+  base: https://careers.gpeastasia.org
+- name: Joysonsafety - Custom Search
+  base: https://careers.joysonsafety.com
+- name: Manila Water Company - Custom Search
+  base: https://careers.manilawater.com
+- name: Pennsylvania Turnpike Commission - Custom Search
+  base: https://careers.paturnpike.com
+- name: Veritas Prime - Custom Search
+  base: https://careers.veritasprime.com
+- name: VGA - Custom Search
+  base: https://careers.volkswagen.net.au
+- name: Brighthouse Financial - Custom Search
+  base: https://jobs.brighthousefinancial.com
+- name: 1Finity - Custom Search
+  base: https://jobs.fnc.fujitsu.com
+- name: TransAlta - Custom Search
+  base: https://jobs.transalta.com
+- name: WWZ - Custom Search
+  base: https://jobs.wwz.ch
+- name: John Swire & Sons (H.K.) Limited - Custom Search
+  base: https://mycareers.swire.com
+- name: ARYZTA Careers - Custom Search
+  base: https://aryztacareers.com
+- name: CABB - Custom Search
+  base: https://careers.cabb-chemicals.com
+- name: Codan Limited - Custom Search
+  base: https://careers.codan.com.au
+- name: Crystal International - Custom Search
+  base: https://careers.crystalgroup.com
+- name: Hallmark Cards UK & Ireland - Custom Search
+  base: https://careers.hallmark.co.uk
+- name: Malaysia Airports Holdings Berhad - Custom Search
+  base: https://careers.malaysiaairports.com.my
+- name: Pulcra Chemicals - Custom Search
+  base: https://careers.pulcra-chemicals.com
+- name: der BG BAU - Custom Search
+  base: https://e-recruiting.bgbau.de
+- name: Arabian Drilling - Custom Search
+  base: https://jobs.arabdrill.com
+- name: Zellstoff Pöls AG - Custom Search
+  base: https://jobs.heinzel.com
+- name: Nominet - Custom Search
+  base: https://jobs.nominet.uk
+- name: Powerlink - Custom Search
+  base: https://jobs.powerlink.com.au
+- name: SURA - Custom Search
+  base: https://trabajaconnosotros.sura.com
+- name: CLARO - Custom Search
+  base: https://trabajaenclaro.claro.com.pe
+- name: NW Natural - Custom Search
+  base: https://careers.nwnatural.com
+- name: Snohomish PUD - Custom Search
+  base: https://careers.snopud.com
+- name: Success Solutions s.r.o. - Custom Search
+  base: https://careers.success-solutions.cz
+- name: cleancoque - Custom Search
+  base: https://cleancoqld.jobs2web.com
+- name: Molinos - Custom Search
+  base: https://empleos.molinos.com.ar
+- name: Services Industriels de Genève - Custom Search
+  base: https://jobs.sig-ge.ch
+- name: Murata Power Solutions, Inc. - Custom Search
+  base: https://careers.murata-ps.com
+- name: RTBF - Custom Search
+  base: https://emploi.rtbf.be
+- name: GNP - Custom Search
+  base: https://jobs.gnp.com.mx
+- name: Rivella - Custom Search
+  base: https://jobs.rivella.ch
+- name: Company - Custom Search
+  base: https://jobs.telkom.co.za
+- name: Oportunidades laborales - Custom Search
+  base: https://oportunidades-laborales.com
+- name: Bewerberportal - Custom Search
+  base: https://bewerbung.rlp.de
+- name: Brickwork India Private Limited - Custom Search
+  base: https://careers.brickworkindia.com
+- name: Coca-Cola Bottlers’ Sales & Services Company, LLC - Custom Search
+  base: https://careers.ccbss.com
+- name: King Abdullah University of Science & Technology - Custom Search
+  base: https://careers.kaust.edu.sa
+- name: Tractafric Equipment - Custom Search
+  base: https://careers.tractafric.com
+- name: CPChem - Custom Search
+  base: https://jobs.cpchem.com
+- name: EPO - Custom Search
+  base: https://jobs.epo.org
+- name: MSC Industrial Supply - Custom Search
+  base: https://jobs.mscdirect.com
+- name: Ostbelgien - Custom Search
+  base: https://jobs.ostbelgienlive.be
+- name: Mabe - Custom Search
+  base: https://jobs.trabajaenmabe.com
+- name: Kela - Fpa - Custom Search
+  base: https://ura.kela.fi
+- name: Ejendals - Custom Search
+  base: https://careers.ejendals.com
+- name: First Citizens Bank Ltd. - Custom Search
+  base: https://careers.firstcitizenstt.com
+- name: Valmet Automotive / IONCOR - Custom Search
+  base: https://careers.valmet-automotive.com
+- name: Aspial Corporation Ltd - Custom Search
+  base: https://jobs.aspial.com
+- name: Ecopetrol - Custom Search
+  base: https://jobs.ecopetrol.com.co
+- name: Honda Motor Europe Ltd - Custom Search
+  base: https://jobs.honda.eu
+- name: נמלי ישראל - Custom Search
+  base: https://jobs.israports.co.il
+- name: SOLUNION - Custom Search
+  base: https://jobs.solunion.com
+- name: Toyota South Africa Motors - Custom Search
+  base: https://jobs.toyota.co.za
+- name: Abunayyan Group - Custom Search
+  base: https://careers.abunayyangroup.com
+- name: Ahli United Bank - Custom Search
+  base: https://careers.ahliunited.com
+- name: Bajaj Allianz Life Insurance - Custom Search
+  base: https://careers.bajajallianzlife.com
+- name: Beach Energy - Custom Search
+  base: https://careers.beachenergy.com.au
+- name: BORUSAN - Custom Search
+  base: https://careers.borusan.com
+- name: Dialog Group Berhad - Custom Search
+  base: https://careers.dialogasia.com
+- name: Engen Limited - Custom Search
+  base: https://careers.engenoil.com
+- name: hsbcsaudia - Custom Search
+  base: https://careers.hsbcsaudi.com
+- name: Imaginex Management Co. Ltd - Custom Search
+  base: https://careers.imaginex.com
+- name: Mitsubishi Electric Automotive - Custom Search
+  base: https://careers.meaa-mea.com
+- name: BHP Career Portal - Custom Search
+  base: https://careers.ozminerals.com
+- name: Redington Gulf - Custom Search
+  base: https://careers.redingtonmea.com
+- name: SASREF - Custom Search
+  base: https://careers.sasref.com.sa
+- name: sanfrancis - Custom Search
+  base: https://careers.sfusd.edu
+- name: INSEE Group - Custom Search
+  base: https://careers.siamcitycement.com
+- name: SOCAR Türkiye - Custom Search
+  base: https://careers.socar.com.tr
+- name: Spark Therapeutics - Custom Search
+  base: https://careers.sparktx.com
+- name: Tullow Group Services Limited - Custom Search
+  base: https://careers.tullowoil.com
+- name: United Overseas Bank Limited - Custom Search
+  base: https://careers.uobgroup.com
+- name: Volkswagen Group of America, Inc. - Custom Search
+  base: https://careers.vw.com
+- name: Mizuho - Custom Search
+  base: https://cbcareers.mizuho-emea.com
+- name: Grupo ABANCA - Custom Search
+  base: https://empleo.abanca.com
+- name: Banco Atlantida - Custom Search
+  base: https://empleos.bancatlan.hn
+- name: Instituto Costarricense de Electricidad - Custom Search
+  base: https://empleos.grupoice.com
+- name: Colt Technology Services - Custom Search
+  base: https://joblistings.colt.net
+- name: Bechtel - Custom Search
+  base: https://jobs.bechtel.com
+- name: Brookshire Grocery Company - Custom Search
+  base: https://jobs.brookshires.com
+- name: Hess Corporation - Custom Search
+  base: https://jobs.hess.com
+- name: Rizing - Custom Search
+  base: https://jobs.rizing.com
+- name: South East Water - Custom Search
+  base: https://jobs.southeastwater.com.au
+- name: Tenaga Nasional Berhad - Custom Search
+  base: https://jobs.tnb.com.my
+- name: Newmont Goldcorp Corporation - Custom Search
+  base: https://newmont.jobs2web.com
+- name: Compañia Minera del Pacífico - Custom Search
+  base: https://trabajos.cmp.cl
+output:
+  audit_csv: out/rmk_audit_alljobs.csv
+  jobs_csv: out/rmk_jobs_alljobs.csv
+  audit_auto_csv: out\rmk_audit_discovery.csv
+  jobs_auto_csv: out/rmk_jobs_autoextend.csv

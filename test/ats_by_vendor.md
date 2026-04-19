@@ -1,0 +1,527 @@
+# ATS → Companies
+
+## Eightfold
+- American Express
+- Chevron
+- Keurig Dr Pepper
+- Starbucks
+
+## iCIMS
+- Alaska Air Group
+- Arthur J. Gallagher
+- BrightSpring Health Services
+- Builders FirstSource
+- Burlington Stores
+- Constellation Energy
+- Costco Wholesale
+- EchoStar
+- Edward Jones (Jones Financial)
+- Exelon
+- Fidelity National Financial
+- First Citizens BancShares
+- Liberty Mutual Insurance Group
+- MasTec
+- PepsiCo
+- PPL
+- Rush Enterprises
+- Sirius XM Holdings
+- State Farm Insurance
+- Steel Dynamics
+- Toll Brothers
+- Ulta Beauty
+
+## Lever
+- ABM Industries
+
+## Oracle Recruiting (ORC/Taleo)
+- AECOM
+- AES Corporation
+- Aflac
+- Alphabet
+- Altria Group
+- Ameriprise Financial
+- APA (APA Corporation)
+- Aramark
+- Archer Daniels Midland
+- Arrow Electronics
+- AutoNation
+- AutoZone
+- Bank of New York Mellon
+- Bath & Body Works
+- Beacon Roofing Supply
+- BlackRock
+- Boston Scientific
+- Carvana
+- Casey's General Stores
+- CBRE Group
+- CDW
+- Cencora
+- Charter Communications
+- Chewy
+- CHS (Cooperative)
+- Cincinnati Financial
+- Cisco Systems
+- Citizens Financial Group
+- Cleveland-Cliffs
+- Coca-Cola
+- Community Health Systems
+- Corning
+- Cummins
+- D.R. Horton
+- Dana Incorporated
+- Danaher
+- DaVita
+- Delek US Holdings
+- Dollar Tree
+- Dominion Energy
+- DoorDash
+- Dover
+- Dow
+- DXC Technology
+- Ecolab
+- Edison International
+- Electronic Arts
+- Eli Lilly
+- EMCOR Group
+- Emerson Electric
+- Entergy
+- Enterprise Products Partners
+- Equinix
+- Eversource Energy
+- Fastenal
+- Ferguson Enterprises
+- Fidelity National Information Services (FIS)
+- Freddie Mac
+- Freeport-McMoRan
+- GE HealthCare Technologies
+- General Electric
+- Genworth Financial
+- Grainger (W.W. Grainger)
+- Graphic Packaging Holding
+- GuideWell Mutual Holding
+- GXO Logistics
+- HCA Healthcare
+- Henry Schein
+- Hewlett Packard Enterprise
+- HF Sinclair
+- Home Depot
+- Hormel Foods
+- Howmet Aerospace
+- Humana
+- Huntington Ingalls Industries
+- IBM
+- Illinois Tool Works
+- Insight Enterprises
+- International Paper
+- JPMorgan Chase
+- Kimberly-Clark
+- Kroger
+- Laboratory Corp. of America (Labcorp)
+- Lam Research
+- Leidos Holdings
+- Lennar
+- Lockheed Martin
+- Loews
+- Lumen Technologies
+- Macy's
+- Marathon Petroleum
+- Marriott International
+- Marsh & McLennan
+- Masco
+- Mastercard
+- MetLife
+- Mohawk Industries
+- Molina Healthcare
+- Mosaic (Mosaic Co.)
+- New York Community Bancorp
+- New York Life Insurance
+- Newell Brands
+- News Corp.
+- NGL Energy Partners
+- Northrop Grumman
+- NOV (National Oilwell Varco)
+- Nucor
+- Nvidia
+- NVR
+- O'Reilly Automotive
+- ODP (The ODP Corporation)
+- ON Semiconductor
+- Oracle
+- Oscar Health
+- Oshkosh
+- Owens & Minor
+- Owens Corning
+- PayPal Holdings
+- PG&E (Pacific Gas & Electric)
+- Philip Morris International
+- Phillips 66
+- Pioneer Natural Resources
+- PPG Industries
+- Principal Financial
+- Progressive
+- Prologis
+- Public Service Enterprise Group (PSEG)
+- Publix Super Markets
+- Quest Diagnostics
+- Reinsurance Group of America
+- Republic Services
+- Ross Stores
+- RPM International
+- Salesforce
+- Science Applications International (SAIC)
+- Sempra
+- Sherwin-Williams
+- Skechers U.S.A.
+- Southwest Airlines
+- State Street
+- StoneX Group
+- Stryker
+- Synchrony
+- TD Synnex
+- Texas Instruments
+- Textron
+- Thermo Fisher Scientific
+- Thor Industries
+- TJX
+- Travelers
+- Truist Financial
+- U.S. Bancorp
+- Uber Technologies
+- Union Pacific
+- United Airlines Holdings
+- United States Steel
+- Unum Group
+- Valero Energy
+- Vulcan Materials
+- Warner Bros. Discovery
+- Watsco
+- Wayfair
+- Weyerhaeuser
+- XPO (XPO Logistics)
+- Zimmer Biomet Holdings
+
+## SAP SuccessFactors
+- Halliburton
+- Hershey (The Hershey Company)
+- JetBlue Airways
+
+## Unknown
+- 3M
+- A-Mark Precious Metals
+- AbbVie
+- Adobe
+- Advance Auto Parts
+- Advanced Micro Devices (AMD)
+- AGCO
+- AIG (American International Group)
+- Air Products & Chemicals
+- Airbnb
+- Albertsons
+- Allstate
+- Ally Financial
+- Altice USA
+- Amazon
+- American Airlines Group
+- American Family Insurance Group
+- American Financial Group
+- American Tower
+- Amgen
+- Amphenol
+- Analog Devices
+- Apple
+- Applied Materials
+- ARKO (Arko Corp)
+- Asbury Automotive Group
+- Assurant
+- AT&T
+- Autoliv
+- Automatic Data Processing (ADP)
+- Avery Dennison
+- Avis Budget Group
+- Avnet
+- Baker Hughes
+- Ball Corporation
+- Baxter International
+- Becton Dickinson (BD)
+- Berkshire Hathaway
+- Berry Global Group
+- Best Buy
+- Biogen
+- Block (formerly Square)
+- Booking Holdings
+- Booz Allen Hamilton Holding
+- BorgWarner
+- Bristol-Myers Squibb
+- Broadcom
+- C.H. Robinson Worldwide
+- Caesars Entertainment
+- Cardinal Health
+- CarMax
+- Caterpillar
+- Celanese
+- Centene
+- CenterPoint Energy
+- Charles Schwab
+- Cheniere Energy
+- Chesapeake Energy
+- Chipotle Mexican Grill
+- Cigna Group
+- Citigroup
+- CMS Energy
+- Cognizant Technology Solutions
+- Colgate-Palmolive
+- Commercial Metals
+- Conagra Brands
+- Concentrix
+- Consolidated Edison
+- Core & Main
+- Corteva
+- Coupang
+- Crown Holdings
+- CSX
+- CVS Health
+- Darden Restaurants
+- Deere (John Deere)
+- Delta Air Lines
+- Diamondback Energy
+- Dollar General
+- DTE Energy
+- Duke Energy
+- DuPont
+- Eastman Chemical
+- Ebay
+- Elevance Health
+- Energy Transfer
+- EOG Resources
+- Equitable Holdings
+- Erie Insurance Group
+- Estée Lauder
+- Expedia Group
+- Expeditors International of Washington
+- Exxon Mobil
+- Fannie Mae
+- Farmers Insurance Exchange
+- FedEx
+- Fifth Third Bancorp
+- FirstEnergy
+- Fiserv
+- Fluor
+- FM Global
+- Foot Locker
+- Ford Motor
+- Fox (Fox Corporation)
+- Franklin Resources
+- Gap
+- General Dynamics
+- General Motors
+- Genuine Parts
+- Gilead Sciences
+- Global Partners
+- Global Payments
+- Goldman Sachs Group
+- Group 1 Automotive
+- Hartford Financial Services Group
+- Hertz Global Holdings
+- Hess
+- Hilton Worldwide Holdings
+- Honeywell International
+- HP (Hewlett Packard)
+- Huntington Bancshares
+- Icahn Enterprises
+- Ingredion
+- Interactive Brokers Group
+- Intercontinental Exchange
+- International Flavors & Fragrances
+- Interpublic Group
+- Intuit
+- Intuitive Surgical
+- Jabil
+- Jacobs Solutions
+- Jefferies Financial Group
+- Johnson & Johnson
+- Kellanova
+- Kenvue
+- KeyCorp
+- Kinder Morgan
+- KKR
+- Knight-Swift Transportation Holdings
+- Kraft Heinz
+- Kyndryl Holdings
+- L3Harris Technologies
+- Las Vegas Sands
+- Lear
+- Liberty Media
+- Lincoln National (Lincoln Financial)
+- Lithia Motors
+- Live Nation Entertainment
+- LKQ
+- Lowe's
+- LPL Financial Holdings
+- Lululemon athletica
+- ManpowerGroup
+- Massachusetts Mutual Life Insurance
+- McDonald's
+- McKesson
+- MGM Resorts International
+- Microchip Technology
+- Micron Technology
+- Microsoft
+- Molson Coors Beverage
+- Mondelez International
+- Monster Beverage
+- Morgan Stanley
+- Motorola Solutions
+- Murphy USA
+- Nationwide
+- Netflix
+- Newmont
+- NextEra Energy
+- Norfolk Southern
+- Northern Trust
+- Northwestern Mutual
+- NRG Energy
+- O-I Glass
+- Old Republic International
+- Omnicom Group
+- Ovintiv
+- Paccar
+- Packaging Corp. of America
+- Par Pacific Holdings
+- Paramount Global
+- Parker-Hannifin
+- Penske Automotive Group
+- Performance Food Group
+- Peter Kiewit Sons'
+- Plains GP Holdings
+- PNC Financial Services Group
+- Polaris
+- Procter & Gamble
+- Prudential Financial
+- PulteGroup
+- PVH (Phillips-Van Heusen)
+- Qualcomm
+- Quanta Services
+- Qurate Retail (QVC Group)
+- QXO Building Products
+- Raymond James Financial
+- Regeneron Pharmaceuticals
+- Regions Financial
+- Reliance (Reliance Steel & Aluminum)
+- Rite Aid
+- Rockwell Automation
+- RTX
+- Ryder System
+- Sanmina
+- Seaboard
+- ServiceNow
+- Solventum
+- Sonic Automotive
+- Southern (Southern Company)
+- SpartanNash
+- Sprouts Farmers Market
+- Super Micro Computer
+- Targa Resources
+- Tenet Healthcare
+- Tesla
+- Thrivent Financial for Lutherans
+- TIAA
+- Tractor Supply
+- UGI (UGI Corporation)
+- United Natural Foods
+- UnitedHealth Group
+- Universal Health Services
+- UPS
+- US Foods Holding
+- USAA
+- Verizon Communications
+- Vertex Pharmaceuticals
+- Viatris
+- Visa
+- Vistra
+- W.R. Berkley
+- Walgreens Boots Alliance
+- Walt Disney
+- Waste Management
+- WEC Energy Group
+- Wells Fargo
+- WESCO International
+- Western & Southern Financial Group
+- Western Digital
+- Westinghouse Air Brake Technologies (Wabtec)
+- Westlake (Chemical)
+- WestRock
+- Whirlpool
+- Williams-Sonoma
+- Xylem
+- Yum Brands
+- Yum China Holdings
+
+## Workday
+- Abbott Laboratories
+- Albemarle
+- Alcoa
+- Ameren
+- American Electric Power
+- Andersons
+- Apollo Global Management
+- Auto-Owners Insurance
+- Bank of America
+- BJ's Wholesale Club
+- Blackstone
+- Boeing
+- Campbell Soup
+- Capital One Financial
+- Carrier Global
+- Cintas
+- Clorox
+- Comcast
+- ConocoPhillips
+- Constellation Brands
+- Continental Resources
+- Dell Technologies
+- Devon Energy
+- Dick's Sporting Goods
+- Discover Financial Services
+- Endeavor Group Holdings
+- General Mills
+- Goodyear Tire & Rubber
+- Graybar Electric
+- Guardian Life Ins. Co. of America
+- Intel
+- IQVIA Holdings
+- J.B. Hunt Transport Services
+- J.M. Smucker
+- Jones Lang LaSalle (JLL)
+- KLA Corporation
+- Kohl's
+- Land O'Lakes
+- M&T Bank
+- Markel Group
+- Merck
+- Meta Platforms
+- Mutual of Omaha
+- Nike
+- Nordstrom
+- Occidental Petroleum
+- Oneok
+- Otis Worldwide
+- Pacific Life
+- PBF Energy
+- Pfizer
+- S&P Global
+- Securian Financial Group
+- Stanley Black & Decker
+- Sysco
+- Target
+- Taylor Morrison Home
+- Tyson Foods
+- UFP Industries
+- United Rentals
+- VF (VF Corporation)
+- Voya Financial
+- Walmart
+- Williams (Williams Companies)
+- Workday
+- World Kinect
+- Xcel Energy
+- Zoetis

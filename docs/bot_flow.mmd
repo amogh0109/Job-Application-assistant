@@ -1,0 +1,33 @@
+flowchart TD
+  CLI["CLI: python -m apply_bot<br/>load profile/config/job_links"] --> BO["BatchOrchestrator<br/>open Playwright browser"]
+  BO -->|for each job URL| Page["page.goto(url)"]
+  Page --> JC["JobContextBuilder<br/>build JobPosting from live page"]
+  JC --> NC["NavigationController"]
+
+  subgraph Navigation_Loop
+    NC --> ATS["Guess ATS: Workday / Greenhouse / other"]
+    ATS --> Ensure["Ensure application view<br/>Workday: cookies + apply + modal<br/>Greenhouse: click apply<br/>Generic: wait for inputs"]
+    Ensure --> ApplyOnce[Initial apply click + wait]
+    ApplyOnce --> Gate{Workday account gate?}
+    Gate -->|yes| HandleAcct["Fill email + workday_password + checkbox + Create Account"]
+    HandleAcct -->|fail| FailAcct["return workday-account-creation-required"]
+    Gate -->|no| Extract["Extract questions"]
+    Extract -->|none| Retry["Retry waits/iframes; if still none<br/>Gemini analyzer (fields -> QuestionBlocks)"]
+    Retry -->|still none| DebugFail["Debug HTML/PNG + fail no-questions"]
+    Extract -->|found| Answer["AnswerEngine rules/LLM fallback"]
+    Answer --> Fill["FormFiller fills inputs"]
+    Fill --> Mode{mode == review?}
+    Mode -->|yes| Review["return review_pending"]
+    Mode -->|no| NextClick["Click Next/Submit buttons"]
+    NextClick --> Confirm{Confirmation?}
+    Confirm -->|yes| Done["return submitted"]
+    Confirm -->|no| Extract
+  end
+
+  FailAcct --> LOG
+  DebugFail --> LOG
+  Review --> LOG
+  Done --> LOG
+  NextClick -->|no next| FailNext["fail next-button-not-found"] --> LOG
+
+  LOG["Log JSONL (job_url/status/error/timestamp)<br/>Save debug HTML/PNG<br/>Print status/error to stdout"]

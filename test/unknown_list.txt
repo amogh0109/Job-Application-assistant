@@ -1,0 +1,249 @@
+3M
+A-Mark Precious Metals
+AbbVie
+Adobe
+Advance Auto Parts
+Advanced Micro Devices (AMD)
+AGCO
+AIG (American International Group)
+Air Products & Chemicals
+Airbnb
+Albertsons
+Allstate
+Ally Financial
+Altice USA
+Amazon
+American Airlines Group
+American Family Insurance Group
+American Financial Group
+American Tower
+Amgen
+Amphenol
+Analog Devices
+Apple
+Applied Materials
+ARKO (Arko Corp)
+Asbury Automotive Group
+Assurant
+AT&T
+Autoliv
+Automatic Data Processing (ADP)
+Avery Dennison
+Avis Budget Group
+Avnet
+Baker Hughes
+Ball Corporation
+Baxter International
+Becton Dickinson (BD)
+Berkshire Hathaway
+Berry Global Group
+Best Buy
+Biogen
+Block (formerly Square)
+Booking Holdings
+Booz Allen Hamilton Holding
+BorgWarner
+Bristol-Myers Squibb
+Broadcom
+C.H. Robinson Worldwide
+Caesars Entertainment
+Cardinal Health
+CarMax
+Caterpillar
+Celanese
+Centene
+CenterPoint Energy
+Charles Schwab
+Cheniere Energy
+Chesapeake Energy
+Chipotle Mexican Grill
+Cigna Group
+Citigroup
+CMS Energy
+Cognizant Technology Solutions
+Colgate-Palmolive
+Commercial Metals
+Conagra Brands
+Concentrix
+Consolidated Edison
+Core & Main
+Corteva
+Coupang
+Crown Holdings
+CSX
+CVS Health
+Darden Restaurants
+Deere (John Deere)
+Delta Air Lines
+Diamondback Energy
+Dollar General
+DTE Energy
+Duke Energy
+DuPont
+Eastman Chemical
+Ebay
+Elevance Health
+Energy Transfer
+EOG Resources
+Equitable Holdings
+Erie Insurance Group
+Estée Lauder
+Expedia Group
+Expeditors International of Washington
+Exxon Mobil
+Fannie Mae
+Farmers Insurance Exchange
+FedEx
+Fifth Third Bancorp
+FirstEnergy
+Fiserv
+Fluor
+FM Global
+Foot Locker
+Ford Motor
+Fox (Fox Corporation)
+Franklin Resources
+Gap
+General Dynamics
+General Motors
+Genuine Parts
+Gilead Sciences
+Global Partners
+Global Payments
+Goldman Sachs Group
+Group 1 Automotive
+Hartford Financial Services Group
+Hertz Global Holdings
+Hess
+Hilton Worldwide Holdings
+Honeywell International
+HP (Hewlett Packard)
+Huntington Bancshares
+Icahn Enterprises
+Ingredion
+Interactive Brokers Group
+Intercontinental Exchange
+International Flavors & Fragrances
+Interpublic Group
+Intuit
+Intuitive Surgical
+Jabil
+Jacobs Solutions
+Jefferies Financial Group
+Johnson & Johnson
+Kellanova
+Kenvue
+KeyCorp
+Kinder Morgan
+KKR
+Knight-Swift Transportation Holdings
+Kraft Heinz
+Kyndryl Holdings
+L3Harris Technologies
+Las Vegas Sands
+Lear
+Liberty Media
+Lincoln National (Lincoln Financial)
+Lithia Motors
+Live Nation Entertainment
+LKQ
+Lowe's
+LPL Financial Holdings
+Lululemon athletica
+ManpowerGroup
+Massachusetts Mutual Life Insurance
+McDonald's
+McKesson
+MGM Resorts International
+Microchip Technology
+Micron Technology
+Microsoft
+Molson Coors Beverage
+Mondelez International
+Monster Beverage
+Morgan Stanley
+Motorola Solutions
+Murphy USA
+Nationwide
+Netflix
+Newmont
+NextEra Energy
+Norfolk Southern
+Northern Trust
+Northwestern Mutual
+NRG Energy
+O-I Glass
+Old Republic International
+Omnicom Group
+Ovintiv
+Paccar
+Packaging Corp. of America
+Par Pacific Holdings
+Paramount Global
+Parker-Hannifin
+Penske Automotive Group
+Performance Food Group
+Peter Kiewit Sons'
+Plains GP Holdings
+PNC Financial Services Group
+Polaris
+Procter & Gamble
+Prudential Financial
+PulteGroup
+PVH (Phillips-Van Heusen)
+Qualcomm
+Quanta Services
+Qurate Retail (QVC Group)
+QXO Building Products
+Raymond James Financial
+Regeneron Pharmaceuticals
+Regions Financial
+Reliance (Reliance Steel & Aluminum)
+Rite Aid
+Rockwell Automation
+RTX
+Ryder System
+Sanmina
+Seaboard
+ServiceNow
+Solventum
+Sonic Automotive
+Southern (Southern Company)
+SpartanNash
+Sprouts Farmers Market
+Super Micro Computer
+Targa Resources
+Tenet Healthcare
+Tesla
+Thrivent Financial for Lutherans
+TIAA
+Tractor Supply
+UGI (UGI Corporation)
+United Natural Foods
+UnitedHealth Group
+Universal Health Services
+UPS
+US Foods Holding
+USAA
+Verizon Communications
+Vertex Pharmaceuticals
+Viatris
+Visa
+Vistra
+W.R. Berkley
+Walgreens Boots Alliance
+Walt Disney
+Waste Management
+WEC Energy Group
+Wells Fargo
+WESCO International
+Western & Southern Financial Group
+Western Digital
+Westinghouse Air Brake Technologies (Wabtec)
+Westlake (Chemical)
+WestRock
+Whirlpool
+Williams-Sonoma
+Xylem
+Yum Brands
+Yum China Holdings

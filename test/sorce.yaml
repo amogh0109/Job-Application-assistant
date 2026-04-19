@@ -1,0 +1,1026 @@
+# The companies listed are the Fortune 500 (U.S.) for 2024 and 2025:contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}.
+companies:
+  - company: Walmart
+    careers: https://careers.walmart.com
+  - company: Amazon
+    careers: https://www.amazon.jobs
+  - company: Apple
+    careers: https://www.apple.com/careers
+  - company: UnitedHealth Group
+    careers: https://careers.unitedhealthgroup.com
+  - company: Berkshire Hathaway
+    careers: https://www.linkedin.com/company/berkshire-hathaway/jobs
+  - company: CVS Health
+    careers: https://jobs.cvshealth.com
+  - company: Exxon Mobil
+    careers: https://corporate.exxonmobil.com/Careers
+  - company: Alphabet
+    careers: https://careers.google.com
+  - company: McKesson
+    careers: https://careers.mckesson.com
+  - company: Cencora
+    careers: https://www.cencora.com/careers
+  - company: Costco Wholesale
+    careers: https://careers.costco.com
+  - company: JPMorgan Chase
+    careers: https://careers.jpmorganchase.com
+  - company: Microsoft
+    careers: https://careers.microsoft.com
+  - company: Cardinal Health
+    careers: https://www.cardinalhealth.com/en/careers.html
+  - company: Chevron
+    careers: https://careers.chevron.com
+  - company: Cigna Group
+    careers: https://careers.thecignagroup.com
+  - company: Ford Motor
+    careers: https://corporate.ford.com/careers.html
+  - company: Bank of America
+    careers: https://careers.bankofamerica.com
+  - company: General Motors
+    careers: https://search-careers.gm.com
+  - company: Elevance Health
+    careers: https://careers.elevancehealth.com
+  - company: Citigroup
+    careers: https://careers.citigroup.com
+  - company: Centene
+    careers: https://jobs.centene.com
+  - company: Home Depot
+    careers: https://careers.homedepot.com
+  - company: Marathon Petroleum
+    careers: https://www.marathonpetroleum.com/Careers
+  - company: Kroger
+    careers: https://jobs.kroger.com
+  - company: Phillips 66
+    careers: https://phillips66.jobs
+  - company: Fannie Mae
+    careers: https://www.fanniemae.com/careers
+  - company: Walgreens Boots Alliance
+    careers: https://jobs.walgreens.com
+  - company: Valero Energy
+    careers: https://www.valero.com/careers
+  - company: Meta Platforms
+    careers: https://www.metacareers.com
+  - company: Verizon Communications
+    careers: https://www.verizon.com/about/careers
+  - company: AT&T
+    careers: https://att.jobs
+  - company: Comcast
+    careers: https://jobs.comcast.com
+  - company: Wells Fargo
+    careers: https://www.wellsfargo.com/careers
+  - company: Goldman Sachs Group
+    careers: https://www.goldmansachs.com/careers
+  - company: Freddie Mac
+    careers: https://careers.freddiemac.com
+  - company: Target
+    careers: https://jobs.target.com
+  - company: Humana
+    careers: https://careers.humana.com
+  - company: State Farm Insurance
+    careers: https://www.statefarm.com/careers
+  - company: Tesla
+    careers: https://www.tesla.com/careers
+  - company: Morgan Stanley
+    careers: https://www.morganstanley.com/people/your-career-at-morgan-stanley
+  - company: Johnson & Johnson
+    careers: https://jobs.jnj.com
+  - company: Archer Daniels Midland
+    careers: https://www.adm.com/en-us/careers
+  - company: PepsiCo
+    careers: https://www.pepsicojobs.com
+  - company: UPS
+    careers: https://www.jobs-ups.com
+  - company: FedEx
+    careers: https://careers.fedex.com
+  - company: Walt Disney
+    careers: https://jobs.disneycareers.com
+  - company: Dell Technologies
+    careers: https://jobs.dell.com
+  - company: Lowe's
+    careers: https://corporate.lowes.com/careers
+  - company: Procter & Gamble
+    careers: https://www.pgcareers.com
+  - company: Energy Transfer
+    careers: https://www.energytransfer.com/careers
+  - company: Boeing
+    careers: https://jobs.boeing.com
+  - company: Albertsons
+    careers: https://www.albertsonscompanies.com/careers.html
+  - company: Sysco
+    careers: https://careers.sysco.com
+  - company: RTX
+    careers: https://careers.rtx.com  # Raytheon Technologies
+  - company: General Electric
+    careers: https://jobs.gecareers.com
+  - company: Lockheed Martin
+    careers: https://www.lockheedmartinjobs.com
+  - company: American Express
+    careers: https://www.americanexpress.com/en-us/careers
+  - company: Caterpillar
+    careers: https://careers.caterpillar.com
+  - company: MetLife
+    careers: https://jobs.metlife.com
+  - company: HCA Healthcare
+    careers: https://careers.hcahealthcare.com
+  - company: Progressive
+    careers: https://www.progressive.com/careers
+  - company: IBM
+    careers: https://www.ibm.com/careers
+  - company: Deere (John Deere)
+    careers: https://www.deere.com/en/careers
+  - company: Nvidia
+    careers: https://www.nvidia.com/en-us/about-nvidia/careers
+  - company: StoneX Group
+    careers: https://www.stonex.com/Careers
+  - company: Merck
+    careers: https://jobs.merck.com
+  - company: ConocoPhillips
+    careers: https://careers.conocophillips.com
+  - company: Pfizer
+    careers: https://careers.pfizer.com
+  - company: Delta Air Lines
+    careers: https://careers.delta.com
+  - company: TD Synnex
+    careers: https://careers.tdsynnex.com
+  - company: Publix Super Markets
+    careers: https://corporate.publix.com/careers
+  - company: Allstate
+    careers: https://www.allstate.jobs
+  - company: Cisco Systems
+    careers: https://jobs.cisco.com
+  - company: Nationwide
+    careers: https://www.nationwide.com/careers
+  - company: Charter Communications
+    careers: https://jobs.spectrum.com  # Spectrum is Charter brand
+  - company: AbbVie
+    careers: https://careers.abbvie.com
+  - company: New York Life Insurance
+    careers: https://www.newyorklife.com/careers
+  - company: Intel
+    careers: https://jobs.intel.com
+  - company: TJX
+    careers: https://jobs.tjx.com
+  - company: Prudential Financial
+    careers: https://jobs.prudential.com
+  - company: HP (Hewlett Packard)
+    careers: https://jobs.hp.com
+  - company: United Airlines Holdings
+    careers: https://careers.united.com
+  - company: Performance Food Group
+    careers: https://careers.pfgc.com
+  - company: Tyson Foods
+    careers: https://www.tysonfoods.com/careers
+  - company: American Airlines Group
+    careers: https://jobs.aa.com
+  - company: Liberty Mutual Insurance Group
+    careers: https://jobs.libertymutualgroup.com
+  - company: Nike
+    careers: https://jobs.nike.com
+  - company: Oracle
+    careers: https://careers.oracle.com
+  - company: Enterprise Products Partners
+    careers: https://www.enterpriseproducts.com/careers
+  - company: Capital One Financial
+    careers: https://www.capitalonecareers.com
+  - company: Plains GP Holdings
+    careers: https://plainsallamerican.com/careers  # Plains All American Pipeline
+  - company: World Kinect
+    careers: https://world-kinect.com/careers
+  - company: AIG (American International Group)
+    careers: https://www.aig.com/careers
+  - company: Coca-Cola
+    careers: https://careers.coca-colacompany.com
+  - company: TIAA
+    careers: https://www.tiaa.org/public/about-tiaa/careers
+  - company: CHS (Cooperative)
+    careers: https://chsinc.com/careers
+  - company: Bristol-Myers Squibb
+    careers: https://careers.bms.com
+  - company: Dow
+    careers: https://corporate.dow.com/en-us/careers
+  - company: Best Buy
+    careers: https://www.bestbuy-jobs.com
+  - company: Thermo Fisher Scientific
+    careers: https://jobs.thermofisher.com
+  - company: Massachusetts Mutual Life Insurance
+    careers: https://www.massmutual.com/careers
+  - company: USAA
+    careers: https://www.usaajobs.com
+  - company: General Dynamics
+    careers: https://careers.generaldynamics.com
+  - company: Travelers
+    careers: https://careers.travelers.com
+  - company: Warner Bros. Discovery
+    careers: https://careers.wbd.com
+  - company: U.S. Bancorp
+    careers: https://careers.usbank.com
+  - company: Abbott Laboratories
+    careers: https://www.abbott.com/careers
+  - company: Northrop Grumman
+    careers: https://www.northropgrumman.com/careers
+  - company: Northwestern Mutual
+    careers: https://careers.northwesternmutual.com
+  - company: Dollar General
+    careers: https://careers.dollargeneral.com
+  - company: PBF Energy
+    careers: https://www.pbfenergy.com/careers
+  - company: Uber Technologies
+    careers: https://www.uber.com/us/en/careers
+  - company: Honeywell International
+    careers: https://careers.honeywell.com
+  - company: Mondelez International
+    careers: https://careers.mondelezinternational.com
+  - company: Starbucks
+    careers: https://www.starbucks.com/careers
+  - company: Qualcomm
+    careers: https://www.qualcomm.com/company/careers
+  - company: Broadcom
+    careers: https://careers.broadcom.com
+  - company: US Foods Holding
+    careers: https://www.usfoods.com/careers.html
+  - company: D.R. Horton
+    careers: https://www.drhorton.com/Careers
+  - company: Philip Morris International
+    careers: https://www.pmi.com/careers
+  - company: Paccar
+    careers: https://careers.paccar.com
+  - company: Salesforce
+    careers: https://www.salesforce.com/company/careers
+  - company: Nucor
+    careers: https://www.nucor.com/careers
+  - company: Jabil
+    careers: https://www.jabil.com/careers
+  - company: Lennar
+    careers: https://www.lennar.com/careers
+  - company: Eli Lilly
+    careers: https://careers.lilly.com
+  - company: Molina Healthcare
+    careers: https://careers.molinahealthcare.com
+  - company: Cummins
+    careers: https://www.cummins.com/careers
+  - company: Bank of New York Mellon
+    careers: https://jobs.bnymellon.com
+  - company: Netflix
+    careers: https://jobs.netflix.com
+  - company: Truist Financial
+    careers: https://careers.truist.com
+  - company: Arrow Electronics
+    careers: https://careers.arrow.com
+  - company: 3M
+    careers: https://www.3m.com/3M/en_US/careers-us
+  - company: Visa
+    careers: https://usa.visa.com/careers
+  - company: Apollo Global Management
+    careers: https://apollo.com/careers
+  - company: HF Sinclair
+    careers: https://www.hollyfrontier.com/careers  # HF Sinclair uses HollyFrontier domain for now
+  - company: CBRE Group
+    careers: https://www.cbre.com/careers
+  - company: PNC Financial Services Group
+    careers: https://www.pnc.com/en/about-pnc/careers
+  - company: Lithia Motors
+    careers: https://www.lithiacareers.com
+  - company: CarMax
+    careers: https://careers.carmax.com
+  - company: Paramount Global
+    careers: https://www.paramount.com/careers
+  - company: Dollar Tree
+    careers: https://www.dollartree.com/careers
+  - company: United Natural Foods
+    careers: https://www.unfi.com/careers
+  - company: PayPal Holdings
+    careers: https://www.paypal.com/us/webapps/mpp/jobs
+  - company: Penske Automotive Group
+    careers: https://www.penskeautomotive.com/careers
+  - company: Hewlett Packard Enterprise
+    careers: https://careers.hpe.com
+  - company: Duke Energy
+    careers: https://www.duke-energy.com/our-company/careers
+  - company: Occidental Petroleum
+    careers: https://www.oxy.com/careers
+  - company: NRG Energy
+    careers: https://www.nrg.com/careers
+  - company: Amgen
+    careers: https://careers.amgen.com
+  - company: NextEra Energy
+    careers: https://www.nexteraenergy.com/careers.html
+  - company: Danaher
+    careers: https://jobs.danaher.com
+  - company: Gilead Sciences
+    careers: https://careers.gilead.com
+  - company: AutoNation
+    careers: https://careers.autonation.com
+  - company: Kraft Heinz
+    careers: https://www.kraftheinzcompany.com/careers
+  - company: Avnet
+    careers: https://www.avnet.com/wps/portal/us/about-avnet/careers
+  - company: Applied Materials
+    careers: https://www.appliedmaterials.com/careers
+  - company: Southwest Airlines
+    careers: https://careers.southwestair.com
+  - company: Charles Schwab
+    careers: https://www.aboutschwab.com/careers
+  - company: Baker Hughes
+    careers: https://careers.bakerhughes.com
+  - company: McDonald's
+    careers: https://careers.mcdonalds.com
+  - company: Southern (Southern Company)
+    careers: https://southerncompany.jobs
+  - company: Mastercard
+    careers: https://careers.mastercard.com
+  - company: Constellation Energy
+    careers: https://www.constellationenergy.com/careers.html
+  - company: Hartford Financial Services Group
+    careers: https://www.thehartford.com/careers
+  - company: PG&E (Pacific Gas & Electric)
+    careers: https://www.pge.com/en_US/careers/index.page
+  - company: Coupang
+    careers: https://rocketyourcareer.usa.coupang.com  # Coupang U.S. careers site
+  - company: EOG Resources
+    careers: https://www.eogresources.com/careers
+  - company: Union Pacific
+    careers: https://up.jobs
+  - company: Rite Aid
+    careers: https://careers.riteaid.com
+  - company: Macy's
+    careers: https://www.macysjobs.com
+  - company: Marriott International
+    careers: https://careers.marriott.com
+  - company: Lear
+    careers: https://www.lear.com/careers
+  - company: Genuine Parts
+    careers: https://jobs.genpt.com
+  - company: Sherwin-Williams
+    careers: https://careers.sherwin-williams.com
+  - company: Halliburton
+    careers: https://jobs.halliburton.com
+  - company: Freeport-McMoRan
+    careers: https://www.fcx.com/careers
+  - company: Live Nation Entertainment
+    careers: https://careers.livenationentertainment.com
+  - company: Marsh & McLennan
+    careers: https://careers.marshmclennan.com
+  - company: Advanced Micro Devices (AMD)
+    careers: https://www.amd.com/en/corporate/careers
+  - company: First Citizens BancShares
+    careers: https://jobs.firstcitizens.com
+  - company: WESCO International
+    careers: https://www.wesco.com/careers
+  - company: Carrier Global
+    careers: https://jobs.carrier.com
+  - company: Cleveland-Cliffs
+    careers: https://www.clevelandcliffs.com/careers
+  - company: Block (formerly Square)
+    careers: https://block.xyz/careers
+  - company: Exelon
+    careers: https://jobs.exeloncorp.com
+  - company: KKR
+    careers: https://www.kkr.com/careers
+  - company: CDW
+    careers: https://www.cdwjobs.com
+  - company: Booking Holdings
+    careers: https://careers.bookingholdings.com
+  - company: Synchrony
+    careers: https://synchronycareers.com
+  - company: Quanta Services
+    careers: https://quantaservices.jobs
+  - company: Jones Lang LaSalle (JLL)
+    careers: https://jll.wd1.myworkdayjobs.com/jllcareers
+  - company: Discover Financial Services
+    careers: https://jobs.discover.com
+  - company: Tenet Healthcare
+    careers: https://jobs.tenethealth.com
+  - company: Altria Group
+    careers: https://www.altria.com/careers
+  - company: Stryker
+    careers: https://careers.stryker.com
+  - company: Kimberly-Clark
+    careers: https://careers.kimberly-clark.com
+  - company: Waste Management
+    careers: https://careers.wm.com
+  - company: Cheniere Energy
+    careers: https://www.cheniere.com/careers
+  - company: Ross Stores
+    careers: https://jobs.rossstores.com
+  - company: WestRock
+    careers: https://jobs.westrock.com
+  - company: General Mills
+    careers: https://careers.generalmills.com
+  - company: Goodyear Tire & Rubber
+    careers: https://jobs.goodyear.com
+  - company: BJ's Wholesale Club
+    careers: https://careers.bjs.com
+  - company: GE HealthCare Technologies
+    careers: https://jobs.gecareers.com/healthcare
+  - company: Colgate-Palmolive
+    careers: https://jobs.colgate.com
+  - company: Whirlpool
+    careers: https://www.whirlpoolcareers.com
+  - company: L3Harris Technologies
+    careers: https://careers.l3harris.com
+  - company: Adobe
+    careers: https://www.adobe.com/careers
+  - company: Becton Dickinson (BD)
+    careers: https://bd.jobs
+  - company: Pioneer Natural Resources
+    careers: https://pxd.com/working-pxd
+  - company: Cognizant Technology Solutions
+    careers: https://careers.cognizant.com
+  - company: Murphy USA
+    careers: https://www.murphyusa.com/Careers
+  - company: Fiserv
+    careers: https://careers.fiserv.com
+  - company: Parker-Hannifin
+    careers: https://parker.com/careers
+  - company: American Electric Power
+    careers: https://aep.com/careers
+  - company: International Paper
+    careers: https://www.internationalpaper.com/careers
+  - company: ManpowerGroup
+    careers: https://careers.manpowergroup.com
+  - company: Aramark
+    careers: https://careers.aramark.com
+  - company: Steel Dynamics
+    careers: https://www.steeldynamics.com/careers
+  - company: Aflac
+    careers: https://careers.aflac.com
+  - company: Reinsurance Group of America
+    careers: https://www.rgare.com/careers
+  - company: Emerson Electric
+    careers: https://www.emerson.com/en-us/careers
+  - company: State Street
+    careers: https://careers.statestreet.com
+  - company: PPG Industries
+    careers: https://www.ppg.com/careers
+  - company: United States Steel
+    careers: https://www.ussteel.com/careers
+  - company: Automatic Data Processing (ADP)
+    careers: https://jobs.adp.com
+  - company: Group 1 Automotive
+    careers: https://www.group1auto.com/careers
+  - company: Dominion Energy
+    careers: https://careers.dominionenergy.com
+  - company: BlackRock
+    careers: https://careers.blackrock.com
+  - company: Oneok
+    careers: https://www.oneok.com/Careers
+  - company: C.H. Robinson Worldwide
+    careers: https://jobs.chrobinson.com
+  - company: Texas Instruments
+    careers: https://careers.ti.com
+  - company: Kohl's
+    careers: https://careers.kohls.com
+  - company: AutoZone
+    careers: https://careers.autozone.com
+  - company: Lam Research
+    careers: https://careers.lamresearch.com
+  - company: Corteva
+    careers: https://careers.corteva.com
+  - company: Peter Kiewit Sons'
+    careers: https://www.kiewit.com/careers
+  - company: Builders FirstSource
+    careers: https://www.bldr.com/careers
+  - company: Kyndryl Holdings
+    careers: https://careers.kyndryl.com
+  - company: EchoStar
+    careers: https://www.echostar.com/careers
+  - company: American Family Insurance Group
+    careers: https://www.amfam.com/careers
+  - company: Delek US Holdings
+    careers: https://delekus.com/careers
+  - company: Land O'Lakes
+    careers: https://www.landolakesinc.com/Careers
+  - company: Sempra
+    careers: https://www.sempra.com/careers
+  - company: Global Partners
+    careers: https://www.globalp.com/careers
+  - company: Grainger (W.W. Grainger)
+    careers: https://jobs.grainger.com
+  - company: Jacobs Solutions
+    careers: https://careers.jacobs.com
+  - company: Edison International
+    careers: https://www.edisoncareers.com
+  - company: MGM Resorts International
+    careers: https://careers.mgmresorts.com
+  - company: Guardian Life Ins. Co. of America
+    careers: https://www.guardianlife.com/careers
+  - company: Illinois Tool Works
+    careers: https://www.itw.com/careers
+  - company: Ameriprise Financial
+    careers: https://www.ameriprise.com/careers
+  - company: PulteGroup
+    careers: https://careers.pultegroup.com
+  - company: Targa Resources
+    careers: https://www.targaresources.com/careers
+  - company: Ally Financial
+    careers: https://www.ally.com/careers
+  - company: BorgWarner
+    careers: https://www.borgwarner.com/careers
+  - company: Estée Lauder
+    careers: https://www.elcompanies.com/en/careers
+  - company: Loews
+    careers: https://www.loews.com/careers
+  - company: O'Reilly Automotive
+    careers: https://corporate.oreillyauto.com/careers
+  - company: Markel Group
+    careers: https://www.markel.com/careers
+  - company: Stanley Black & Decker
+    careers: https://www.stanleyblackanddecker.com/careers
+  - company: Micron Technology
+    careers: https://jobs.micron.com
+  - company: Fluor
+    careers: https://www.fluor.com/careers
+  - company: Leidos Holdings
+    careers: https://careers.leidos.com
+  - company: Viatris
+    careers: https://careers.viatris.com
+  - company: Kinder Morgan
+    careers: https://www.kindermorgan.com/Careers
+  - company: Ecolab
+    careers: https://jobs.ecolab.com
+  - company: Baxter International
+    careers: https://jobs.baxter.com
+  - company: Devon Energy
+    careers: https://www.devonenergy.com/careers
+  - company: Kellanova
+    careers: https://www.kellanova.com/en/careers.html
+  - company: Farmers Insurance Exchange
+    careers: https://www.farmers.com/careers
+  - company: Casey's General Stores
+    careers: https://www.caseys.com/careers
+  - company: IQVIA Holdings
+    careers: https://jobs.iqvia.com
+  - company: Republic Services
+    careers: https://republicservices.jobs
+  - company: Fox (Fox Corporation)
+    careers: https://www.foxcorporation.com/careers
+  - company: Gap
+    careers: https://www.gapinc.com/en-us/careers/career-search
+  - company: Keurig Dr Pepper
+    careers: https://careers.keurigdrpepper.com
+  - company: Reliance (Reliance Steel & Aluminum)
+    careers: https://www.rsac.com/careers
+  - company: Asbury Automotive Group
+    careers: https://www.asburyauto.com/Join-Our-Team
+  - company: Pacific Life
+    careers: https://www.pacificlife.com/home/careers.html
+  - company: Vistra
+    careers: https://www.vistracorp.com/careers
+  - company: Western & Southern Financial Group
+    careers: https://www.westernsouthern.com/about/careers
+  - company: Andersons
+    careers: https://andersonsinc.com/careers
+  - company: Nordstrom
+    careers: https://careers.nordstrom.com
+  - company: Omnicom Group
+    careers: https://www.omnicomgroup.com/careers
+  - company: Fidelity National Information Services (FIS)
+    careers: https://careers.fisglobal.com
+  - company: Consolidated Edison
+    careers: https://careers.conedison.com
+  - company: CSX
+    careers: https://www.csx.com/index.cfm/working-at-csx
+  - company: AECOM
+    careers: https://aecom.com/careers
+  - company: Lumen Technologies
+    careers: https://jobs.lumen.com
+  - company: Tractor Supply
+    careers: https://www.tractorsupply.jobs
+  - company: DXC Technology
+    careers: https://www.dxc.technology/careers
+  - company: AGCO
+    careers: https://www.agcocorp.com/careers
+  - company: Sonic Automotive
+    careers: https://www.sonicautomotive.com/careers
+  - company: Intuit
+    careers: https://www.intuit.com/careers
+  - company: United Rentals
+    careers: https://jobs.unitedrentals.com
+  - company: Universal Health Services
+    careers: https://jobs.uhs.com
+  - company: Boston Scientific
+    careers: https://jobs.bostonscientific.com
+  - company: Otis Worldwide
+    careers: https://www.otis.com/en/us/careers
+  - company: Xcel Energy
+    careers: https://jobs.xcelenergy.com
+  - company: Edward Jones (Jones Financial)
+    careers: https://careers.edwardjones.com
+  - company: Ball Corporation
+    careers: https://jobs.ball.com
+  - company: LKQ
+    careers: https://careers.lkqcorp.com
+  - company: Mutual of Omaha
+    careers: https://www.mutualofomaha.com/careers
+  - company: Mosaic (Mosaic Co.)
+    careers: https://www.mosaicco.com/careers
+  - company: Textron
+    careers: https://www.textron.com/Careers
+  - company: Laboratory Corp. of America (Labcorp)
+    careers: https://careers.labcorp.com
+  - company: Principal Financial
+    careers: https://www.principal.com/careers
+  - company: Regeneron Pharmaceuticals
+    careers: https://careers.regeneron.com
+  - company: Raymond James Financial
+    careers: https://www.raymondjames.com/careers
+  - company: Dick's Sporting Goods
+    careers: https://www.dickssportinggoods.jobs
+  - company: Auto-Owners Insurance
+    careers: https://www.auto-owners.com/career-center
+  - company: Expedia Group
+    careers: https://lifeatexpedia.com
+  - company: J.B. Hunt Transport Services
+    careers: https://careers.jbhunt.com
+  - company: M&T Bank
+    careers: https://www.mtb.com/careers
+  - company: DTE Energy
+    careers: https://dteenergy.com/careers
+  - company: AES Corporation
+    careers: https://www.aes.com/careers
+  - company: Berry Global Group
+    careers: https://www.berryglobal.com/careers
+  - company: Fifth Third Bancorp
+    careers: https://www.53.com/content/fifth-third/en/careers.html
+  - company: Air Products & Chemicals
+    careers: https://www.airproducts.com/careers
+  - company: Corning
+    careers: https://corningjobs.corning.com
+  - company: EMCOR Group
+    careers: https://www.emcorgroup.com/careers
+  - company: Amphenol
+    careers: https://amphenol.com/careers
+  - company: Westlake (Chemical)
+    careers: https://www.westlake.com/careers
+  - company: DuPont
+    careers: https://www.dupont.com/careers
+  - company: Liberty Media
+    careers: https://www.libertymedia.com/careers
+  - company: S&P Global
+    careers: https://careers.spglobal.com
+  - company: Community Health Systems
+    careers: https://www.chs.net/careers
+  - company: FirstEnergy
+    careers: https://firstenergycorp.com/careers
+  - company: Unum Group
+    careers: https://careers.unum.com
+  - company: Henry Schein
+    careers: https://www.henryschein.com/us-en/corporate/careers.aspx
+  - company: Western Digital
+    careers: https://jobs.westerndigital.com
+  - company: Analog Devices
+    careers: https://careers.analog.com
+  - company: Conagra Brands
+    careers: https://careers.conagrabrands.com
+  - company: Citizens Financial Group
+    careers: https://jobs.citizensbank.com
+  - company: Norfolk Southern
+    careers: https://jobs.nscorp.com
+  - company: Entergy
+    careers: https://www.entergy.com/careers
+  - company: W.R. Berkley
+    careers: https://careers.berkley.com
+  - company: DaVita
+    careers: https://careers.davita.com
+  - company: Northern Trust
+    careers: https://careers.northerntrust.com
+  - company: Hormel Foods
+    careers: https://www.hormelfoods.com/careers
+  - company: Crown Holdings
+    careers: https://www.crowncork.com/careers
+  - company: Avis Budget Group
+    careers: https://avisbudgetgroup.jobs
+  - company: Wayfair
+    careers: https://www.wayfair.com/careers
+  - company: MasTec
+    careers: https://www.mastec.com/careers
+  - company: Eversource Energy
+    careers: https://www.eversource.com/content/general/residential/about/careers
+  - company: Newmont
+    careers: https://www.newmont.com/careers
+  - company: Ryder System
+    careers: https://careers.ryder.com
+  - company: Fidelity National Financial
+    careers: https://fnf.com/careers
+  - company: Molson Coors Beverage
+    careers: https://www.molsoncoors.com/careers
+  - company: Caesars Entertainment
+    careers: https://www.caesars.com/careers
+  - company: Lincoln National (Lincoln Financial)
+    careers: https://www.lfg.com/public/aboutus/careers
+  - company: VF (VF Corporation)
+    careers: https://www.vfc.com/careers
+  - company: International Flavors & Fragrances
+    careers: https://careers.iff.com
+  - company: Huntington Ingalls Industries
+    careers: https://hii.com/careers
+  - company: Advance Auto Parts
+    careers: https://www.advanceautoparts.jobs
+  - company: Public Service Enterprise Group (PSEG)
+    careers: https://jobs.pseg.com
+  - company: Ulta Beauty
+    careers: https://careers.ulta.com
+  - company: Hershey (The Hershey Company)
+    careers: https://www.thehersheycompany.com/en_us/careers.html
+  - company: Chewy
+    careers: https://www.chewy.com/jobs
+  - company: American Tower
+    careers: https://www.americantower.com/careers
+  - company: Mohawk Industries
+    careers: https://mohawkind.com/careers
+  - company: Assurant
+    careers: https://jobs.assurant.com
+  - company: Thor Industries
+    careers: https://www.thorindustries.com/careers
+  - company: Graybar Electric
+    careers: https://graybar.wd1.myworkdayjobs.com/Graybar_Electric
+  - company: Yum China Holdings
+    careers: https://ir.yumchina.com/careers
+  - company: Celanese
+    careers: https://www.celanese.com/about/careers
+  - company: Qurate Retail (QVC Group)
+    careers: https://www.qurateretail.com/careers
+  - company: Williams (Williams Companies)
+    careers: https://www.williams.com/careers
+  - company: Interpublic Group
+    careers: https://interpublicgroup.com/careers
+  - company: Ovintiv
+    careers: https://www.ovintiv.com/careers
+  - company: Icahn Enterprises
+    careers: https://ielp.com/careers
+  - company: Huntington Bancshares
+    careers: https://www.huntington.com/Careers
+  - company: Erie Insurance Group
+    careers: https://www.erieinsurance.com/careers
+  - company: Carvana
+    careers: https://www.carvana.com/careers
+  - company: Hess
+    careers: https://www.hess.com/careers
+  - company: Dana Incorporated
+    careers: https://www.dana.com/careers
+  - company: Alcoa
+    careers: https://www.alcoa.com/global/en/who-we-are/careers
+  - company: Equitable Holdings
+    careers: https://equitable.com/careers
+  - company: KLA Corporation
+    careers: https://www.kla.com/careers
+  - company: Darden Restaurants
+    careers: https://www.darden.com/careers
+  - company: Autoliv
+    careers: https://www.autoliv.com/careers
+  - company: Alaska Air Group
+    careers: https://careers.alaskaair.com
+  - company: KeyCorp
+    careers: https://careers.key.com
+  - company: Las Vegas Sands
+    careers: https://www.sands.com/careers
+  - company: Owens & Minor
+    careers: https://www.owens-minor.com/careers
+  - company: Hilton Worldwide Holdings
+    careers: https://jobs.hilton.com
+  - company: Ebay
+    careers: https://careers.ebayinc.com
+  - company: Arthur J. Gallagher
+    careers: https://jobs.ajg.com
+  - company: LPL Financial Holdings
+    careers: https://www.lpl.com/careers.html
+  - company: Cincinnati Financial
+    careers: https://www.cinfin.com/careers
+  - company: Toll Brothers
+    careers: https://www.tollcareercenter.com
+  - company: Motorola Solutions
+    careers: https://careers.motorolasolutions.com
+  - company: Airbnb
+    careers: https://careers.airbnb.com
+  - company: Intercontinental Exchange
+    careers: https://www.theice.com/careers
+  - company: News Corp.
+    careers: https://newscorp.com/careers
+  - company: Chipotle Mexican Grill
+    careers: https://jobs.chipotle.com
+  - company: Vertex Pharmaceuticals
+    careers: https://careers.vrtx.com
+  - company: Biogen
+    careers: https://careers.biogen.com
+  - company: GXO Logistics
+    careers: https://jobs.gxo.com
+  - company: SpartanNash
+    careers: https://careers.spartannash.com
+  - company: Burlington Stores
+    careers: https://burlingtonstores.jobs
+  - company: Thrivent Financial for Lutherans
+    careers: https://www.thrivent.com/careers
+  - company: NVR
+    careers: https://www.nvrcareers.com
+  - company: Owens Corning
+    careers: https://jobs.owenscorning.com
+  - company: Westinghouse Air Brake Technologies (Wabtec)
+    careers: https://careers.wabteccorp.com
+  - company: Oshkosh
+    careers: https://oshkoshcorp.com/careers
+  - company: Global Payments
+    careers: https://careers.globalpaymentsinc.com
+  - company: Lululemon athletica
+    careers: https://careers.lululemon.com
+  - company: Albemarle
+    careers: https://www.albemarle.com/careers
+  - company: JetBlue Airways
+    careers: https://careers.jetblue.com
+  - company: Seaboard
+    careers: https://www.seaboardcorp.com/careers
+  - company: Constellation Brands
+    careers: https://www.cbrands.com/careers
+  - company: Graphic Packaging Holding
+    careers: https://careers.graphicpkg.com
+  - company: Hertz Global Holdings
+    careers: https://www.hertz.com/careers
+  - company: FM Global
+    careers: https://jobs.fmglobalcareers.com
+  - company: Campbell Soup
+    careers: https://careers.campbellsoupcompany.com
+  - company: Expeditors International of Washington
+    careers: https://careers.expeditors.com
+  - company: A-Mark Precious Metals
+    careers: https://www.amark.com/careers
+  - company: Booz Allen Hamilton Holding
+    careers: https://careers.boozallen.com
+  - company: Quest Diagnostics
+    careers: https://careers.questdiagnostics.com
+  - company: Altice USA
+    careers: https://www.alticeusa.com/careers
+  - company: PVH (Phillips-Van Heusen)
+    careers: https://www.pvh.com/careers
+  - company: Eastman Chemical
+    careers: https://www.eastman.com/en-us/company/careers
+  - company: Insight Enterprises
+    careers: https://careers.insight.com
+  - company: Regions Financial
+    careers: https://www.regions.com/about-regions/careers
+  - company: Beacon Roofing Supply
+    careers: https://www.beacon.com/en/careers.html
+  - company: Rockwell Automation
+    careers: https://careers.rockwellautomation.com
+  - company: Polaris
+    careers: https://www.polaris.com/en-us/careers
+  - company: ServiceNow
+    careers: https://www.servicenow.com/careers
+  - company: Sanmina
+    careers: https://www.sanmina.com/careers
+  - company: UGI (UGI Corporation)
+    careers: https://www.ugicorp.com/careers
+  - company: WEC Energy Group
+    careers: https://www.wecenergygroup.com/careers
+  - company: BrightSpring Health Services
+    careers: https://www.brightspringhealth.com/careers
+  - company: Cintas
+    careers: https://careers.cintas.com
+  - company: Commercial Metals
+    careers: https://careers.cmc.com
+  - company: Continental Resources
+    careers: https://www.clr.com/careers
+  - company: Chesapeake Energy
+    careers: https://www.chk.com/careers
+  - company: CenterPoint Energy
+    careers: https://www.centerpointenergy.com/en-us/corporate/careers
+  - company: NGL Energy Partners
+    careers: http://www.nglenergypartners.com/careers
+  - company: DoorDash
+    careers: https://careers.doordash.com
+  - company: NOV (National Oilwell Varco)
+    careers: https://www.nov.com/Careers
+  - company: Zoetis
+    careers: https://careers.zoetis.com
+  - company: J.M. Smucker
+    careers: https://www.jmsmucker.com/careers
+  - company: Microchip Technology
+    careers: https://careers.microchip.com
+  - company: Dover
+    careers: https://careers.dovercorporation.com
+  - company: Diamondback Energy
+    careers: https://www.diamondbackenergy.com/careers
+  - company: Avery Dennison
+    careers: https://www.averydennison.com/en/home/about-us/careers.html
+  - company: PPL
+    careers: https://www.pplweb.com/careers
+  - company: ON Semiconductor
+    careers: https://www.onsemi.com/company/careers
+  - company: ARKO (Arko Corp)
+    careers: https://www.arkocorp.com/careers
+  - company: Par Pacific Holdings
+    careers: https://parpacific.com/careers
+  - company: APA (APA Corporation)
+    careers: https://www.apacorp.com/careers
+  - company: Equinix
+    careers: https://careers.equinix.com
+  - company: New York Community Bancorp
+    careers: https://www.mynycb.com/About-Us/Careers
+  - company: Foot Locker
+    careers: https://careers.footlocker.com
+  - company: Ingredion
+    careers: https://www.ingredion.com/corporate/en-US/careers.html
+  - company: Newell Brands
+    careers: https://careers.newellbrands.com
+  - company: ABM Industries
+    careers: https://www.abm.com/careers
+  - company: Securian Financial Group
+    careers: https://www.securian.com/careers.html
+  - company: Prologis
+    careers: https://www.prologis.com/careers
+  - company: Blackstone
+    careers: https://www.blackstone.com/careers
+  - company: Skechers U.S.A.
+    careers: https://www.skechers.com/en-us/careers
+  - company: Masco
+    careers: https://masco.com/careers
+  - company: Rush Enterprises
+    careers: https://careers.rushenterprises.com
+  - company: Franklin Resources
+    careers: https://www.franklinresources.com/careers
+  - company: ODP (The ODP Corporation)
+    careers: https://careers.theodpcorp.com
+  - company: American Financial Group
+    careers: https://www.afginc.com/careers
+  - company: Packaging Corp. of America
+    careers: https://www.packagingcorp.com/careers
+  - company: Vulcan Materials
+    careers: https://www.vulcanmaterials.com/careers
+  - company: Interactive Brokers Group
+    careers: https://careers.interactivebrokers.com
+  - company: Williams-Sonoma
+    careers: https://www.williams-sonomainc.com/careers
+  - company: XPO (XPO Logistics)
+    careers: https://jobs.xpo.com
+  - company: Weyerhaeuser
+    careers: https://www.weyerhaeuser.com/careers
+  - company: Genworth Financial
+    careers: https://www.genworth.com/careers
+  - company: CMS Energy
+    careers: https://careers.cmsenergy.com
+  - company: Science Applications International (SAIC)
+    careers: https://jobs.saic.com
+  - company: Jefferies Financial Group
+    careers: https://www.jefferies.com/Careers
+  - company: Bath & Body Works
+    careers: https://careers.bathandbodyworks.com
+  - company: Electronic Arts
+    careers: https://www.ea.com/careers
+  - company: Taylor Morrison Home
+    careers: https://www.taylormorrison.com/careers
+  - company: Zimmer Biomet Holdings
+    careers: https://www.zimmerbiomet.com/en/about-us/careers.html
+  - company: Clorox
+    careers: https://www.thecloroxcompany.com/careers
+  - company: Xylem
+    careers: https://www.xylem.com/en-us/careers
+  - company: Voya Financial
+    careers: https://www.voya.com/page/careers
+  - company: Fastenal
+    careers: https://careers.fastenal.com
+  - company: Watsco
+    careers: https://www.watsco.com/careers
+  - company: Workday
+    careers: https://www.workday.com/en-us/company/careers.html
+  - company: Old Republic International
+    careers: https://www.oldrepublic.com/careers
+  - company: RPM International
+    careers: https://www.rpminc.com/careers
+  - company: UFP Industries
+    careers: https://www.ufpi.com/careers
+  - company: Ameren
+    careers: https://www.ameren.com/careers
+  - company: Knight-Swift Transportation Holdings
+    careers: https://jobs.knight-swift.com
+  - company: Monster Beverage
+    careers: https://www.monsterbevcorp.com/careers
+  - company: Intuitive Surgical
+    careers: https://careers.intuitive.com
+  - company: Super Micro Computer
+    careers: https://careers.supermicro.com
+  - company: Concentrix
+    careers: https://careers.concentrix.com
+  - company: O-I Glass
+    careers: https://www.o-i.com/careers
+  - company: Kenvue
+    careers: https://www.kenvue.com/careers
+  - company: Yum Brands
+    careers: https://careers.yum.com
+  - company: Sprouts Farmers Market
+    careers: https://about.sprouts.com/careers
+  - company: Endeavor Group Holdings
+    careers: https://www.endeavorco.com/careers
+  - company: Core & Main
+    careers: https://coreandmain.com/careers
+  - company: Howmet Aerospace
+    careers: https://www.howmet.com/join-us
+  - company: Oscar Health
+    careers: https://www.hioscar.com/careers
+  - company: Sirius XM Holdings
+    careers: https://www.siriusxm.com/careers
+  - company: Solventum
+    careers: https://www.solventum.com/careers
+  - company: GuideWell Mutual Holding
+    careers: https://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/careers
+  - company: Ferguson Enterprises
+    careers: https://www.ferguson.com/content/careers
+  - company: QXO Building Products
+    careers: https://www.qxobuildingproducts.com/careers

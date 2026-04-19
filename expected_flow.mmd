@@ -1,0 +1,20 @@
+flowchart TD
+  Start["Start: page.goto(job URL)"] --> Gemini["Gemini: analyze DOM<br/>state + fields + actions"]
+  Gemini --> Gate{Login/account required?}
+  Gate -->|yes| SignIn{"Sign in succeed?"}
+  SignIn -->|yes| Gemini
+  SignIn -->|no| Create{"Create account succeed?"}
+  Create -->|yes| Gemini
+  Create -->|no| Fail["Fail (creds/gate)"]
+  Gate -->|no| Actions["Actions: click / fill / select / check / upload<br/>with targets"]
+  Actions --> Exec["Playwright executes actions"]
+  Exec --> Loop{More steps?}
+  Loop -->|yes| Gemini
+  Loop -->|no| State{Reached?}
+  State -->|confirmation| Done["Submitted"]
+  State -->|review mode| Review["Review pending"]
+  State -->|other| Gemini
+  Done --> Log
+  Review --> Log
+  Fail --> Log
+  Log["Log: job_url/status/error/timestamp<br/>Save debug HTML/PNG<br/>Print status/error"]

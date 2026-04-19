@@ -1,0 +1,349 @@
+version: 1
+
+defaults:
+  enabled: true
+  pagination:
+    page_size: 100
+  schedule:
+    cron: "*/30 * * * *"
+  parse:
+    posted_date_fields: ["updated_at","created_at","listed_at","posted_at","pubDate"]
+    html_to_text: true
+
+sources:
+
+  # ---------- PRIMARY: ATS ----------
+  - id: greenhouse_all
+    type: greenhouse
+    enabled: true
+    auth: { mode: token, token_env: GREENHOUSE_API_TOKEN }
+    orgs:
+      - airbnb
+      - stripe
+      - databricks
+      - anthropic
+      - lyft
+      - doordashusa
+      - robinhood
+      - coinbase
+      - okta
+      - cloudflare
+      - mongodb
+      - reddit
+      - boxinc
+      - dropbox
+      - elastic
+      - hubspotjobs
+      - pinterest
+      - discord
+      - brex
+      - instacart
+      - datadog
+      - postman
+      - figma
+      - realtimeboardglobal   # Miro
+      - twilio
+      - hashicorp
+      - remotecom             # Remote.com
+      - xai
+      - privateblock          # Block / Square
+      - gleanwork             # Glean
+      - sigmacomputing        # Sigma Computing
+      - affirm
+      - asana
+      - pagerduty
+      - coursera
+      - duolingo
+      - vercel
+      - honeycomb
+      - justworks
+      - spacex
+      - flagshippioneeringinc
+      - a16z
+      - voxmedia
+      - jobleads
+      - five9
+      - snyk
+      - zoominfo
+      - twitch
+      - gitlab
+      - airtable
+      - retool
+      - capitolis
+      - teneo
+      - chanzuckerberginitiative
+      - nextiva
+      - guidepointsecurity
+      - arine
+      - skydio
+      - daybreakgames
+      - bseglobal
+      - niantic
+      - scaleai
+      - digitalcurrencygroup
+      - opentable
+      
+    filters:
+      query: ["ai","ml","machine learning","llm","nlp","computer vision","data scientist","ml engineer","ai engineer","research engineer"]
+      locations_include: ["Remote","United States"]
+    pagination:
+      page_size: 100
+
+
+  - id: lever_all
+    type: lever
+    enabled: false
+    auth: { mode: none }
+    orgs:
+      - openai
+      - stripe
+      - databricks
+      - snowflake
+      - anthropic
+      - amazon
+      - microsoft
+      - google
+      - nvidia
+      - meta
+      - apple
+      - salesforce
+      - uber
+      - adobe
+      - intel
+      - amd
+      - qualcomm
+      - tesla
+      - netflix
+      - airbnb
+      - palantir
+      - servicenow
+      - splunk
+      - doordash
+      - lyft
+      - zoom
+      - twilio
+      - shopify
+      - robinhood
+      - coinbase
+      - epicgames
+      - ea           # Electronic Arts
+      - sony
+      - disney
+      - warnermedia
+      - comcast
+      - nbcuniversal
+      - att
+      - verizon
+      - cisco
+      - oracle
+      - sap
+      - vmware
+      - dell
+      - hp
+      - jnj          # Johnson & Johnson
+      - pfizer
+      - moderna
+      - boeing
+      - lockheedmartin
+      - northropgrumman
+      - gm           # General Motors
+      - ford
+      - rivian
+    filters:
+      query: ["ai","ml","llm","nlp","data","computer vision","deep learning","ml engineer","ai engineer","research engineer"]
+      locations_include: ["Remote","United States"]
+    pagination:
+      page_size: 100
+
+  - id: "workday"
+    type: "workday"
+    enabled: true
+    select_name: "*"   # <- run ALL tenants from config/workday.yaml
+
+
+  - id: smartrecruiters
+    type: smartrecruiters
+    enabled: true
+    orgs:
+      - 1perTInentInc
+      - 6point6
+      - Adsbll
+      - adtalemglobaleducation
+      - AHRCNYC1
+      - aristanetworks
+      - AtriaGroupLLC
+      - AubergeResorts
+      - beumergroup1
+      - BoschGroup
+      - brightspeed
+      - CDELLC
+      - CERN
+      - CityOfNewYork
+      - Cyberark1
+      - CygnusProfessionalsInc2
+      - DDDSolucionesEstratgicas
+      - DiscoveryBehavioralHealth
+      - Dominos
+      - ecovadis
+      - Epworth
+      - Equus
+      - Experian
+      - Freshworks
+      - GapInc1
+      - GreenCell1
+      - HaloGroup1
+      - HaufeGroup
+      - INCResearch
+      - InformaGroupPlc
+      - IngramContentGroup1
+      - InterIKEAGroup
+      - JackLinksProteinSnacks
+      - Jobsbridge1
+      - JYSK
+      - KPFFConsultingEngineers
+      - Lingraphica
+      - LinkedIn3
+      - McKesson4
+      - mcwaneinc
+      - MicroCodersLLC
+      - MinorInternational
+      - molo17srl
+      - MonvilleLP
+      - MSIUnitedStates1
+      - MyHRLLC
+      - NBCUniversal3
+      - Nemera
+      - NorcoInc1
+      - O-I
+      - OECD
+      - OxfamAmerica2
+      - PayNearMe
+      - phoenixamericaninc
+      - Progineer1
+      - RandWorldwideInc
+      - Renaissance
+      - Resultant
+      - RHG
+      - Sandisk
+      - SeniorResourceGroupLLC
+      - SoftwareMind
+      - SoftwarePeopleInc
+      - SoftwareSpecialistsInc2
+      - softwaretechnologyinc2
+      - StepStoneGroup
+      - SyngentaGroup
+      - TheWonderfulCompany
+      - TurnitinLLC
+      - UnitedInfrastructure
+      - UniversityHealthNetwork
+      - USCorp2Corp
+      - Vention
+      - Vericast
+      - Visa
+      - westerndigital
+      - WestgateResorts
+      - Wise
+    filters:
+      query: ["ai","ml","nlp","data","computer vision","deep learning"]
+      locations_include: ["Remote","United States"]
+    pagination:
+      page_size: 100
+      max_pages: 5
+
+
+  - id: ashby
+    type: ashby
+    enabled: false
+    orgs:
+      - openai
+      - stripe
+      - databricks
+      - snowflake
+      - anthropic
+      - amazon
+      - microsoft
+      - google
+      - nvidia
+      - meta
+      - apple
+      - salesforce
+      - uber
+      - adobe
+      - intel
+      - amd
+      - qualcomm
+      - tesla
+      - netflix
+      - airbnb
+      - palantir
+      - servicenow
+      - splunk
+      - doordash
+      - lyft
+      - zoom
+      - twilio
+      - shopify
+      - robinhood
+      - coinbase
+      - epicgames
+      - ea              # Electronic Arts
+      - sony
+      - disney
+      - warnermedia
+      - comcast
+      - nbcuniversal
+      - att
+      - verizon
+      - cisco
+      - oracle
+      - sap
+      - vmware
+      - dell
+      - hp
+      - jnj             # Johnson & Johnson
+      - pfizer
+      - moderna
+      - boeing
+      - lockheedmartin
+      - northropgrumman
+      - gm              # General Motors
+      - ford
+      - rivian
+    filters:
+      query: ["ai","ml","nlp","data","mle","research engineer"]
+      locations_include: ["Remote","United States"]
+    pagination:
+      include_compensation: false   # set true if you want salary info from Ashby API
+
+  # ---------- SECONDARY: aggregators (fallback) ----------
+  - id: linkedin
+    type: linkedin_search
+    enabled: false               # turn on after ATS layer stabilizes (anti-bot risk)
+    auth: { mode: session_cookie, cookie_env: LINKEDIN_COOKIE }
+    filters:
+      titles_include: ["AI","Machine Learning","Data Scientist","ML Engineer","AI Engineer","Research Engineer","NLP"]
+      posted_within_days: 21
+      remote_types: ["Remote","Hybrid"]
+      locations_include: ["United States"]
+
+  - id: indeed
+    type: indeed_search
+    enabled: false
+    filters:
+      query: ["(AI OR \"machine learning\" OR NLP OR \"deep learning\") (engineer OR scientist OR research)"]
+      locations_include: ["United States"]
+      posted_within_days: 21
+
+  # ---------- NICHE / YOUR ORIGINAL ----------
+  - id: rss_weworkremotely_programming
+    type: rss
+    enabled: false
+    feeds:
+      - "https://weworkremotely.com/categories/remote-programming-jobs.rss"
+    parse:
+      posted_date_fields: ["pubDate","published","updated"]
+      html_to_text: true
+    normalize:
+      title_field: "title"
+      location_default: "Remote"
+    pagination: { page_size: 200 }

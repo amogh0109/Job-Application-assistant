@@ -1,0 +1,153 @@
+version: 2
+
+# ------- ELIGIBILITY (hard filters) -------
+eligibility:
+  locations:
+    include_any:
+      - "Remote"
+      - "Remote-US"
+      - "United States"
+      - "US"
+      - "Hybrid"
+      # Top 10 tech-heavy states
+      - "CA"   # California
+      - "NY"   # New York
+      - "TX"   # Texas
+      - "WA"   # Washington
+      - "MA"   # Massachusetts
+      - "IL"   # Illinois
+      - "FL"   # Florida
+      - "MD"   # Maryland
+      - "VA"   # Virginia
+      - "CO"   # Colorado
+    include_remote_anywhere: true
+  recency:
+    max_age_days: 15
+  employment_type:
+    include_any: ["Full-time", "Contract"]
+    exclude_any: ["Intern", "Internship", "Apprentice", "Apprenticeship", "Co-op", "Part-time"]
+  visa_text:
+    # Broadened: allow unless explicitly excluding sponsorship
+    exclude_if_text_contains_any:
+      - "US citizens only"
+      - "citizens only"
+      - "no sponsorship"
+      - "cannot sponsor"
+      - "gc only"
+      - "green card holders only"
+      - "must be us citizen"
+  titles:
+    must_match_any: true
+    target_list:
+      # Core AI/ML/Data
+      - "AI Engineer"
+      - "AI Researcher"
+      - "Machine Learning Engineer"
+      - "ML Engineer"
+      - "Deep Learning Engineer"
+      - "Data Scientist"
+      - "Applied Scientist"
+      - "Research Scientist"
+      - "Research Engineer"
+      - "AI Research Engineer"
+      - "NLP Engineer"
+      - "LLM Engineer"
+      - "Computer Vision Engineer"
+      - "Business Analyst"
+      - "Data Analyst"
+      - "BI Analyst"
+      # Broadened umbrellas
+      - "Software Engineer"
+      - "Applied Research Engineer"
+      - "Analytics Engineer"
+      - "Quantitative Analyst"
+      - "Data Specialist"
+      # Senior ICs
+      - "Staff Engineer"
+      - "Principal Engineer"
+      - "Principal Scientist"
+    # Still exclude exec/management tiers
+    exclude_title_keywords_any:
+      - "director"
+      - "head"
+      - "vice president"
+      - "vp"
+      - "chief"
+      - "cto"
+      - "cso"
+  keywords:
+    list:
+      # Core AI/ML
+      - "AI"
+      - "ML"
+      - "Machine Learning"
+      - "Deep Learning"
+      - "LLM"
+      - "NLP"
+      - "RAG"
+      - "Generative AI"
+      # Programming / data
+      - "Python"
+      - "SQL"
+      - "R"
+      - "Spark"
+      - "Hadoop"
+      # Cloud / infra
+      - "Azure"
+      - "AWS"
+      - "GCP"
+      - "Databricks"
+      - "Snowflake"
+      - "Airflow"
+      - "Docker"
+      - "Kubernetes"
+      # Libraries / frameworks
+      - "PyTorch"
+      - "TensorFlow"
+      - "Keras"
+      - "Scikit-learn"
+      - "HuggingFace"
+    threshold_any: 2   # require at least 2 keyword hits in title/description
+
+# ------- NORMALIZATION -------
+normalization:
+  lowercase_and_trim: true
+  company_aliases_file: data/aliases/company_aliases.csv
+  title_map_file: data/aliases/title_map.csv
+
+# ------- DE-DUPLICATION -------
+deduplication:
+  primary_key: "canonical_apply_url"
+  secondary_keys: ["company_normalized", "title_normalized", "location_normalized"]
+  keep: "newest"
+  tie_breakers:
+    - "has_salary"         # prefer record with salary info
+    - "source_is_ats"      # prefer ATS over aggregator if still tied
+
+# ------- QUEUEING (no scoring) -------
+queueing:
+  buckets:
+    - name: auto_apply
+      if:
+        eligible: true
+        # auto-apply only when we have the essentials
+        require_fields: ["apply_url", "title", "company"]
+    - name: queued
+      if:
+        eligible: true
+        # eligible but missing any required field for auto-apply
+        missing_any_of_fields: ["apply_url", "title", "company"]
+    - name: rejected
+      if:
+        eligible: false
+
+# ------- UI BEHAVIOR -------
+ui_behavior:
+  unique_by_company: false        # show all distinct roles per company
+  sort:
+    auto_apply: ["-posted_date"]
+    queued:     ["-posted_date"]
+    rejected:   ["-posted_date"]
+
+
+#C:\Users\Amogh Wyawahare\AppData\Local\Google\Chrome\User Data\Default
