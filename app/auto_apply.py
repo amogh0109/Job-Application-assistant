@@ -122,6 +122,7 @@ class AutoApplyProfile:
     email: str
     phone: str
     resume_path: str
+    location: Optional[str] = None
     cover_letter_path: Optional[str] = None
     linkedin_url: Optional[str] = None
     github_url: Optional[str] = None
@@ -233,6 +234,7 @@ def load_profile(path: str) -> AutoApplyProfile:
         email=str(data.get("email", "")),
         phone=str(data.get("phone", "")),
         resume_path=str(data.get("resume_path", "")),
+        location=(data.get("location") or None),
         cover_letter_path=(data.get("cover_letter_path") or None),
         linkedin_url=(data.get("linkedin_url") or None),
         github_url=(data.get("github_url") or None),
@@ -334,6 +336,27 @@ def auto_apply_headless(job_row: Dict[str, Any], profile: AutoApplyProfile, time
 
 
 
+def _gemini_decide(context_text: str, profile: AutoApplyProfile, options: list = None) -> str:
+    import json, yaml
+    from google import genai
+    from dataclasses import asdict
+    try:
+        with open("config/config.yaml", "r", encoding="utf-8") as f:
+            c = yaml.safe_load(f)
+        if not c.get("gemini_api_key"): return ""
+        client = genai.Client(api_key=c["gemini_api_key"])
+        model_id = c.get("gemini_model", "gemini-2.0-flash-lite")
+        if model_id.startswith("models/"): model_id = model_id.replace("models/", "")
+        pdict = asdict(profile)
+        if options:
+            q = f"Applicant details: {json.dumps(pdict)}\nQuestion context: {context_text}\nOptions available: {options}\nWhich option is best? Reply ONLY with the exact option text. If nothing matches, return the closest option."
+        else:
+            q = f"Applicant details: {json.dumps(pdict)}\nQuestion context: {context_text}\nAnswer this concisely (1-3 words max). Return ONLY the answer."
+        res = client.models.generate_content(model=model_id, contents=q)
+        return res.text.strip().replace('"', '').replace("'", "")
+    except:
+        return ""
+
 # ---------- Common helpers ----------
 def _fill_any(page, selectors: list[str], value: str):
     for sel in selectors:
@@ -365,20 +388,12 @@ def _set_file_any(page, selectors: list[str], file_path: str):
         pass
     return False
 
-def _check_all(page, selectors: list[str], limit_per_selector: int = 10):
+def _check_all(target, selectors: list[str]):
     for sel in selectors:
-        try:
-            loc = page.locator(sel)
-            n = min(loc.count(), limit_per_selector)
-            for i in range(n):
-                try:
-                    el = loc.nth(i)
-                    if el.is_visible():
-                        el.check(force=True)
-                except Exception:
-                    continue
-        except Exception:
-            continue
+        for loc in target.locator(sel).all():
+            try:
+                if not loc.is_checked(): loc.evaluate("el => el.click()")
+            except: pass
 
 _SUBMIT_BTNS = [
     "button:has-text('Submit application')",
@@ -489,6 +504,123 @@ def _greenhouse_submit(page, url: str, profile: AutoApplyProfile) -> AutoApplyRe
 
     _check_all(target, ["input[type='checkbox']"])
 
+    # ---------- AI AnswerEngine for Custom Questions ----------
+    try:
+        # Greenhouse custom questions typically live inside div.field, div.custom_question, or div.select__container
+        # We iterate over all visible labels
+        labels = target.locator("label:visible").all()
+        for label_loc in labels:
+            label_text = label_loc.text_content().strip()
+            
+            # Since we iterate over labels, we redefine `field` as the parent of the label
+            field = label_loc.locator("..")
+            
+            # 0. City Location Handler (Google Maps Autocomplete)
+            if "location" in label_text.lower() and "city" in label_text.lower():
+                try:
+                    loc_input = field.locator("input[type='text']:visible, input[role='combobox']:visible").first
+                    if loc_input.count() > 0:
+                        loc_input.fill("San Francisco, California") # Fallback explicit city format
+                        target.wait_for_timeout(1000)
+                        target.keyboard.press("ArrowDown")
+                        target.wait_for_timeout(200)
+                        target.keyboard.press("Enter")
+                except: pass
+                continue
+                
+            if not label_text or "*" not in label_text: 
+                # If you want to answer non-mandatory questions too, remove the "*" check. Currently only doing it for mandatory to save tokens.
+                if "gender" not in label_text.lower() and "race" not in label_text.lower() and "veteran" not in label_text.lower() and "disability" not in label_text.lower():
+                    # Only skip if it's not a standard EE question
+                    if "*" not in label_text: continue
+                
+            parent = label_loc.locator("..")
+            
+            # 1. Select boxes (Native HTML Dropdowns)
+            select_loc = parent.locator("select:visible").first
+            if select_loc.count() == 0:
+                # try grandparent
+                select_loc = parent.locator("..").locator("select:visible").first
+                
+            if select_loc.count() > 0:
+                current_val = select_loc.evaluate("el => el.value")
+                if not current_val or current_val == "":
+                    options_elements = select_loc.locator("option").all()
+                    opts = [o.text_content().strip() for o in options_elements if o.text_content().strip() and "please select" not in o.text_content().lower()]
+                    if opts:
+                        ans = _gemini_decide(label_text, profile, options=opts)
+                        if ans:
+                            # To be safe, try to select by exactly matching
+                            try: select_loc.select_option(label=ans)
+                            except: pass
+                            
+            # 2. React-Select Comboboxes (Modern Greenhouse)
+            combo = parent.locator('input[role="combobox"]:visible').first
+            if combo.count() == 0:
+                combo = parent.locator('..').locator('input[role="combobox"]:visible').first
+                
+            if combo.count() > 0:
+                current_val = combo.evaluate("el => el.value")
+                if not current_val:
+                    try:
+                        combo.click(force=True)
+                        target.wait_for_timeout(300)
+                        opts = target.locator('div[role="option"]').all_text_contents()
+                        if opts:
+                            ans = _gemini_decide(label_text, profile, options=opts)
+                            print(f"[DEBUG] LABEL: {label_text} | OPTS: {opts[:2]}... | ANS: {ans}")
+                            if ans:
+                                # Try clicking the actual option div first (safest and most reliable)
+                                try:
+                                    import re
+                                    def _norm(s): return re.sub(r'[^a-z0-9]', '', s.lower())
+                                    a_norm = _norm(ans)
+                                    opt_matches = [i for i, text in enumerate(opts) if a_norm and a_norm in _norm(text)]
+                                    if not opt_matches:
+                                        # fallback check if any option is a substring of the answer
+                                        opt_matches = [i for i, text in enumerate(opts) if _norm(text) and _norm(text) in a_norm]
+                                        
+                                    if opt_matches:
+                                        print(f"[DEBUG] Clicking exact match {opt_matches[0]} for {ans}")
+                                        target.locator('div[role="option"]').nth(opt_matches[0]).click(force=True)
+                                    else:
+                                        combo.fill(ans)
+                                        target.wait_for_timeout(300)
+                                        target.keyboard.press("Enter")
+                                        target.keyboard.press("Escape")
+                                except: pass
+                        else:
+                            ans = _gemini_decide(label_text, profile)
+                            if ans:
+                                combo.fill(ans)
+                                target.wait_for_timeout(300)
+                                target.keyboard.press("Enter")
+                                target.keyboard.press("Escape")
+                    except Exception as e:
+                        print(f"[Greenhouse] Combobox error: {e}")
+                        
+            # 3. Custom text inputs
+            text_loc = parent.locator("input[type='text']:visible, textarea:visible").first
+            if text_loc.count() == 0:
+                text_loc = parent.locator('..').locator("input[type='text']:visible, textarea:visible").first
+                
+            if text_loc.count() > 0 and text_loc.get_attribute("role") != "combobox":
+                try:
+                    # Ignore standard fields we already filled
+                    name_attr = text_loc.get_attribute("name") or ""
+                    if "first" in name_attr.lower() or "last" in name_attr.lower() or "email" in name_attr.lower() or "phone" in name_attr.lower():
+                        continue
+                        
+                    current_val = text_loc.evaluate("el => el.value")
+                    if not current_val:
+                        ans = _gemini_decide(label_text, profile)
+                        if ans: text_loc.fill(ans)
+                except: pass
+    except Exception as e:
+        print(f"[Greenhouse] AnswerEngine error: {e}")
+        pass
+    # --------------------------------------------------------
+
     submitted = _click_submit_and_confirm(target)
     status = "greenhouse-submitted" if submitted else "greenhouse-submission-unknown"
     return AutoApplyResult(submitted, status, {"url": url, "profile": asdict(profile)})
@@ -500,33 +632,8 @@ def _workday_submit(page, url: str, profile: AutoApplyProfile) -> AutoApplyResul
     import yaml
     import json
     from dataclasses import asdict
-    
-    def _gemini_decide(context_text: str, options: list = None) -> str:
-        try:
-            with open("config/config.yaml", "r", encoding="utf-8") as f:
-                c = yaml.safe_load(f)
-            if not c.get("gemini_api_key"): return ""
-            
-            client = genai.Client(api_key=c["gemini_api_key"])
-            model_id = c.get("gemini_model", "gemini-2.0-flash-lite")
-            # Usually 'models/' prefix is removed in the new Client
-            if model_id.startswith("models/"): 
-                model_id = model_id.replace("models/", "")
-                
-            pdict = asdict(profile)
-            
-            if options:
-                q = f"Applicant details: {json.dumps(pdict)}\nQuestion context: {context_text}\nOptions available: {options}\nWhich option is best? Reply ONLY with the exact option text. If nothing matches, return the closest option."
-            else:
-                q = f"Applicant details: {json.dumps(pdict)}\nQuestion context: {context_text}\nAnswer this concisely (1-3 words max). Return ONLY the answer."
-                
-            res = client.models.generate_content(
-                model=model_id,
-                contents=q,
-            )
-            return res.text.strip().replace('"', '').replace("'", "")
-        except:
-            return ""
+    def _local_gemini_decide(context_text: str, options: list = None) -> str:
+        return _gemini_decide(context_text, profile, options)
 
 
     try: page.locator('button:has-text("Accept Cookies")').first.evaluate("el => el.click()")
@@ -718,7 +825,7 @@ def _workday_submit(page, url: str, profile: AutoApplyProfile) -> AutoApplyResul
                     if "date" in label_text.lower() or "day" in label_text.lower() or "year" in label_text.lower():
                         # Try to fill numeric or date inputs
                         if tag == "input":
-                            ans = _gemini_decide(label_text + " (it's a date field component)")
+                            ans = _local_gemini_decide(label_text + " (it's a date field component)")
                             clickable.fill(ans)
                             filled_any = True
                             continue
@@ -728,7 +835,7 @@ def _workday_submit(page, url: str, profile: AutoApplyProfile) -> AutoApplyResul
                         if ctype == "tel": clickable.fill(profile.phone or "2123481111")
                         elif ctype == "email": email_val = profile.email; clickable.fill(email_val)
                         else:
-                            ans = _gemini_decide(label_text)
+                            ans = _local_gemini_decide(label_text)
                             if ans: 
                                 if tag == "select": clickable.select_option(label=ans)
                                 else: clickable.fill(ans)
@@ -749,7 +856,7 @@ def _workday_submit(page, url: str, profile: AutoApplyProfile) -> AutoApplyResul
                             if "language" in label_text.lower() and "rating" not in label_text.lower():
                                 context += " (Select 'English' or 'Fluent' if applicable)"
                             
-                            ans = _gemini_decide(context, options=opts)
+                            ans = _local_gemini_decide(context, options=opts)
                             if ans:
                                 for idx, opt_text in enumerate(opts):
                                     if ans.lower() in opt_text.lower():
@@ -765,7 +872,7 @@ def _workday_submit(page, url: str, profile: AutoApplyProfile) -> AutoApplyResul
 
                     # RADIOS
                     elif role in ["radiogroup", "radio"] or ctype == "radio":
-                        ans = _gemini_decide(label_text, options=["Yes", "No", "Prefer not to say"])
+                        ans = _local_gemini_decide(label_text, options=["Yes", "No", "Prefer not to say"])
                         if ans: 
                             r_loc = field.locator(f'label:has-text("{ans}")').first
                             if r_loc.count() > 0:

@@ -12,6 +12,8 @@ from app.store_excel import ExcelJobsStore
 from app.eligibility import mark_eligibility
 from app.models import Job
 from app.auto_apply import load_profile, auto_apply_headless
+from greenhouse_test import gh_detail_api_date
+import httpx
 
 from ui.dash_data_utils import (
     _str_or_empty,
@@ -168,7 +170,16 @@ def page_queue(excel_path: str, profile_path: str):
 
     # Build and filter frame
     qdf = compute_queue_df(df).copy()
+    
+    # Helper to ensure posted_date_dt exists and is parseable
+    col = "posted_date_dt" if "posted_date_dt" in qdf.columns else ("posted_date" if "posted_date" in qdf.columns else None)
+    if col is not None:
+        qdf["posted_date_dt"] = pd.to_datetime(qdf[col], utc=True, errors="coerce")
+    else:
+        qdf["posted_date_dt"] = pd.NaT
+
     total_in_queue = len(qdf)
+
     if search:
         s = search.lower()
         qdf = qdf[qdf["title"].astype(str).str.lower().str.contains(s, na=False) | qdf["company"].astype(str).str.lower().str.contains(s, na=False)]
@@ -176,35 +187,10 @@ def page_queue(excel_path: str, profile_path: str):
         view_ats = qdf.apply(_ats_display_name_row, axis=1)
         qdf = qdf[view_ats.isin(ats_selected)]
     if days_choice != "All":
-        days = int(days_choice)
-        cutoff = datetime.now(timezone.utc) - timedelta(days=days)
-        qdf["posted_date_dt"] = pd.to_datetime(qdf.get("posted_date_dt") or qdf.get("posted_date"), utc=True, errors="coerce")
+        cutoff = datetime.now(timezone.utc) - timedelta(days=int(days_choice))
         qdf = qdf[qdf["posted_date_dt"] >= cutoff]
     if eligible_only and "eligible" in qdf.columns:
         qdf = qdf[qdf["eligible"] == True]
-    qdf["posted_date_dt"] = pd.to_datetime(qdf.get("posted_date_dt") or qdf.get("posted_date"), utc=True, errors="coerce")
-    qdf = qdf.sort_values("posted_date_dt", ascending=False, na_position="last")
-
-    full_qdf = compute_queue_df(df)
-    total_in_queue = len(full_qdf)
-
-    # Apply filters
-    qdf = full_qdf.copy()
-    if "posted_date_dt" not in qdf.columns:
-        qdf["posted_date_dt"] = pd.Series(dtype="datetime64[ns, UTC]")
-
-    if days:
-        cutoff = datetime.now(timezone.utc) - timedelta(days=days)
-        qdf["posted_date_dt"] = pd.to_datetime(qdf["posted_date_dt"], utc=True, errors="coerce")
-        qdf = qdf[qdf["posted_date_dt"] >= cutoff]
-
-    if eligible_only and "eligible" in qdf.columns:
-        qdf = qdf[qdf["eligible"] == True]
-
-    if title_kw:
-        qdf = qdf[qdf["title"].astype(str).str.contains(title_kw, case=False, na=False)]
-    if company_kw:
-        qdf = qdf[qdf["company"].astype(str).str.contains(company_kw, case=False, na=False)]
 
     # Column headers with inline controls (ATS filter + date sort)
     hdr_title, hdr_ats, hdr_date, hdr_elig, hdr_apply, hdr_action = st.columns([6, 2, 2, 2, 2, 2])
@@ -291,6 +277,32 @@ def page_queue(excel_path: str, profile_path: str):
                 st.caption("apply link")
             with c5:
                 if st.button("Auto Apply", key=f"auto_apply_{job_id}"):
+                    
+                    # -- Greenhouse Pre-Check Logic --
+                    if ats_name == "greenhouse":
+                        try:
+                            with st.spinner("Checking Greenhouse runtime status..."):
+                                with httpx.Client() as client:
+                                    html_resp = client.get(apply_url, follow_redirects=True, timeout=10)
+                                
+                            if "error=true" in str(html_resp.url):
+                                st.error("This Greenhouse job is closed! Skipping application.")
+                                _, df = move_to_parked_inplace(df, job_id, reason="Closed/Redirected on Greenhouse")
+                                save_jobs_df(df, excel_path)
+                                st.rerun()
+                                
+                            # Extract true date
+                            token = apply_url.split("/")[3]
+                            gid = apply_url.split("/")[5].split("?")[0]
+                            api_info = gh_detail_api_date(token, gid)
+                            if api_info.get("date"):
+                                st.success(f"Verified active! Real posted date: {api_info['date']}")
+                                # Dynamically update the visual posted date field
+                                df.loc[df["job_id"].astype(str) == str(job_id), "posted_date"] = api_info['date']
+                                save_jobs_df(df, excel_path)
+                        except Exception as e:
+                            st.warning(f"Could not verify Greenhouse real-time date: {e}")
+
                     try:
                         profile = load_profile(profile_path)
                     except Exception as e:
@@ -547,17 +559,15 @@ def page_rules(excel_path: str, rules_path: str):
 # Simple Table View Queue (clean toolbar + pager)
 # --------------------------
 def page_queue_simple(excel_path: str, profile_path: str):
-    st.header("Queue")
-
     df = load_jobs_df(excel_path)
     if df.empty:
         st.info("No jobs found. Run your collector to populate jobs.xlsx.")
         return
 
-    # Toolbar
-    t1, t2, t3, t4 = st.columns([3, 3, 3, 1])
+    # Modern Filter Pill Toolbar
+    t1, t2, t3, t4, t5 = st.columns([3, 2, 2, 2, 2])
     with t1:
-        search = st.text_input("Search (title or company)", "").strip()
+        search = st.text_input("Search", "", placeholder="Search titles or companies...", label_visibility="collapsed").strip()
     with t2:
         def _ats_display_name_row(r):
             return _str_or_empty(r.get("ats_type")) or _guess_ats_from_url(
@@ -565,14 +575,18 @@ def page_queue_simple(excel_path: str, profile_path: str):
             ) or "Unknown"
         ats_options = sorted(set(df.apply(_ats_display_name_row, axis=1).tolist()))
         ats_selected = st.multiselect(
-            "ATS", ats_options, default=[], key="queue_toolbar_ats", placeholder="Choose options"
+            "ATS filter", ats_options, default=[], key="queue_toolbar_ats", placeholder="All ATS Filters", label_visibility="collapsed"
         )
     with t3:
-        days_choice = st.radio("Posted within", ["1","2","3","7","14","All"], index=2, horizontal=True)
+        days_choice = st.selectbox("Date posted", ["Past 24 hours", "Past 3 days", "Past 7 days", "Past 14 days", "Any time"], index=4, label_visibility="collapsed")
+        day_map = {"Past 24 hours": 1, "Past 3 days": 3, "Past 7 days": 7, "Past 14 days": 14, "Any time": None}
     with t4:
-        eligible_only = st.checkbox("Eligible only", value=False)
+        sort_choice = st.selectbox("Sort by", ["Most Recent", "Oldest First"], index=0, label_visibility="collapsed")
+    with t5:
+        st.markdown("<div style='margin-top:10px;'></div>", unsafe_allow_html=True)
+        eligible_only = st.checkbox("Eligible Only", value=True)
 
-    # Build and filter
+    # Filtering Logic
     qdf = compute_queue_df(df).copy()
     def _ensure_posted_dt(frame: pd.DataFrame) -> pd.DataFrame:
         col = "posted_date_dt" if "posted_date_dt" in frame.columns else ("posted_date" if "posted_date" in frame.columns else None)
@@ -582,118 +596,328 @@ def page_queue_simple(excel_path: str, profile_path: str):
             frame["posted_date_dt"] = pd.NaT
         return frame
     qdf = _ensure_posted_dt(qdf)
-    total_in_queue = len(qdf)
+    
     if search:
         s = search.lower()
         qdf = qdf[
             qdf["title"].astype(str).str.lower().str.contains(s, na=False)
             | qdf["company"].astype(str).str.lower().str.contains(s, na=False)
         ]
-    if ats_selected:                               # ← ONLY filter when user picks something
+    if ats_selected:
         view_ats = qdf.apply(_ats_display_name_row, axis=1)
         qdf = qdf[view_ats.isin(ats_selected)]
-    if days_choice != "All":
-        days = int(days_choice)
-        cutoff = datetime.now(timezone.utc) - timedelta(days=days)
+    if day_map[days_choice] is not None:
+        cutoff = datetime.now(timezone.utc) - timedelta(days=day_map[days_choice])
         qdf = qdf[qdf["posted_date_dt"] >= cutoff]
     if eligible_only and "eligible" in qdf.columns:
         qdf = qdf[qdf["eligible"] == True]
 
-    # Sort newest first
-    qdf = qdf.sort_values("posted_date_dt", ascending=False, na_position="last")
+    qdf = qdf.sort_values("posted_date_dt", ascending=(sort_choice == "Oldest First"), na_position="last")
+    total_results = len(qdf)
 
-    # Pager state
+    st.markdown(f"<div style='margin: 16px 0 24px 0; color: #475569; font-weight: 600; font-size:18px;'>{total_results} results found</div>", unsafe_allow_html=True)
+
+    # Job Cards Pagination
     page_size = int(st.session_state.get("queue_page_size", 50))
     offset = int(st.session_state.get("queue_offset", 0))
-    if page_size <= 0:
-        page_size = 50
-    last_start = 0 if len(qdf) == 0 else max(0, ((len(qdf) - 1) // page_size) * page_size)
+    
+    last_start = 0 if total_results == 0 else max(0, ((total_results - 1) // page_size) * page_size)
     if offset > last_start:
         offset = last_start
         st.session_state["queue_offset"] = offset
-    end = min(offset + page_size, len(qdf))
-    st.caption(
-        f"Total in queue: {total_in_queue} | Showing: {end - offset} (rows {offset + 1}-{end} of {len(qdf)})"
-    )
+        
+    qslice = qdf.iloc[offset:offset+page_size].copy()
 
-        # Slice + table
-    qslice = qdf.iloc[offset:end].copy()
-    table = pd.DataFrame(
-        {
-            "title": qslice["title"].astype(str),
-            "company": qslice["company"].astype(str),
-            "location": qslice["location"].astype(str),
-            "ats_name": qslice.apply(_ats_display_name_row, axis=1),
-            "posted_date": qslice["posted_date"].astype(str),
-            "eligible": qslice.get("eligible", pd.Series([False] * len(qslice))).astype(bool),
-            "apply_url": qslice["apply_url"].astype(str),
-            "ats_url": qslice.get("canonical_apply_url", pd.Series([""] * len(qslice))).astype(str),
-        }
-    )
-
-    st.data_editor(
-        table,
-        hide_index=True,
-        use_container_width=True,
-        num_rows="fixed",
-        height=720,
-        column_config={
-            "title": st.column_config.TextColumn("Title", disabled=True, width="large"),
-            "company": st.column_config.TextColumn("Company", disabled=True, width="medium"),
-            "location": st.column_config.TextColumn("Location", disabled=True, width="medium"),
-            "ats_name": st.column_config.TextColumn("ATS", disabled=True, width="small"),
-            "posted_date": st.column_config.TextColumn("Posted", disabled=True, width="small"),
-            "eligible": st.column_config.CheckboxColumn("Eligible", disabled=True),
-            "apply_url": st.column_config.LinkColumn("Apply", display_text="Open"),
-            "ats_url": st.column_config.LinkColumn("ATS Link", display_text="Open"),
-        },
-        column_order=[
-            "title",
-            "company",
-            "location",
-            "ats_name",
-            "posted_date",
-            "eligible",
-            "apply_url",
-            "ats_url",
-        ],
-    )
-
-
-    # Bottom pager controls
-    # Bottom pager controls (Prev + Next above Rows; only one Next button)
-    pg_l, pg_c, pg_r = st.columns([1, 6, 2])
-
-    with pg_l:
-        if st.button("‹ Prev", key="queue_prev_page_b"):
-            new_off = offset - page_size
-            if new_off < 0:
-                new_off = 0 if len(qdf) == 0 else max(0, ((len(qdf) - 1) // page_size) * page_size)
-            st.session_state["queue_offset"] = new_off
-            st.rerun()
-
-    with pg_c:
-        st.markdown("&nbsp;", unsafe_allow_html=True)
-
-    with pg_r:
-        if st.button("Next ›", key="queue_next_page_b"):
-            new_off = offset + int(st.session_state.get("queue_page_size", page_size))
-            if new_off >= len(qdf):
-                new_off = 0
-            st.session_state["queue_offset"] = new_off
-            st.rerun()
-
-        # only one rows input, below the Prev/Next row
-        st.number_input(
-            "Rows per page",
-            min_value=10,
-            max_value=500,
-            step=10,
-            value=int(page_size),
-            key="queue_page_size",
-        )
+    # Split layout: List on left, Details on right
+    col_list, col_detail = st.columns([5, 7], gap="large")
     
+    with col_list:
+        if qslice.empty:
+            st.info("No queued jobs match the current filters.")
+        else:
+            # --- Bulk Apply Header ---
+            selected_to_apply = []
+            for jid in qslice["job_id"].astype(str).values:
+                if st.session_state.get(f"sel_{jid}", False):
+                    selected_to_apply.append(jid)
+            
+            if selected_to_apply:
+                st.markdown(
+                    f"""<div style='padding:12px 16px; border-radius:12px; background:#e0f2fe; border:1px solid #bae6fd; margin-bottom:12px; box-shadow:0 1px 2px rgba(0,0,0,0.05); display:flex; justify-content:space-between; align-items:center;'>
+                        <div style='color:#0369a1; font-weight:700; font-size:15px;'>{len(selected_to_apply)} selected</div>
+                    </div>""", unsafe_allow_html=True
+                )
+                if st.button("🚀 Apply Selected Jobs", key="bulk_apply_btn", type="primary", use_container_width=True):
+                    df_current = load_jobs_df(excel_path)
+                    try:
+                        profile = load_profile(profile_path)
+                        for bulk_jid in selected_to_apply:
+                            row_data = df_current[df_current["job_id"].astype(str) == bulk_jid].iloc[0]
+                            ats_name = _ats_display_name_row(row_data)
+                            title = _str_or_empty(row_data.get("title"))
+                            company = _str_or_empty(row_data.get("company"))
+                            apply_url = _str_or_empty(row_data.get("apply_url"))
+                            ats_url = _str_or_empty(row_data.get("canonical_apply_url"))
+                            
+                            skip_apply = False
+                            if ats_name.lower() == "greenhouse":
+                                try:
+                                    with st.spinner(f"Verifying {title}..."):
+                                        with httpx.Client() as client:
+                                            html_resp = client.get(apply_url, follow_redirects=True, timeout=10)
+                                        if "error=true" in str(html_resp.url):
+                                            st.error(f"Job {bulk_jid} closed! Skipping.")
+                                            _, df_current = move_to_parked_inplace(df_current, bulk_jid, reason="Closed/Redirected on Greenhouse")
+                                            save_jobs_df(df_current, excel_path)
+                                            skip_apply = True
+                                            continue
+                                            
+                                        token = apply_url.split("/")[3]
+                                        gid = apply_url.split("/")[5].split("?")[0]
+                                        import app.dash_data_utils # fallback if gh_detail_api is missing
+                                        api_info = gh_detail_api_date(token, gid)
+                                        if api_info.get("date"):
+                                            df_current.loc[df_current["job_id"].astype(str) == str(bulk_jid), "posted_date"] = api_info['date']
+                                            save_jobs_df(df_current, excel_path)
+                                except Exception as e:
+                                    st.warning(f"GH date check failed: {e}")
 
+                            if not skip_apply:
+                                with st.spinner(f"Applying to {title}..."):
+                                    try:
+                                        result = auto_apply_headless({
+                                            "job_id": bulk_jid, "title": title, "company": company,
+                                            "apply_url": apply_url, "canonical_apply_url": ats_url, "ats_type": ats_name,
+                                        }, profile)
+
+                                        df2 = load_jobs_df(excel_path)
+                                        mask_row = df2["job_id"].astype(str) == bulk_jid
+                                        import json
+                                        def _append(meta_j):
+                                            try: m = json.loads(meta_j) if isinstance(meta_j, str) else (meta_j or {})
+                                            except: m = {}
+                                            m.setdefault("auto_apply", []).append({
+                                                "mode": "ats-headless", "ok": bool(result.ok),
+                                                "status": result.status, "ats": ats_name,
+                                                "details": result.details, "ts": datetime.now(timezone.utc).isoformat()
+                                            })
+                                            return json.dumps(m, ensure_ascii=False)
+                                        if mask_row.any():
+                                            df2.loc[mask_row, "meta_json"] = df2.loc[mask_row, "meta_json"].apply(_append)
+                                        
+                                        if result.ok and result.status.endswith("submitted"):
+                                            ok_applied, df2 = mark_applied_inplace(df2, bulk_jid)
+                                            if ok_applied:
+                                                save_jobs_df(df2, excel_path)
+                                                store = ExcelJobsStore(excel_path)
+                                                store.write_queue(compute_queue_df(df2))
+                                                store.write_parked(df2[df2["status"] == "parked"])
+                                                st.toast(f"Success! Applied to {title}", icon="✅")
+                                        else:
+                                            save_jobs_df(df2, excel_path)
+                                            st.error(f"Failed {bulk_jid}: {result.status}")
+                                    except Exception as e:
+                                        st.error(f"Error {bulk_jid}: {e}")
+                        # clear session state selections out of current view
+                        for b_id in selected_to_apply:
+                            st.session_state[f"sel_{b_id}"] = False
+                        st.rerun()
+                    except Exception as e:
+                        st.error(f"Profile load error: {e}")
+
+            st.markdown("<div style='height:8px;'></div>", unsafe_allow_html=True)
+
+            for idx, r in qslice.iterrows():
+                job_id = str(r.get("job_id", ""))
+                title = _str_or_empty(r.get("title"))
+                company = _str_or_empty(r.get("company"))
+                location = _str_or_empty(r.get("location"))
+                posted_raw = _str_or_empty(r.get("posted_date")) or "Just now"
+                ats_name = _ats_display_name_row(r)
+                eligible = bool(r.get("eligible", False))
+                
+                is_selected = st.session_state.get("selected_job_id") == job_id
+                
+                indicator = "🔵 " if is_selected else ""
+                
+                with st.container(border=True):
+                    c_title, c_check = st.columns([8.5, 1.5])
+                    with c_title:
+                        if st.button(f"{indicator}{title}", key=f"view_{job_id}", type="tertiary", use_container_width=True):
+                            st.session_state["selected_job_id"] = job_id
+                            st.rerun()
+                    with c_check:
+                        st.checkbox("Select", key=f"sel_{job_id}", label_visibility="collapsed")
+                        
+                    meta_html = f"""
+                    <div style="margin-top:-10px; margin-bottom:4px; font-size:14px; color:#475569; font-weight:500;">{company}</div>
+                    <div style="font-size:13px; color:#64748b; margin-bottom:12px;">📍 {location or 'Remote'}</div>
+                    <div style="display:flex; gap:8px;">
+                        <span style="background:#f1f5f9; color:#475569; padding:4px 8px; border-radius:4px; font-size:11px; font-weight:600;">{ats_name}</span>
+                        <span style="color:#64748b; font-size:12px; margin-left:auto; display:flex; align-items:center;">{posted_raw}</span>
+                    </div>
+                    """
+                    st.markdown(meta_html, unsafe_allow_html=True)
+
+        st.markdown("<div style='height:24px;'></div>", unsafe_allow_html=True)
+        # Bottom pager controls
+        pg_l, pg_c, pg_r = st.columns([3, 1, 3])
+        with pg_l:
+            if st.button("‹ Prev", key="queue_prev_page_b", use_container_width=True):
+                new_off = offset - page_size
+                if new_off < 0:
+                    new_off = 0 if total_results == 0 else max(0, ((total_results - 1) // page_size) * page_size)
+                st.session_state["queue_offset"] = new_off
+                st.rerun()
+        with pg_c:
+            st.markdown("&nbsp;", unsafe_allow_html=True)
+        with pg_r:
+            if st.button("Next ›", key="queue_next_page_b", use_container_width=True):
+                new_off = offset + page_size
+                if new_off >= total_results:
+                    new_off = 0
+                st.session_state["queue_offset"] = new_off
+                st.rerun()
+                
+        st.number_input("Rows / page", min_value=10, max_value=500, step=10, value=int(page_size), key="queue_page_size")
+
+    with col_detail:
+        sel_id = st.session_state.get("selected_job_id")
+        if sel_id and sel_id in qdf["job_id"].astype(str).values:
+            import json, html
+            
+            row_data = qdf[qdf["job_id"].astype(str) == sel_id].iloc[0]
+            
+            job_id = str(row_data.get("job_id", ""))
+            title = _str_or_empty(row_data.get("title"))
+            company = _str_or_empty(row_data.get("company"))
+            location = _str_or_empty(row_data.get("location"))
+            ats_name = _ats_display_name_row(row_data)
+            apply_url = _str_or_empty(row_data.get("apply_url"))
+            ats_url = _str_or_empty(row_data.get("canonical_apply_url"))
+            
+            # Extract description
+            meta_json = row_data.get("meta_json", "{}")
+            description = "No description available."
+            try:
+                m = json.loads(meta_json) if isinstance(meta_json, str) else (meta_json or {})
+                description = m.get("description", description)
+            except:
+                pass
+            
+            safe_desc = html.escape(description).replace('\\n', '<br>').replace('\n', '<br>')
+            
+            import re
+            raw_html = f"""
+            <div style="background:#ffffff; border-radius:12px; padding:32px; border:1px solid #e2e8f0; box-shadow:0 10px 15px -3px rgba(0,0,0,0.05);">
+                <div style="font-size:26px; font-weight:800; color:#0f172a; margin-bottom:12px; line-height:1.2;">{title}</div>
+                <div style="font-size:16px; color:#3b82f6; font-weight:600; margin-bottom:8px;">{company}</div>
+                <div style="font-size:15px; color:#475569; margin-bottom:32px;">📍 {location or 'Remote'}</div>
+                
+                <div style="border-top:1px solid #e2e8f0; margin-bottom:24px;"></div>
+                
+                <div style="font-size:20px; font-weight:700; color:#0f172a; margin-bottom:8px;">Job details</div>
+                <div style="font-size:14px; color:#64748b; margin-bottom:24px;">Here's how the job details align with your profile.</div>
+                
+                <div style="display:flex; gap:32px; margin-bottom:32px;">
+                    <div style="display:flex; flex-direction:column;">
+                        <div style="display:flex; align-items:center; gap:8px; font-size:15px; font-weight:700; color:#0f172a; margin-bottom:12px;">💼 Job type</div>
+                        <span style="background:#ecfdf5; color:#059669; padding:6px 16px; border-radius:8px; font-size:13px; font-weight:600; display:inline-block;">Full-time</span>
+                    </div>
+                    <div style="display:flex; flex-direction:column;">
+                        <div style="display:flex; align-items:center; gap:8px; font-size:15px; font-weight:700; color:#0f172a; margin-bottom:12px;">🏭 Source</div>
+                        <span style="background:#f8fafc; color:#475569; padding:6px 16px; border-radius:8px; font-size:13px; font-weight:600; display:inline-block;">{ats_name}</span>
+                    </div>
+                </div>
+                
+                <div style="border-top:1px solid #e2e8f0; margin-bottom:24px;"></div>
+                
+                <div style="font-size:20px; font-weight:700; color:#0f172a; margin-bottom:16px;">Full job description</div>
+                <div style="font-size:15px; color:#334155; line-height:1.6; max-height:500px; overflow-y:auto; padding-right:16px; margin-bottom:32px;">
+                    {safe_desc}
+                </div>
+            </div>
+            """
+            detail_html = re.sub(r'\n\s+', '\n', raw_html)
+            st.markdown(detail_html, unsafe_allow_html=True)
+            
+            st.markdown("<div style='height:16px;'></div>", unsafe_allow_html=True)
+            c_apply, c_link = st.columns([7, 3])
+            with c_link:
+                if apply_url:
+                    st.markdown(f"<a href='{apply_url}' target='_blank' style='display:flex; align-items:center; justify-content:center; text-align:center; padding:12px 0; border-radius:24px; border:1px solid #cbd5e1; color:#0f172a; font-weight:700; font-size:15px; text-decoration:none;'>Open Link ❐</a>", unsafe_allow_html=True)
+            with c_apply:
+                if st.button(f"APPLY NOW", key="main_apply_btn", type="primary", use_container_width=True):
+                    # trigger application
+                    df_current = load_jobs_df(excel_path)
+                    skip_apply = False
+                    if ats_name.lower() == "greenhouse":
+                        try:
+                            with st.spinner(f"Verifying {title} status..."):
+                                with httpx.Client() as client:
+                                    html_resp = client.get(apply_url, follow_redirects=True, timeout=10)
+                                if "error=true" in str(html_resp.url):
+                                    st.error(f"Job {job_id} is closed! Skipping.")
+                                    _, df_current = move_to_parked_inplace(df_current, job_id, reason="Closed/Redirected on Greenhouse")
+                                    save_jobs_df(df_current, excel_path)
+                                    skip_apply = True
+                                    st.rerun()
+                                    
+                                if not skip_apply:
+                                    token = apply_url.split("/")[3]
+                                    gid = apply_url.split("/")[5].split("?")[0]
+                                    api_info = gh_detail_api_date(token, gid)
+                                    if api_info.get("date"):
+                                        df_current.loc[df_current["job_id"].astype(str) == str(job_id), "posted_date"] = api_info['date']
+                                        save_jobs_df(df_current, excel_path)
+                        except Exception as e:
+                            st.warning(f"Could not verify Greenhouse date: {e}")
+
+                    if not skip_apply:
+                        with st.spinner("Applying via Auto Apply SDK..."):
+                            try:
+                                profile = load_profile(profile_path)
+                                result = auto_apply_headless({
+                                    "job_id": job_id, "title": title, "company": company,
+                                    "apply_url": apply_url, "canonical_apply_url": ats_url, "ats_type": ats_name,
+                                }, profile)
+
+                                df2 = load_jobs_df(excel_path)
+                                mask_row = df2["job_id"].astype(str) == job_id
+                                def _append(meta_j):
+                                    try: m = json.loads(meta_j) if isinstance(meta_j, str) else (meta_j or {})
+                                    except: m = {}
+                                    m.setdefault("auto_apply", []).append({
+                                        "mode": "ats-headless", "ok": bool(result.ok),
+                                        "status": result.status, "ats": ats_name,
+                                        "details": result.details, "ts": datetime.now(timezone.utc).isoformat()
+                                    })
+                                    return json.dumps(m, ensure_ascii=False)
+                                if mask_row.any():
+                                    df2.loc[mask_row, "meta_json"] = df2.loc[mask_row, "meta_json"].apply(_append)
+                                
+                                if result.ok and result.status.endswith("submitted"):
+                                    ok_applied, df2 = mark_applied_inplace(df2, job_id)
+                                    if ok_applied:
+                                        save_jobs_df(df2, excel_path)
+                                        store = ExcelJobsStore(excel_path)
+                                        store.write_queue(compute_queue_df(df2))
+                                        store.write_parked(df2[df2["status"] == "parked"])
+                                        st.success(f"Success! Marked {job_id} as applied.")
+                                        st.rerun()
+                                else:
+                                    save_jobs_df(df2, excel_path)
+                                    st.error(f"Failed: {result.status}")
+                            except Exception as e:
+                                st.error(f"Error: {e}")
+        else:
+            st.markdown("""
+            <div style="margin-top:80px; text-align:center; padding:48px; border-radius:12px; border:2px dashed #cbd5e1; background:#ffffff;">
+                <div style="font-size:32px; margin-bottom:16px;">🔍</div>
+                <div style="font-size:18px; font-weight:700; color:#0f172a; margin-bottom:8px;">No job selected</div>
+                <div style="font-size:14px; color:#64748b;">Click "View Job" on any card in the list to surface the full details and apply.</div>
+            </div>
+            """, unsafe_allow_html=True)
 
 # Override the older queue with the simple table view
 page_queue = page_queue_simple

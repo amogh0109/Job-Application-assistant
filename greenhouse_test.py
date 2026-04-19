@@ -74,7 +74,7 @@ def gh_detail_api_date(token: str, job_id: str) -> dict:
 
 def main():
     # <<< Put your job page URL here >>>
-    url = "https://job-boards.greenhouse.io/xai/jobs/4876457007"
+    url = "https://job-boards.greenhouse.io/anthropic/jobs/5023394008"
 
     # --- 1) Fetch HTML and try JSON-LD ---
     with httpx.Client(headers={"User-Agent": "Mozilla/5.0"}) as client:

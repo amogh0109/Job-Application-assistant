@@ -44,6 +44,9 @@ logs/
 jobs*.xlsx
 *.csv
 *dump.html
+debug_*.html
+debug_*.png
+*_error.png
 batch_*out.txt
 job_links.txt
 
